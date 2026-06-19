@@ -358,8 +358,8 @@ def write_report(rows: list[AuditRow], report_path: Path) -> None:
             "",
             "## Detailed Audit",
             "",
-            "| path | section | draft | activity_type | activity_type_status | source_platform | source_platform_status | language_candidate | content_type_candidate | topics_candidate | tags | safe_for_auto_update | manual_review_reason |",
-            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+            "| path | title | section | draft | activity_type | activity_type_status | source_platform | source_platform_status | language_candidate | content_type_candidate | topics_candidate | tags | safe_for_auto_update | manual_review_reason |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
         ]
     )
     for row in rows:
@@ -368,6 +368,7 @@ def write_report(rows: list[AuditRow], report_path: Path) -> None:
             + " | ".join(
                 [
                     f"`{md_escape(row.path)}`",
+                    md_escape(row.title),
                     md_escape(row.section),
                     md_escape(row.draft),
                     md_escape(row.activity_type),
