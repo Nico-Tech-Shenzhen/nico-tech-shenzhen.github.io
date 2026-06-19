@@ -6,7 +6,7 @@
       "source_platform": "youtube",
       "activity_type": "video",
       "language": "ja",
-      "feed_url": "",
+      "feed_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
       "site_url": "",
       "enabled": true
     },
@@ -16,7 +16,7 @@
       "source_platform": "youtube",
       "activity_type": "video",
       "language": "en",
-      "feed_url": "",
+      "feed_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
       "site_url": "",
       "enabled": true
     },
@@ -26,7 +26,7 @@
       "source_platform": "podcast",
       "activity_type": "podcast",
       "language": "ja",
-      "feed_url": "",
+      "feed_url": "https://open.spotify.com/show/2c7sclWEHDJBDqPwewLwHr?si=nbURLC5pQ0uAch6jXqnlAw",
       "site_url": "",
       "enabled": true
     },
@@ -37,7 +37,7 @@
       "activity_type": "external",
       "language": "ja",
       "feed_url": "",
-      "site_url": "",
+      "site_url": "https://medium.com/shenzhen-high-tour-by-makers",
       "enabled": true
     },
     {
@@ -47,7 +47,7 @@
       "activity_type": "external",
       "language": "ja",
       "feed_url": "",
-      "site_url": "",
+      "site_url": "https://note.com/takasu",
       "enabled": true
     }
   ]
