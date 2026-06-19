@@ -9,11 +9,11 @@
   {{- end }}
 </header>
 
-{{- $monthly := where .Site.RegularPages "Params.activity_type" "monthly_report" }}
-{{- $monthly = $monthly.ByDate.Reverse }}
+{{- $updates := where .Site.RegularPages "Params.activity_type" "monthly_report" }}
+{{- $updates = $updates.ByDate.Reverse }}
 
-{{- if $monthly }}
-{{- range $monthly.GroupByDate "2006" }}
+{{- if $updates }}
+{{- range $updates.GroupByDate "2006" }}
 <h2>{{ .Key }}</h2>
 {{- range .Pages }}
 <article class="post-entry">
@@ -31,13 +31,13 @@
     <span>&nbsp;·&nbsp;{{ delimit . ", " }}</span>
     {{- end }}
   </footer>
-  <a class="entry-link" aria-label="monthly report link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+  <a class="entry-link" aria-label="update link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
 </article>
 {{- end }}
 {{- end }}
 {{- else }}
 <div class="post-content">
-  <p>No monthly reports found.</p>
+  <p>No updates found.</p>
 </div>
 {{- end }}
 {{- end }}
