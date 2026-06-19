@@ -6,6 +6,12 @@ cover:
 aliases: ["/2013/10/top-picks-at-the-singapore-biennale/"]
 slug: top-picks-at-the-singapore-biennale
 date: 2013-10-28
+activity_type: post
+source_platform: medium
+source_url: ""
+language: en
+topics: ["art", "singapore"]
+featured: false
 ---
 
 teamLab art get 1st.

@@ -6,6 +6,12 @@ cover:
 aliases: ["/2017/03/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore/"]
 slug: published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore
 date: 2017-03-08
+activity_type: post
+source_platform: medium
+source_url: ""
+language: en
+topics: ["book", "maker", "shenzhen", "singapore"]
+featured: false
 ---
 
 This book is an ecosystem that brings inventions to Shenzhen and

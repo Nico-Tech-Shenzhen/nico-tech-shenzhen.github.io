@@ -3,6 +3,12 @@ title: 'Talk:Asian Maker Faire at Maker Faire Tokyo 2015'
 aliases: ["/2015/08/talk-asian-maker-faire-at-maker-faire-tokyo-2015/"]
 slug: talk-asian-maker-faire-at-maker-faire-tokyo-2015
 date: 2015-08-06
+activity_type: talk
+source_platform: conference
+source_url: ""
+language: en
+topics: ["maker-faire", "shenzhen", "talk"]
+featured: false
 ---
 
 I told about Asian Maker Faire, such as Taipei, Maker Faire Shenzhen​,

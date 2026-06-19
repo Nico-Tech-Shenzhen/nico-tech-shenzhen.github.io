@@ -6,6 +6,12 @@ cover:
 aliases: ["/2025/02/ai-openai-deepseek-ai/"]
 slug: ai-openai-deepseek-ai
 date: 2025-02-09
+activity_type: post
+source_platform: medium
+source_url: ""
+language: ja
+topics: ["ai", "open-source"]
+featured: false
 ---
 
 アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。

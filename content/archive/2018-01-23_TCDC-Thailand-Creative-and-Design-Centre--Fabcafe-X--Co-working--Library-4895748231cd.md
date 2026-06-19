@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/01/tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library/"]
 slug: tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library
 date: 2018-01-23
+activity_type: post
+source_platform: medium
+source_url: ""
+language: en
+topics: ["design", "maker", "workspace"]
+featured: false
 ---
 
 TCDC located old town in Bangkok near the Chao Playa liver, renovated

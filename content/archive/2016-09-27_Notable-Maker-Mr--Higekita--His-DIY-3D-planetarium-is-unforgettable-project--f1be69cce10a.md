@@ -6,6 +6,12 @@ cover:
 aliases: ["/2016/09/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project/"]
 slug: notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project
 date: 2016-09-27
+activity_type: post
+source_platform: medium
+source_url: ""
+language: en
+topics: ["diy", "maker"]
+featured: false
 ---
 
 Higekita is natural bone makers. He bore at Kanazawa prefecture, north
