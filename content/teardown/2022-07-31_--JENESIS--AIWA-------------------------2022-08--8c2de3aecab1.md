@@ -7,6 +7,12 @@ cover:
 aliases: ["/2022/07/jenesis-aiwa-2022-08/"]
 slug: jenesis-aiwa-2022-08
 date: 2022-07-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: ja
+topics: ["book", "community", "education", "events", "hardware", "m5stack", "maker", "manufacturing", "open-source", "shenzhen", "teardown"]
+featured: false
 ---
 深圳JENESISからAIWAデジタルが誕生
 

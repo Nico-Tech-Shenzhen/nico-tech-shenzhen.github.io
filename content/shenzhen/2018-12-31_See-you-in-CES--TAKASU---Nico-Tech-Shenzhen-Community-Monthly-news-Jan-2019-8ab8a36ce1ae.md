@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/12/see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019/"]
 slug: see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019
 date: 2018-12-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "hardware", "robotics", "shenzhen"]
+featured: false
 ---
 
 你好，好久不见。我有春节寒假，离开深圳起1月18号到2月27号。

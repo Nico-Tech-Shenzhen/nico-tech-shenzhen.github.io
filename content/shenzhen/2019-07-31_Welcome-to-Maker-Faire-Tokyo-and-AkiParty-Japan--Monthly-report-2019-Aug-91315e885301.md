@@ -6,6 +6,12 @@ cover:
 aliases: ["/2019/07/welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug/"]
 slug: welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug
 date: 2019-07-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "events", "hardware", "maker", "maker-faire", "manufacturing", "shenzhen"]
+featured: false
 ---
 
 Long time no see! I\`m not able to send an email on july because of the

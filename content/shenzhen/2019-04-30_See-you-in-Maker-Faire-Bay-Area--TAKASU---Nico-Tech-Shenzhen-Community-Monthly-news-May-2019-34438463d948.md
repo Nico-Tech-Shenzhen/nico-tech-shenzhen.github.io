@@ -6,6 +6,12 @@ cover:
 aliases: ["/2019/04/see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019/"]
 slug: see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019
 date: 2019-04-30
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "events", "hardware", "maker", "maker-faire", "open-source", "risc-v", "shenzhen"]
+featured: false
 ---
 
 My maker faire journey in April is Beirut. There is the first time trip

@@ -6,6 +6,12 @@ cover:
 aliases: ["/2020/05/hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/"]
 slug: hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020
 date: 2020-05-01
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "m5stack", "maker", "maker-faire", "robotics", "shenzhen"]
+featured: false
 ---
 
 I\`m move to Japan from Singapore, at april. That two city, Tokyo and

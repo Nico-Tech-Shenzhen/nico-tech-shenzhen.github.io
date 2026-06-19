@@ -6,6 +6,12 @@ cover:
 aliases: ["/2020/03/what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c/"]
 slug: what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c
 date: 2020-03-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["book", "community", "education", "events", "hardware", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 This is Takasu.

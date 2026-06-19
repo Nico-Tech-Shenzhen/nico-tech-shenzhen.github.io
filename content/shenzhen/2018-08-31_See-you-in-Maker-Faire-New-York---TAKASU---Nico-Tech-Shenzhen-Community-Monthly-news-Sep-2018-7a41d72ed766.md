@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/08/see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018/"]
 slug: see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018
 date: 2018-08-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 Finally, I will go again Maker Faire New York, I will talk at 22nd

@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/11/meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018/"]
 slug: meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018
 date: 2018-11-30
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["book", "community", "events", "hardware", "maker", "maker-faire", "manufacturing", "open-source", "shenzhen"]
+featured: false
 ---
 
 你好，好久不见。我在深圳上个月，好好学习中问吧。

@@ -4,6 +4,12 @@ tags: ["monthly-report"]
 aliases: ["/2024/06/m5stack-kantan-play-core-2024-07/"]
 slug: m5stack-kantan-play-core-2024-07
 date: 2024-06-30
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: ja
+topics: ["book", "community", "education", "hardware", "m5stack", "maker", "open-source", "shenzhen", "teardown"]
+featured: false
 ---
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 

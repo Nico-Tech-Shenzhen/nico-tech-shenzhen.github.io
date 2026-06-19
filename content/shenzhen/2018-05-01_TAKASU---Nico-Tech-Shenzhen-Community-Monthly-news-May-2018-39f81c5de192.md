@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/"]
 slug: takasu-nico-tech-shenzhen-community-monthly-news-may-2018
 date: 2018-05-01
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "events", "hardware", "m5stack", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 I did 3 weeks EURO tour, Prague → Sachsen → Nantes → London → Cambridge

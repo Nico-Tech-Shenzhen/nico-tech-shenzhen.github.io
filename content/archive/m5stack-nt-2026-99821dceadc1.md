@@ -3,6 +3,12 @@ title: "【ニコ技深圳】バニー・ファン来日、M5Stack出展──NT
 date: 2026-06-01T05:56:00+00:00
 tags: ["月次報告", "monthly-report"]
 source: "https://medium.com/ecosystembymakers/202606-99821dceadc1"
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: ja
+topics: ["book", "community", "events", "hardware", "m5stack", "maker", "open-source", "robotics", "shenzhen", "teardown"]
+featured: false
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*oIy7FfX0wQEYncL98fLDtw.jpeg)

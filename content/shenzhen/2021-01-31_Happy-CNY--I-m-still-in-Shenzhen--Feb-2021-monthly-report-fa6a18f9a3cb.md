@@ -6,6 +6,12 @@ cover:
 aliases: ["/2021/01/happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report/"]
 slug: happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report
 date: 2021-01-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["education", "hardware", "shenzhen"]
+featured: false
 ---
 
 This is TAKASU. Long time no see! I\`m in Shenzhen and happy busy days.

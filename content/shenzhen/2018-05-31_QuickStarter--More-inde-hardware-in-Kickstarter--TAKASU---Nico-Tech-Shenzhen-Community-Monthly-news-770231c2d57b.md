@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news/"]
 slug: quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news
 date: 2018-05-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "m5stack", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 Great days in MFBA, I so satisfied that. I want to tell the good news

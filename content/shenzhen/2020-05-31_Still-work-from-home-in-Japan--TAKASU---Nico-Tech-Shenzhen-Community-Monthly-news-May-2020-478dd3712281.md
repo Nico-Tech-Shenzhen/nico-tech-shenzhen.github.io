@@ -6,6 +6,12 @@ cover:
 aliases: ["/2020/05/still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/"]
 slug: still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020
 date: 2020-05-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "maker", "maker-faire", "robotics", "shenzhen"]
+featured: false
 ---
 
 Surprisely, I was in Japan whole of the month! I had been on the

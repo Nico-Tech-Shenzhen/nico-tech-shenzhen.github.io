@@ -6,6 +6,12 @@ cover:
 aliases: ["/2018/06/monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo/"]
 slug: monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo
 date: 2018-06-30
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["education", "hardware", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 One week in Shenzhen like a month. But my time was more accelerated.

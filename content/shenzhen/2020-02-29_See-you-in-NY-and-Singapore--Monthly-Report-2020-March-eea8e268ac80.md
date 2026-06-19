@@ -6,6 +6,12 @@ cover:
 aliases: ["/2020/02/see-you-in-ny-and-singapore-monthly-report-2020-march/"]
 slug: see-you-in-ny-and-singapore-monthly-report-2020-march
 date: 2020-02-29
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["events", "hardware", "maker", "maker-faire", "open-source", "shenzhen"]
+featured: false
 ---
 
 Long time no see, I\`m not able to send monthly reports from Shenzhen,

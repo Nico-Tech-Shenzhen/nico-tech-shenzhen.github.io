@@ -6,6 +6,12 @@ cover:
 aliases: ["/2020/07/hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020/"]
 slug: hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020
 date: 2020-07-31
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "maker", "maker-faire", "manufacturing", "open-source", "robotics", "shenzhen"]
+featured: false
 ---
 
 I did two online talk in this week, HOPE 2020 Berlin and COSCUP 2020

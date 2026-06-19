@@ -6,6 +6,12 @@ cover:
 aliases: ["/2019/12/see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019/"]
 slug: see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019
 date: 2019-12-01
+activity_type: monthly_report
+source_platform: medium
+source_url: ""
+language: en
+topics: ["community", "education", "events", "hardware", "iot", "maker", "maker-faire", "shenzhen"]
+featured: false
 ---
 
 This is Takasu, really long time no see. I\`m not able to send updates
