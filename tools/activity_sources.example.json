@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "id": "youtube_ja",
+      "label": "Japanese YouTube channel",
+      "source_platform": "youtube",
+      "activity_type": "video",
+      "language": "ja",
+      "feed_url": "",
+      "site_url": "",
+      "enabled": true
+    },
+    {
+      "id": "youtube_en",
+      "label": "English YouTube channel",
+      "source_platform": "youtube",
+      "activity_type": "video",
+      "language": "en",
+      "feed_url": "",
+      "site_url": "",
+      "enabled": true
+    },
+    {
+      "id": "podcast_main",
+      "label": "Podcast RSS",
+      "source_platform": "podcast",
+      "activity_type": "podcast",
+      "language": "ja",
+      "feed_url": "",
+      "site_url": "",
+      "enabled": true
+    },
+    {
+      "id": "medium_main",
+      "label": "Medium RSS",
+      "source_platform": "medium",
+      "activity_type": "external",
+      "language": "ja",
+      "feed_url": "",
+      "site_url": "",
+      "enabled": true
+    },
+    {
+      "id": "note_main",
+      "label": "note RSS",
+      "source_platform": "note",
+      "activity_type": "external",
+      "language": "ja",
+      "feed_url": "",
+      "site_url": "",
+      "enabled": true
+    }
+  ]
+}
