@@ -11,15 +11,36 @@
 
 {{- $updates := where .Site.RegularPages "Params.activity_type" "monthly_report" }}
 {{- $updates = $updates.ByDate.Reverse }}
-{{- $latestMonthly := first 5 $updates }}
+{{- $featuredMonthly := first 1 $updates }}
+{{- $recentMonthly := first 4 (after 1 $updates) }}
 
 <div class="post-content">
-  <p>Updates is a curated activity hub. For now it highlights the latest monthly reports; future phases will bring in YouTube, Podcast, Note, Medium, talks, books, and research updates.</p>
+  <p>Updates is a curated activity hub. For now it features the latest monthly report and points to the monthly archive; future phases will connect YouTube, Podcast, Note, Medium, talks, books, and research updates here.</p>
 </div>
 
-<h2>Latest Monthly Reports</h2>
-{{- if $latestMonthly }}
-{{- range $latestMonthly }}
+<h2>Videos</h2>
+<div class="post-content">
+  <p>YouTube updates will be connected here in a future phase.</p>
+</div>
+
+<h2>Podcasts</h2>
+<div class="post-content">
+  <p>Podcast episodes and related audio updates will be connected here in a future phase.</p>
+</div>
+
+<h2>Articles</h2>
+<div class="post-content">
+  <p>Note, Medium, and other article updates will be connected here in a future phase.</p>
+</div>
+
+<h2>Talks / Publications</h2>
+<div class="post-content">
+  <p>Talks, books, papers, and research updates will be connected here in a future phase.</p>
+</div>
+
+<h2>Featured Monthly Report</h2>
+{{- if $featuredMonthly }}
+{{- range $featuredMonthly }}
 <article class="post-entry">
   <header class="entry-header">
     <h2>
@@ -38,32 +59,27 @@
   <a class="entry-link" aria-label="update link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
 </article>
 {{- end }}
-<div class="post-content">
-  <p><a href="/tags/monthly-report/">View the full monthly report archive</a></p>
-</div>
 {{- else }}
 <div class="post-content">
   <p>No monthly reports found.</p>
 </div>
 {{- end }}
 
-<h2>Videos</h2>
+{{- if $recentMonthly }}
+<h2>Recent Monthly Reports</h2>
 <div class="post-content">
-  <p>YouTube updates will be collected here in a future phase.</p>
+  <ul>
+    {{- range $recentMonthly }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <small> — {{ .Date.Format "2006-01-02" }}{{ with .Params.source_platform }} · {{ . }}{{ end }}</small>
+    </li>
+    {{- end }}
+  </ul>
 </div>
+{{- end }}
 
-<h2>Podcasts</h2>
 <div class="post-content">
-  <p>Podcast episodes and related audio updates will be collected here in a future phase.</p>
-</div>
-
-<h2>Articles</h2>
-<div class="post-content">
-  <p>Note, Medium, and other article updates will be collected here in a future phase.</p>
-</div>
-
-<h2>Talks / Publications</h2>
-<div class="post-content">
-  <p>Talks, books, papers, and research updates will be collected here in a future phase.</p>
+  <p><a href="/tags/monthly-report/">View all monthly reports</a></p>
 </div>
 {{- end }}
