@@ -6,123 +6,164 @@ layout: "single"
 description: "Nico-Tech Shenzhen（ニコ技深圳）の活動史、思想、国際的コミュニティとしての取り組みをまとめた紹介ページ。"
 ---
 
+# ニコ技深圳コミュニティとは / About Nico-Tech Shenzhen Community
+
 ![深圳で行われているミートアップの様子](/images/about/1_18r5Wu9wDMCaPngLqpX12w.jpg)
-*深圳で行われているミートアップの様子。この写真に写ってる人たちが、僕たちの多様性を表しています。Eric Pan (SeeedStudio and Chaihuo CEO), Benzi (Swie AI hardware Start up CEO), Robin Wu (Hardware Startup CEO, a.k.a King of Shanzhai), Nico ( TroubleMaker, Most active westan based communiy in Shenzhen Founder), Low Yee Ping (Innovation commnity leader in Shenzhen/Hongkong), Asei ITO (Tokyo University Assosiate Professer, Chinese Economy) and TAKASU & Jerald Fu. That is the proof of we are diverse.*
+*深圳で行われたミートアップの様子。深圳、日本、香港、東南アジアのメイカー、研究者、起業家、コミュニティ運営者が一緒に写っています。*
 
-## ■ニコ技深圳コミュニティの活動: Nico-Tech Shenzhen Activity
+ニコ技深圳コミュニティは、深圳のハードウェア産業、オープンハードウェア、メイカー文化、スタートアップ、製造エコシステムを現地視点で観察し、記録し、人と人をつなぐためのコミュニティです。
 
-### 書籍「プロトタイプシティ」 第37回大平正芳記念賞 特別賞を受賞
-ニコ技深圳コミュニティのメンバーが中心になって執筆され、2020年06月にKADOKAWAより刊行された「プロトタイプシティ」は、この度第37回大平正芳記念賞 特別賞を受賞しました。
+2014年に「ニコ技深圳観察会」として始まり、2018年からは「ニコ技深圳コミュニティ」として、深圳の人たちと一緒に活動する場へ広がってきました。現在は、深圳だけでなく、日本、東南アジア、欧米のメイカー、研究者、企業、メディア、オープンソースコミュニティとも連携しながら、現場で起きている変化を共有しています。
 
----
+「ニコ技」は、「楽しみのためのテクノロジー」や「NなんかTつくってみた」という日本語の文脈から生まれた言葉です。ニコ技深圳では、その精神を深圳のスピード、製造力、コミュニティ文化と結びつけています。
 
-We are Shenzhen based, Open Hardware community. Our office is HuaQiangBei, and over 3000 members on the Facebook group online. We were running the event 1–2 per month, writing the report for famous Japanese media 15–30 per month, and publish the books 2–3 per year, about to introduce Open Hardware, Shenzhen Technology, Makers Ecosystem, and a current Chinese tech scene.
+**English summary:** Nico-Tech Shenzhen is a community and field archive connecting Shenzhen hardware, open hardware, maker culture, startups, manufacturing, and global collaboration.
 
-We organize the event, arrange the funding, marketing, user-meetup, Business development. We are non-profit community, these activities is more glow the open hardware ecosystem.
+## 現在の活動 / Current Activities
 
-Nico-Tech [Nico] means Smile in Japanese, Nico-Tech means tech for fun and interest. Many Nico-Tech activity in Japan, we are only based in Shenzhen.
+2026年現在、ニコ技深圳コミュニティは、定期ツアーを運営する団体というより、深圳と周辺地域の変化を継続的に記録し、発信し、必要な人同士をつなぐためのネットワークとして活動しています。
 
-Our member looks so diverse, Tech-Geek, Researcher for Technology, Researcher for China economy, Researcher for Innovation system, Startup founder, Investor, and Community Organizers. We want to share own interest for the community, and improve together by the community. That is the reason we join the community and share the activity.
+主な活動は次の通りです。
 
-We often correlate with Startup, Incubator, and many tech-community in Shenzhen, Japan, and Southeast Asia. Such as iMakerBase, M5Stack, Seeedstudio, Elecrow, Sipeed, MakerNet, ShenzhenFan, DFRobot, wikifactory, Chaihuo MakerSpace, Kaiyuanshe, CEC, Science Centre Singapore, Maker Faire Shenzhen, Singapore, Bangkok etc., etc.
+- 深圳のハードウェア産業、サプライチェーン、スタートアップ、ロボティクス、Physical AI、半導体、分解（Teardown）文化の現地レポート
+- 日本語・英語での記事、講演、書籍、イベントを通じた情報発信
+- Maker Faire、Teardown、オープンソース、教育、研究コミュニティとの連携
+- メイカーコミュニティと開発者エコシステムに関する研究活動
+- 深圳・日本・東南アジア・欧米のメイカー、研究者、企業、投資家、メディアの橋渡し
+- 深圳を訪れる人や、深圳のエコシステムを理解したい人への実践的な情報共有
 
-We are a part of Shenzhen. Our two founders are Japanese and major member also Japanese, but Two Japanese founders also live in Shenzhen too.
-
-### Two founders (二人の発起人)
-
-**Co-Founder: Junichi Fujioka (藤岡淳一 / Jerald Fu)** JENESIS Shenzhen CEO, JNS Group (Japan Stock market Tier1) Executive Vice President. He is running an EMS company in Shenzhen 10 years. He has experience how helps start-up and make hardware with Shenzhen Ecosystem.
-
-**Co-Founder: TAKASU Masakazu (高須正和)** Maker Ecosystem Ltd HK CEO, WASEDA University associate Researcher, and Switch Science Global Business Development. He is running tech community in Shenzhen and Singapore more than 6 years, and He had been over 100 Maker Faire and Maker Space in all around the world. He has experience how the maker community makes innovation.  
-Maker Ecosystem Ltd also support this community.
-
----
+以前は、華強北のオフィスを拠点に、月1-2回のイベント、月15-30本程度のメディア寄稿、年2-3冊程度の出版活動を行っていました。その蓄積は現在の活動の土台になっています。
 
 ![Office in HuaQiangBei](/images/about/0_UH4pn_gT4J0vIV3x.jpg)
-*Office in HuaQiangBei CEC-iValley. 17th Jan 2020 ニコ技深圳コミュニティ華強北オフィス*
+*2020年1月17日、華強北 CEC-iValley にあったニコ技深圳コミュニティのオフィス。*
 
-**Partner as Maker Faire Shenzhen / ニコ技深圳コミュニティはメイカーフェア深圳のパートナーです**
+**English summary:** The current focus is field reporting, writing, talks, books, events, and connections across Shenzhen, Japan, Asia, and global hardware communities.
 
-ニコ技深圳コミュニティは、深圳に本拠を置くオープンハードウェアのためのコミュニティです。深圳の電気街華強北にオフィスがあり、Facebook上に3000名を超えるメンバーがいます。
+## コミュニティの思想 / Community Philosophy
 
-月に1–2回のイベント、15–30本程度の主要メディアへの寄稿、年に2–3冊程度の書籍出版を行い、オープンハードウェア、深圳のテクノロジー、メイカーのエコシステム、そして中国の状況を伝えています。
+深圳は、単なる製造拠点ではありません。
 
-僕たちは多くの深圳企業や団体と様々な協力をしています。イベントを行い、開発を行い、ときにマーケティングや投資のマッチングを行います。そこから多くのビジネスが生まれていますが、僕たちは非営利のコミュニティです。そうした活動はオープンソースハードウェアの世界を広げるためと、なにより僕らの興味のために行われています。
+部品市場、工場、スタートアップ、研究者、投資家、メイカー、教育者、コミュニティ運営者が近い距離で動き、試作と実装が速く回る都市です。
 
-ニコ技深圳コミュニティのメンバーは多様です。テックギーク、中国経済の研究者、イノベーションの研究者、スタートアップの創業者、投資家、それぞれが自分の興味をコミュニティでシェアして楽しみを大きくするために参加しています。
+ニコ技深圳コミュニティは、そうした深圳を「安く作れる場所」としてではなく、人とアイデアが集まり、新しい挑戦が生まれるエコシステムとして見ています。
 
-Nico-Tech(ニコ技）は「楽しみのためのテクノロジー」「NなんかTつくってみた」などを指す日本語です。日本中で多くのニコ技活動が行われています。深圳ベースの僕たちや、台湾などでも活動は広がっています。
+そこで起きていることを、外から眺めるだけでなく、現地に行き、人に会い、自分の関心で理解し、見たことを公開する。これがニコ技深圳の基本姿勢です。
 
-## ■ニコ技深圳コミュニティのきっかけ
+非営利のコミュニティですが、ビジネスや研究との接点も大切にしています。イベント、開発、マーケティング、投資、共同研究、出版などが生まれることもあります。大事なのは、個人の好奇心から始まった活動が、他の人の挑戦や学びにつながっていくことです。
 
-ニコ技深圳観察会という名前で2014年～活動をしていましたが、2017年頃から深圳に移住したり、深圳を日常的に訪れて、ビジネスやメイカーフェア深圳への出展など、深圳人たちと共に活動する人たちが増えてきて、2018年04月より「ニコ技深圳コミュニティ」と名称変更しました。我々は今、[深圳の電気街 華強北にオフィス](https://medium.com/ecosystembymakers/segmaker-b3ff42ce3265)があり、共同発起人の藤岡淳一と高須正和は両方とも深圳に住んでいます。
+**English summary:** We see Shenzhen as a living ecosystem. Curiosity, fieldwork, sharing, and collaboration are more important than treating the city as only a low-cost manufacturing base.
 
-発足当時と違い、今は「深圳を知らない人に情報提供する」ということより、「深圳の人たちといろいろな活動をする」、たとえばイベントを開くことなどに大きく関心があります。
+## Co-Founders
 
-観察会もストップするわけではなく、[これまで](https://medium.com/ecosystembymakers/matome-all-d80e21b6100e)のような形で不定期に行っていくと思います。（より「メイカーのため」色が強くなると思う）  
-ですが、「観察のためでなく、交流のための集まり」とすることには意味があり、2018年4月より「ニコ技深圳コミュニティ(Nico-Tech Shenzhen Community)としています。」  
-2018年以降、深圳への旅行者が増えたことからガイドブックを書き始めました。
+### Junichi Fujioka / 藤岡淳一 / Jerald Fu
 
-### [深センの歩き方2019 - BOOTH](https://booth.pm/ja/items/1192465)
-形式：PDF (スマホでも読めるサイズで書いてます） ページ数：86 (2018年版は64) 文字数：21530文字(2018年版より5000文字追加） このマッハ新書は個人版とエンタープライズ版があります。
+JENESIS Shenzhen CEO、JNS Group Executive Vice President。深圳で長年EMS事業を運営し、日本企業やスタートアップが深圳の製造エコシステムを活用してハードウェアを作るための実践的な経験を持っています。
 
-## ■ニコ技深圳観察会とは
-・ホテル、飛行機などの手配は各自  
-・参加者は全員感想をインターネットに公開すること  
-の２つをルールに、ボランティアベースで行われているイベントです。  
-次回以降のプランニングはこの[Facebookグループ](https://www.facebook.com/groups/ntshenzhen/)で行われています。  
-旅行ガイド的な情報は深圳に来る人Tips Wikiに集約していくつもり。  
-[http://wikiwiki.jp/shenzhen/](http://wikiwiki.jp/shenzhen/)
+ニコ技深圳コミュニティでは、製造現場、EMS、サプライチェーン、スタートアップ支援の視点から、コミュニティの立ち上げと継続に大きく関わってきました。
 
-> 深圳を見て思ったのは「ビジネスだって遊びになる」ということだ。でなければ、SeeedのエリックやHAXのベンジャミン、そのほかプロジェクト主の皆さんが、かくもキラキラした目で働くはずがない。消費者の財布を燃料として燎原の火のごとき連鎖反応を引き起こし、世界を革新しようとする――これはそういう遊びなのだ。  
-> そんな遊びができるとは、我々はなんと素晴らしい時代に生きているのだろう。  
-> （SF作家・メイカー野尻抱介氏のレポートより）
+### TAKASU Masakazu / 高須正和
 
-## ■実績など
-2014年08月～不定期にこれまでに8回行われ、[過去の観察会ブログ](https://medium.com/ecosystembymakers/matome-all-d80e21b6100e)はこちらにまとまっています。「英語圏含め、最も詳しい深圳のイノベーション環境解説」(野村総研調査)という評価があります。
+高須正和は、Maker Ecosystem Ltd. Founder、スイッチサイエンス国際事業開発、Heroad Investments Partner、金沢大学博士後期課程に所属しています。
 
-ほか、以下のような関連活動を日常的に行っています。  
-- 過去8回の観察会実施  
-- 年2–3冊程度の書籍発行  
-- 月15–30程度の深圳レポートメディア掲載（高口康太, Ayaka Ikezawa, 高須など）  
-- 深圳と連携してのテクノロジーベンチャー立ち上げ（澤田翔, 荒井健一など）  
-- 日本、深圳でのイベント、ワークショップの開催（近藤義仁, 茂田カツノリ, 伊藤亜聖, 中野志穂など）  
-- 深圳ベンチャーの日本進出の支援（Junichi Fujioka, 木内文昭など）  
-- 深圳イノベーション活動に関する官民連携の研究（伊藤亜聖, 木村公一朗, Hiroo Yamagata, 高須）  
-- [柴火創客空間](http://www.chaihuo.org/)およびMakerNet等と連携してのMaker Faire Shenzhen,Xian, ChengDuなどへの運営協力  
-- 深圳SEG+出張所の運営（伊藤亜聖）  
-- 深圳ベンチャーへの投資 (詳細非公開）
+深圳を拠点に、オープンハードウェア、メイカー文化、ハードウェアスタートアップ、ロボティクス、Physical AI、分解（Teardown）文化、製造エコシステムを観察・発信しています。
 
-お問い合わせ：[nicotechshenzhen@gmail.com](mailto:nicotechshenzhen@gmail.com)
+世界各地の Maker Faire、Maker Space、ハードウェアイベント、オープンソースコミュニティを訪問し、現地で見た変化を記事、講演、書籍、イベントとして共有してきました。深圳については、個人の試作、企業の量産、部品市場、コミュニティ、投資、研究、教育がつながる都市として紹介し続けています。
 
-## ■書籍
-過去の参加者、現地での協力者などのお手をお借りして、集大成として書籍にまとまっています。
+著書・共著に「メイカーズのエコシステム」「プロトタイプシティ 深センと世界的イノベーション」などがあります。ニコ技深圳コミュニティでは、発信、イベント、現地コミュニティとの連携、国際的な橋渡しを担当してきました。
 
-### 「メイカーズのエコシステム」
-[Amazonリンク](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/)
-新しいモノづくりがとまらない。深圳のメイカーエコシステムについての情報を、最も効率よく入手できる一冊。
+**English summary:** The co-founders connect manufacturing practice, maker culture, research, media, and international community building around Shenzhen.
 
-### 「ハードウェアのシリコンバレー深セン」に学ぶ
-[Amazonリンク](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/)
-これからの製造のトレンドとエコシステム。JENESIS藤岡社長の単著。
+## 主な実績・出版物 / Works and Publications
 
-### 「プロトタイプシティ 深センと世界的イノベーション」
+ニコ技深圳コミュニティは、観察会、イベント、記事、講演、出版を通じて、深圳のメイカーエコシステムとハードウェアイノベーションを日本語圏に紹介してきました。
+
+主な実績は次の通りです。
+
+- 2014年からのニコ技深圳観察会の実施
+- 深圳・日本・東南アジアでのイベント、ワークショップ、講演
+- 月次レポートやメディア寄稿による深圳情報の継続的な発信
+- 深圳企業、メイカー、研究者、スタートアップ、メディアの橋渡し
+- Maker Faire Shenzhen など、現地メイカーイベントとの連携
+- 深圳イノベーションやメイカーエコシステムに関する書籍・調査・研究への協力
+
+### The Hardware Hacker
+
+Andrew "bunnie" Huang によるハードウェア、製造、スタートアップ、サプライチェーン、好奇心についての本です。高須正和は日本語版『ハードウェアハッカー』の翻訳に関わりました。
+
+### Prototype City / 「プロトタイプシティ 深センと世界的イノベーション」
+
 [Amazonリンク](https://amzn.to/2QTRpzO)
-2020年7月発売。高須正和、高口康太、澤田翔、藤岡淳一、伊藤亜聖、山形浩生らによる最新の解析。
 
-## ■深圳地図、サイズ
-この地図にあるように、端から端までだと2時間ぐらいあるサイズの都市なので、計画を立ててから来ることをお勧めします。
+2020年7月発売。高須正和、高口康太、澤田翔、藤岡淳一、伊藤亜聖、山形浩生らによる深圳と世界的イノベーションの分析です。ニコ技深圳コミュニティのメンバーが中心になって執筆し、第37回大平正芳記念賞 特別賞を受賞しました。
+
+### Exploring Shenzhen / 『深センの歩き方2026』
+
+2018年版、2019年版から時間が経ち、深圳は大きく変わりました。『深センの歩き方2026』は、初めて中国・深圳を訪れる人が、公共交通機関を使って現地を歩き回れるようにするための実践的なガイドです。
+
+日本語版は Kindle / Kindle Unlimited と BOOTH で読めます。
+
+[深センの歩き方2026 - BOOTH](https://takasumasakazu.booth.pm/items/7985389)
+
+英語版は `Exploring Shenzhen 2026` として公開しています。
+
+[English edition on Gumroad](https://gumroad.com/l/jeiskh)
+
+### Ecosystem by Makers / 「メイカーズのエコシステム」
+
+[Amazonリンク](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/)
+
+深圳のメイカーエコシステムについて、現地を訪れた参加者や関係者の知見をまとめた一冊です。
+
+**English summary:** Major outputs include books, guides, reports, talks, and community events that introduced Shenzhen's hardware ecosystem to Japanese readers and global communities.
+
+## ニコ技深圳観察会の歴史 / History
+
+ニコ技深圳観察会は、2014年8月から不定期に行われてきた、ボランティアベースの深圳訪問・交流イベントです。
+
+当初の基本ルールは次の2つでした。
+
+- ホテル、飛行機、移動などの手配は各自で行う
+- 参加者は、見たこと・感じたことをインターネットに公開する
+
+これは、単なる視察ツアーではありませんでした。参加者それぞれが自分の視点で深圳を見て、記録し、共有することで、深圳のメイカーエコシステムを多面的に理解するための仕組みでした。過去の観察会ブログは[こちら](https://medium.com/ecosystembymakers/matome-all-d80e21b6100e)にまとまっています。
+
+2017年頃から、深圳に移住したり、深圳を日常的に訪れてビジネスや Maker Faire Shenzhen への出展を行う人が増えました。その結果、活動の中心は「深圳を外から観察すること」から「深圳の人たちと一緒に活動すること」へ移っていきました。2018年4月から「ニコ技深圳コミュニティ」という名前を使うようになったのは、その変化を反映したものです。
+
+深圳は、端から端まで移動すると2時間ほどかかる大きな都市です。初めて訪れる場合は、目的地、移動時間、展示会や市場の営業日を確認してから計画することをおすすめします。
 
 ![深圳の地図](/images/about/1_cxrOr5ctK_a9j-cq1YFuLg.jpg)
+
 [ここからダウンロード(Google Drive)](https://drive.google.com/open?id=0By4ABuxCo3ZmMFg2elM2VVFfR3M)
 
-## ■よくある質問
-**Q. 渡航情報やホテルの場所は？** A. [こちらのメモ](http://ch.nicovideo.jp/tks/blomaga/ar1192762)を参照してください。
+**English summary:** The Observation Tour began in 2014 as volunteer fieldwork. It later evolved into a broader community for collaboration with people in Shenzhen.
 
-**Q. 次回の日程/申し込み情報を教えてください** A. 必ず[Facebookグループ](https://www.facebook.com/groups/ntshenzhen/)で最初に報告します。書いていないということは、僕も決めていないということです。
+## FAQ
 
-**Q. 僕みたいな人でも参加して良いのですか？** A. 先着順・自力で来れる・終わった後ブログをアップするほかは、特に参加条件はありません。
+### Q. 渡航情報やホテルの場所は？
 
-**Q. 深圳をまわる有料ガイドツアーがあるなかとの違いは何ですか？** A. ボランティアだからといって商用活動を否定しません。それぞれなんとか生きていければいい。エコシステムの中で、自分の興味に合うものを選んでください。
+渡航条件、ビザ、ホテル、交通、決済手段は変わりやすいため、必ず最新情報を確認してください。参考情報として、[日本人のための深圳情報サイト Shenzhen Fan](https://www.shenzhen-fan.com/) がまとまっています。
 
-## ■深圳に行く上でのTips
-[日本人のための深圳情報サイトShenzhen Fan](https://www.shenzhen-fan.com/)が最もわかりやすくまとまっています。
+### Q. 次回の日程や申し込み情報はどこで見られますか？
+
+ニコ技深圳観察会は、現在は固定日程の定期ツアーとして運営していません。イベントや現地での集まりがある場合は、関係するコミュニティやSNSで案内します。
+
+### Q. 初めてでも参加できますか？
+
+形式によりますが、基本的には「自分で来られること」「自分の関心を持って参加すること」「見たことを共有すること」を大事にしています。専門家だけの集まりではありません。
+
+### Q. 有料ガイドツアーとの違いは何ですか？
+
+ニコ技深圳は旅行代理店や商用ツアーではありません。ボランティアベースのコミュニティ活動、現地の人との交流、参加者自身の観察と発信を重視しています。有料ツアーや商用活動を否定するものではなく、目的に応じて選べばよいと考えています。
+
+### Q. 深圳では何を見るべきですか？
+
+華強北、メイカースペース、展示会、企業、大学、スタートアップ、ロボティクスやドローン関連の現場など、関心によって見るべき場所は変わります。まず「部品を買いたいのか」「製造を知りたいのか」「スタートアップに会いたいのか」「都市の変化を見たいのか」を整理すると計画しやすくなります。
+
+**English summary:** Nico-Tech Shenzhen is a community activity, not a fixed commercial tour. Visitors should plan carefully and check current travel conditions.
+
+## Contact
+
+講演、取材、執筆、深圳視察、コミュニティ連携、書籍や記事に関するお問い合わせは、以下までご連絡ください。
+
+Email: [info@takasumasakazu.net](mailto:info@takasumasakazu.net)
+Web: [https://takasumasakazu.net](https://takasumasakazu.net/)
