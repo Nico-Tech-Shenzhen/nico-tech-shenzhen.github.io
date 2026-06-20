@@ -59,16 +59,7 @@
   {{- if $videos }}
   <ul>
     {{- range first 3 $videos }}
-    {{- $sourceLabel := or .source_label .source_platform }}
-    {{- $sourceIcon := .source_icon }}
-    <li>
-      <a href="{{ .source_url }}">{{ .title }}</a>
-      <small>
-        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-        {{- with $sourceLabel }} · {{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
-        {{- with .language }} · {{ . }}{{ end -}}
-      </small>
-    </li>
+      {{- partial "activity_compact_item.html" . }}
     {{- end }}
   </ul>
   {{- else }}
@@ -81,16 +72,7 @@
   {{- if $podcasts }}
   <ul>
     {{- range first 3 $podcasts }}
-    {{- $sourceLabel := or .source_label .source_platform }}
-    {{- $sourceIcon := .source_icon }}
-    <li>
-      <a href="{{ .source_url }}">{{ .title }}</a>
-      <small>
-        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-        {{- with $sourceLabel }} · {{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
-        {{- with .language }} · {{ . }}{{ end -}}
-      </small>
-    </li>
+      {{- partial "activity_compact_item.html" . }}
     {{- end }}
   </ul>
   {{- else }}
@@ -103,16 +85,7 @@
   {{- if $articles }}
   <ul>
     {{- range first 8 $articles }}
-    {{- $sourceLabel := or .source_label .source_platform }}
-    {{- $sourceIcon := .source_icon }}
-    <li>
-      <a href="{{ .source_url }}">{{ .title }}</a>
-      <small>
-        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-        {{- with $sourceLabel }} · {{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
-        {{- with .language }} · {{ . }}{{ end -}}
-      </small>
-    </li>
+      {{- partial "activity_compact_item.html" . }}
     {{- end }}
   </ul>
   {{- else }}
