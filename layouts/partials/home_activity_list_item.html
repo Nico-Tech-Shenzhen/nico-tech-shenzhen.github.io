@@ -15,7 +15,7 @@
     <img src="{{ $image }}" alt="" loading="lazy" decoding="async" onerror="this.remove();" style="width:96px; height:54px; object-fit:cover; border-radius:6px; flex:0 0 auto;">
     {{- end }}
     <div style="min-width:0;">
-      <h4 style="margin:0 0 .2rem; font-size:1rem; line-height:1.35;">
+      <h4 style="margin:0 0 .2rem; font-size:1rem; line-height:1.35; overflow-wrap:anywhere;">
         {{- if $url }}<a href="{{ $url }}">{{ $title }}</a>{{- else }}{{ $title }}{{- end }}
       </h4>
       <p style="margin:0; font-size:.82rem; line-height:1.45; opacity:.78;">
@@ -24,9 +24,7 @@
         {{- with $activityType }} · {{ . }}{{ end -}}
         {{- with $language }} · {{ . }}{{ end -}}
       </p>
-      {{- with $summary }}
-      <p style="margin:.15rem 0 0; font-size:.86rem; line-height:1.4; opacity:.85;">{{ . | plainify | htmlUnescape | truncate 72 }}</p>
-      {{- end }}
+      {{- with $summary }}<p style="margin:.15rem 0 0; font-size:.86rem; line-height:1.4; opacity:.85;">{{ . | plainify | htmlUnescape | truncate 72 }}</p>{{- end }}
     </div>
   </article>
 </li>
