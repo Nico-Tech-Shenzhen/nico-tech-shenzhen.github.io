@@ -54,6 +54,10 @@ def normalize_url(url: str) -> str:
     if not url:
         return ""
     parsed = urlparse(url)
+    if parsed.netloc.lower().endswith("youtube.com") and parsed.path == "/watch":
+        video_id = parse_qs(parsed.query).get("v", [""])[0]
+        if video_id:
+            return parsed._replace(query=f"v={video_id}", fragment="").geturl()
     cleaned = parsed._replace(query="", fragment="")
     return cleaned.geturl().rstrip("/")
 
@@ -378,8 +382,8 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
     lines.append("")
     lines.append("## Sources Tested")
     lines.append("")
-    lines.append("| source_id | platform | activity_type | language | status | items | issues |")
-    lines.append("| --- | --- | --- | --- | --- | ---: | --- |")
+    lines.append("| source_id | feed_url | platform | activity_type | language | status | items | issues |")
+    lines.append("| --- | --- | --- | --- | --- | --- | ---: | --- |")
     for result in results:
         source = result.source
         lines.append(
@@ -387,6 +391,7 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
             + " | ".join(
                 [
                     md_escape(source.get("id", "")),
+                    md_escape(source.get("feed_url", "")),
                     md_escape(source.get("source_platform", "")),
                     md_escape(source.get("activity_type", "")),
                     md_escape(source.get("language", "")),
@@ -408,18 +413,19 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
             lines.append("_No items normalized._")
             lines.append("")
             continue
-        lines.append("| id | date | title | source_url | language |")
-        lines.append("| --- | --- | --- | --- | --- |")
+        lines.append("| dedup ID | activity_type | date | title | language | source_url |")
+        lines.append("| --- | --- | --- | --- | --- | --- |")
         for item in result.items[:5]:
             lines.append(
                 "| "
                 + " | ".join(
                     [
                         md_escape(item["id"]),
+                        md_escape(item["activity_type"]),
                         md_escape(item["date"]),
                         md_escape(item["title"]),
-                        md_escape(item["source_url"]),
                         md_escape(item["language"]),
+                        md_escape(item["source_url"]),
                     ]
                 )
                 + " |"
@@ -445,7 +451,7 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
     lines.append("")
     lines.append("## Recommended Next Step")
     lines.append("")
-    lines.append("Replace placeholder `feed_url` values with real source feeds, then re-run this audit. After the normalized samples look correct, add a dry-run importer that writes proposed `data/activity/*.json` changes to a report before enabling persistent data output.")
+    lines.append("Review the normalized samples and duplicate warnings. If they look correct, the next step is a dry-run importer that proposes `data/activity/*.json` changes in a report before enabling persistent data output.")
     lines.append("")
     path.write_text("\n".join(lines), encoding="utf-8")
 
