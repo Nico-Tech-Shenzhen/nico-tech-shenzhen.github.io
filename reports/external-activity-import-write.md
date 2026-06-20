@@ -1,6 +1,6 @@
 # External Activity Import Write
 
-Generated: `2026-06-20T04:03:37.272211+00:00`
+Generated: `2026-06-20T04:09:57.087224+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
@@ -35,8 +35,8 @@ This run does not modify existing content posts, metadata, `public/`, homepage, 
 
 ## Counts By Language
 
-- `en`: 4
-- `ja`: 56
+- `en`: 14
+- `ja`: 46
 
 ## Duplicate URL Warnings
 
@@ -64,7 +64,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "note"
   },
   {
     "id": "medium:66e7ed494295",
@@ -76,12 +77,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "canonical_url": "",
     "summary": "A field note from Shenzhen: low-cost TWS earbuds, chip decap services, and the supply chains behind “fake” hardware I bought a pair of “Huaqiangbei AirPods” on Taobao for 67 RMB — about 10 USD at the time. They are clearly not genuine Apple AirPods. The packaging, the pairing sc...",
     "image": "",
-    "language": "ja",
+    "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Medium"
   },
   {
     "id": "youtube:en:xAotcCqOcug",
@@ -98,7 +100,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Nico-Tech Shenzhen Field Notes EN"
   },
   {
     "id": "podcast:d526da0b-fef3-4b2f-91e3-ad9440eb444e",
@@ -115,7 +118,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Podcast"
   },
   {
     "id": "youtube:ja:UVJQNMm7wJk",
@@ -132,7 +136,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Nico-Tech Shenzhen Field Notes JP"
   },
   {
     "id": "note:nd01852684b73",
@@ -149,7 +154,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "note"
   },
   {
     "id": "medium:8c3d093fdd7f",
@@ -161,12 +167,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "canonical_url": "",
     "summary": "Where Does Your Curiosity Come From? I am very happy and honored that The Hardware Hacker by Andrew “bunnie” Huang has been chosen as a reading assignment for a seminar at the Interface Device Laboratory at Kanazawa University, where I currently belong. This book is personally m...",
     "image": "",
-    "language": "ja",
+    "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Medium"
   },
   {
     "id": "note:n29dfc14da1fd",
@@ -183,7 +190,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "note"
   },
   {
     "id": "medium:32ab9a149fbf",
@@ -195,12 +203,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "canonical_url": "",
     "summary": "Chip decap in Shenzhen, low-cost electronics, and what “Made in” really means I gave the opening talk on Day 1 at Teardown 2026 . The talk was not only about opening products. It was about what teardown can reveal about the real structure of hardware manufacturing: where design...",
     "image": "",
-    "language": "ja",
+    "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "medium_main",
     "external_id": "32ab9a149fbf",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Medium"
   },
   {
     "id": "youtube:en:iB4cfdz80yM",
@@ -217,7 +226,8 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "iB4cfdz80yM",
-    "imported_at": "2026-06-20T04:03:34.206001+00:00"
+    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "source_label": "Nico-Tech Shenzhen Field Notes EN"
   }
 ]
 ```

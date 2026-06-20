@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -46,10 +47,46 @@ def sort_key(item: dict[str, Any]) -> str:
     return str(item.get("date", ""))
 
 
+def source_label(source: dict[str, Any]) -> str:
+    source_id = str(source.get("id", ""))
+    platform = str(source.get("source_platform", ""))
+    labels = {
+        "youtube_ja": "Nico-Tech Shenzhen Field Notes JP",
+        "youtube_en": "Nico-Tech Shenzhen Field Notes EN",
+        "podcast_main": "Podcast",
+        "medium_main": "Medium",
+        "note_main": "note",
+    }
+    if source_id in labels:
+        return labels[source_id]
+    return str(source.get("label") or platform or source_id)
+
+
+def detect_language(text: str, fallback: str) -> str:
+    japanese_chars = len(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]", text or ""))
+    english_words = len(re.findall(r"\b[A-Za-z][A-Za-z0-9'-]*\b", text or ""))
+    if japanese_chars >= 40 and english_words >= 40:
+        return "mixed"
+    if japanese_chars >= 12 and japanese_chars >= english_words:
+        return "ja"
+    if english_words >= 5 and japanese_chars < 12:
+        return "en"
+    return fallback or "ja"
+
+
+def enrich_item(item: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
+    enriched = dict(item)
+    enriched["source_label"] = source_label(source)
+    if enriched.get("source_platform") in {"medium", "note"}:
+        text = f"{enriched.get('title', '')} {enriched.get('summary', '')}"
+        enriched["language"] = detect_language(text, str(source.get("language", enriched.get("language", "ja"))))
+    return enriched
+
+
 def collect_items(results: list[SourceResult]) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     for result in results:
-        items.extend(result.items)
+        items.extend(enrich_item(item, result.source) for item in result.items)
     return sorted(items, key=sort_key, reverse=True)
 
 

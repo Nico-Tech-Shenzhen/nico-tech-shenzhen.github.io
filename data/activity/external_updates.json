@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T04:03:37.270205+00:00",
+  "generated_at": "2026-06-20T04:09:57.085719+00:00",
   "items": [
     {
       "id": "note:n1b8935b01237",
@@ -16,7 +16,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1b8935b01237",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:66e7ed494295",
@@ -28,12 +29,13 @@
       "canonical_url": "",
       "summary": "A field note from Shenzhen: low-cost TWS earbuds, chip decap services, and the supply chains behind “fake” hardware I bought a pair of “Huaqiangbei AirPods” on Taobao for 67 RMB — about 10 USD at the time. They are clearly not genuine Apple AirPods. The packaging, the pairing sc...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "66e7ed494295",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "youtube:en:xAotcCqOcug",
@@ -50,7 +52,8 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "xAotcCqOcug",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
       "id": "podcast:d526da0b-fef3-4b2f-91e3-ad9440eb444e",
@@ -67,7 +70,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:UVJQNMm7wJk",
@@ -84,7 +88,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "UVJQNMm7wJk",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:nd01852684b73",
@@ -101,7 +106,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd01852684b73",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:8c3d093fdd7f",
@@ -113,12 +119,13 @@
       "canonical_url": "",
       "summary": "Where Does Your Curiosity Come From? I am very happy and honored that The Hardware Hacker by Andrew “bunnie” Huang has been chosen as a reading assignment for a seminar at the Interface Device Laboratory at Kanazawa University, where I currently belong. This book is personally m...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "8c3d093fdd7f",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "note:n29dfc14da1fd",
@@ -135,7 +142,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n29dfc14da1fd",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:32ab9a149fbf",
@@ -147,12 +155,13 @@
       "canonical_url": "",
       "summary": "Chip decap in Shenzhen, low-cost electronics, and what “Made in” really means I gave the opening talk on Day 1 at Teardown 2026 . The talk was not only about opening products. It was about what teardown can reveal about the real structure of hardware manufacturing: where design...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "32ab9a149fbf",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "youtube:en:iB4cfdz80yM",
@@ -169,7 +178,8 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "iB4cfdz80yM",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
       "id": "podcast:bd870c5e-e782-4a64-80a9-5a9a75522be2",
@@ -186,7 +196,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "bd870c5e-e782-4a64-80a9-5a9a75522be2",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:2ZxE0nYgXe8",
@@ -203,7 +214,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2ZxE0nYgXe8",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "medium:5f79ce45df89",
@@ -215,12 +227,13 @@
       "canonical_url": "",
       "summary": "From Shenzhen Drones to DIY Chips: What I Learned This Month Across China, Japan, and the Maker Community June has been one of those months where seemingly unrelated topics — drones, routers, open-source chips, robotics, and hardware hacking — started connecting into a much larg...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "5f79ce45df89",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "note:n8981a16df9c9",
@@ -237,7 +250,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n8981a16df9c9",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:0ea2164dab8d",
@@ -249,12 +263,13 @@
       "canonical_url": "",
       "summary": "I visited the international UAV Expo in Shenzhen. I have been following this exhibition almost every year since the post-pandemic period around 2022, and I have also written several reports about China’s drone industry over the years. Because of that, this year’s change was very...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "0ea2164dab8d",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "podcast:910416a2-3ef7-4e50-a49f-89233f6d572a",
@@ -271,7 +286,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "910416a2-3ef7-4e50-a49f-89233f6d572a",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:ONTOW8gMeQ4",
@@ -288,7 +304,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "youtube:en:ONTOW8gMeQ4",
@@ -305,7 +322,8 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
       "id": "youtube:ja:hMKFGIl6o6o",
@@ -322,7 +340,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "hMKFGIl6o6o",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n1ef2117406a0",
@@ -339,7 +358,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1ef2117406a0",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:e00820057cc3",
@@ -351,12 +371,13 @@
       "canonical_url": "",
       "summary": "In April 2026, I went to Beijing to watch the Humanoid Robot Half Marathon. I visited the event with members of Scramble, a Japanese organization supporting the next generation of robotics engineers, and other people interested in robotics and China’s technology scene. This was...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "e00820057cc3",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "youtube:ja:jV2kn8LlUZk",
@@ -373,7 +394,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "youtube:en:jV2kn8LlUZk",
@@ -390,7 +412,8 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
       "id": "podcast:3767f9ca-0889-4425-8cc3-9779fdfcb2eb",
@@ -407,7 +430,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "3767f9ca-0889-4425-8cc3-9779fdfcb2eb",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:3EJHIP4YP94",
@@ -424,7 +448,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "3EJHIP4YP94",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n79d857be5fcf",
@@ -441,7 +466,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n79d857be5fcf",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n353378bc8df2",
@@ -458,7 +484,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n353378bc8df2",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n30e0987489de",
@@ -475,7 +502,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n30e0987489de",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:neab691ad19b4",
@@ -492,7 +520,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "neab691ad19b4",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "podcast:2d58b0c4-e32d-40f6-ac24-89e3c6eea89b",
@@ -509,7 +538,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "2d58b0c4-e32d-40f6-ac24-89e3c6eea89b",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:JziGukdskEw",
@@ -526,7 +556,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "JziGukdskEw",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n7faabdc0651c",
@@ -543,7 +574,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n7faabdc0651c",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "podcast:63fab589-5844-4ab6-b951-e4fd378e6c18",
@@ -560,7 +592,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "63fab589-5844-4ab6-b951-e4fd378e6c18",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:2fNYqw8S2XE",
@@ -577,7 +610,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2fNYqw8S2XE",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:nd5d3c710e513",
@@ -594,7 +628,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd5d3c710e513",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:521ed1ce6fc1",
@@ -606,12 +641,13 @@
       "canonical_url": "",
       "summary": "From unknown booth to real demand — field notes from Embedded World 2026 I’m currently in Nuremberg, Germany, attending Embedded World. This is episode 3 of my field notes from the event. This time, I focused on what Maker-oriented companies like M5Stack are actually doing on th...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "521ed1ce6fc1",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "podcast:6a1804f3-7966-4330-90cc-a95e72f9a038",
@@ -628,7 +664,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "6a1804f3-7966-4330-90cc-a95e72f9a038",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:8ns686EsWYQ",
@@ -645,7 +682,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "8ns686EsWYQ",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n5f93f22f8fa8",
@@ -662,7 +700,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n5f93f22f8fa8",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:4716e40986bf",
@@ -674,12 +713,13 @@
       "canonical_url": "",
       "summary": "This time I am writing from Embedded World in Nuremberg, Germany . It is one of the most important events in the embedded systems industry, although it is far less known to the general public than events like CES or Mobile World Congress. More than 1,000 companies exhibit here,...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "4716e40986bf",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "podcast:8c82dd8b-e8ae-4047-97a3-b9a76eda2e72",
@@ -696,7 +736,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "8c82dd8b-e8ae-4047-97a3-b9a76eda2e72",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:jZdneot7yhs",
@@ -713,7 +754,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jZdneot7yhs",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:nce9261fc844a",
@@ -730,7 +772,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nce9261fc844a",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:18abc240eccf",
@@ -742,12 +785,13 @@
       "canonical_url": "",
       "summary": "I recently visited FabLab Kerala in southern India. At first glance, it looks like a typical digital fabrication lab: 3D printers, CNC machines, laser cutters, and electronics workbenches. But spending time there revealed something interesting. The philosophy behind this lab is...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "18abc240eccf",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "podcast:96ae6fc0-2ebe-4411-99dc-8f8caf079352",
@@ -764,7 +808,8 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "96ae6fc0-2ebe-4411-99dc-8f8caf079352",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Podcast"
     },
     {
       "id": "youtube:ja:OfBVEJAlKJQ",
@@ -781,7 +826,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "OfBVEJAlKJQ",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n1c9af2e5af22",
@@ -798,7 +844,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1c9af2e5af22",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "medium:6c25e09985ec",
@@ -810,12 +857,13 @@
       "canonical_url": "",
       "summary": "Shenzhen Is Not a Concept. It Is an Operating System. I have spent the past years walking through Shenzhen. Not attending conferences. Not visiting curated innovation tours. Just walking — through electronics markets, subway stations, autonomous driving zones, logistics hubs, an...",
       "image": "",
-      "language": "ja",
+      "language": "en",
       "topics": [],
       "featured": false,
       "source_id": "medium_main",
       "external_id": "6c25e09985ec",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Medium"
     },
     {
       "id": "note:n12c50868489f",
@@ -832,7 +880,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n12c50868489f",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n2219d2ce888c",
@@ -849,7 +898,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n2219d2ce888c",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n33bca64c9995",
@@ -866,7 +916,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n33bca64c9995",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n64afb458f583",
@@ -883,7 +934,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n64afb458f583",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n66c2fb2dff75",
@@ -900,7 +952,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n66c2fb2dff75",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n9dd52088306e",
@@ -917,7 +970,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n9dd52088306e",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "youtube:ja:u-fWQ2WNavk",
@@ -934,7 +988,8 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "u-fWQ2WNavk",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
       "id": "note:n5d2df93184b5",
@@ -951,7 +1006,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n5d2df93184b5",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n9270a5c6eeab",
@@ -968,7 +1024,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n9270a5c6eeab",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:nca9e6b98eac9",
@@ -985,7 +1042,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nca9e6b98eac9",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n1ee8fe5dac8f",
@@ -1002,7 +1060,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1ee8fe5dac8f",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     },
     {
       "id": "note:n04763ebb2ce3",
@@ -1019,7 +1078,8 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n04763ebb2ce3",
-      "imported_at": "2026-06-20T04:03:34.206001+00:00"
+      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "source_label": "note"
     }
   ]
 }

@@ -1,4 +1,4 @@
 ---
 title: "Updates"
-description: "A curated activity hub for monthly reports, YouTube, Podcast, Note, Medium, talks, books, and research from TAKASU Masakazu / Nico-Tech Shenzhen."
+description: "Updates collects recent monthly reports, YouTube videos, podcast episodes, Note/Medium articles, and future talks, books, and research updates from TAKASU Masakazu / Nico-Tech Shenzhen."
 ---
