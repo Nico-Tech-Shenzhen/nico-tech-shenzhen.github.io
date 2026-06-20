@@ -6,6 +6,18 @@ let sInput = document.getElementById('searchInput');
 let first, last, current_elem = null
 let resultsAvailable = false;
 
+function escapeHTML(value) {
+    return value.replace(/[&<>"']/g, function (char) {
+        return {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        }[char];
+    });
+}
+
 // load our search index
 window.onload = function () {
     let xhr = new XMLHttpRequest();
@@ -99,8 +111,10 @@ sInput.onkeyup = function (e) {
                 const title = typeof result.title === 'string' ? result.title.trim() : '';
                 const permalink = typeof result.permalink === 'string' ? result.permalink.trim() : '';
                 if (!title || !permalink) continue;
-                resultSet += `<li class="post-entry"><header class="entry-header">${title}&nbsp;»</header>` +
-                    `<a href="${permalink}" aria-label="${title}"></a></li>`
+                const sourceLabel = typeof result.source_label === 'string' ? result.source_label.trim() : '';
+                const marker = result.external ? ` <span class="entry-hint">[${escapeHTML(sourceLabel || 'external')}]</span>` : '';
+                resultSet += `<li class="post-entry"><header class="entry-header">${escapeHTML(title)}${marker}&nbsp;»</header>` +
+                    `<a href="${escapeHTML(permalink)}" aria-label="${escapeHTML(title)}"></a></li>`
             }
 
             resList.innerHTML = resultSet;

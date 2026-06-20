@@ -1,5 +1,13 @@
 {{- $pages := site.RegularPages -}}
 {{- $pages = where $pages "Params.searchHidden" "ne" true -}}
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items }}{{- $externalItems = . -}}{{- end -}}
+{{- end -}}
+{{- $curatedItems := slice -}}
+{{- with .Site.Data.activity.curated_outputs -}}
+  {{- with .items }}{{- $curatedItems = . -}}{{- end -}}
+{{- end -}}
 [
 {{- $first := true -}}
 {{- range $p := $pages -}}
@@ -16,6 +24,61 @@
       "section": {{ $p.Section | jsonify }},
       "summary": {{ $p.Summary | plainify | htmlUnescape | jsonify }},
       "content": {{ $p.Plain | htmlUnescape | jsonify }}
+    }
+    {{- $first = false -}}
+  {{- end -}}
+{{- end -}}
+{{- range $item := $externalItems -}}
+  {{- $title := trim (printf "%s" (or $item.title "")) " \t\r\n" -}}
+  {{- $permalink := trim (printf "%s" (or $item.source_url "")) " \t\r\n" -}}
+  {{- $urlLower := lower $permalink -}}
+  {{- $validURL := or (hasPrefix $urlLower "https://") (hasPrefix $urlLower "http://") -}}
+  {{- if and $title $permalink $validURL -}}
+    {{- $summary := trim (printf "%s" (or $item.summary "")) " \t\r\n" -}}
+    {{- $sourceLabel := trim (printf "%s" (or $item.source_label $item.source_platform "")) " \t\r\n" -}}
+    {{- $sourcePlatform := trim (printf "%s" (or $item.source_platform "")) " \t\r\n" -}}
+    {{- $activityType := trim (printf "%s" (or $item.activity_type "")) " \t\r\n" -}}
+    {{- $language := trim (printf "%s" (or $item.language "")) " \t\r\n" -}}
+    {{- $content := delimit (slice $title $summary $sourceLabel $sourcePlatform $activityType $language) " " -}}
+    {{- if not $first }},{{ end -}}
+    {
+      "title": {{ $title | jsonify }},
+      "permalink": {{ $permalink | jsonify }},
+      "summary": {{ $summary | plainify | htmlUnescape | jsonify }},
+      "content": {{ $content | plainify | htmlUnescape | jsonify }},
+      "date": {{ printf "%s" (or $item.date "") | jsonify }},
+      "source_label": {{ $sourceLabel | jsonify }},
+      "source_platform": {{ $sourcePlatform | jsonify }},
+      "activity_type": {{ $activityType | jsonify }},
+      "language": {{ $language | jsonify }},
+      "external": true
+    }
+    {{- $first = false -}}
+  {{- end -}}
+{{- end -}}
+{{- range $item := $curatedItems -}}
+  {{- $title := trim (printf "%s" (or $item.title "")) " \t\r\n" -}}
+  {{- $permalink := trim (printf "%s" (or $item.source_url "")) " \t\r\n" -}}
+  {{- $urlLower := lower $permalink -}}
+  {{- $validURL := or (or (hasPrefix $urlLower "https://") (hasPrefix $urlLower "http://")) (hasPrefix $permalink "/") -}}
+  {{- if and $title $permalink $validURL -}}
+    {{- $sourceLabel := trim (printf "%s" (or $item.source_label $item.source_platform "")) " \t\r\n" -}}
+    {{- $sourcePlatform := trim (printf "%s" (or $item.source_platform "")) " \t\r\n" -}}
+    {{- $activityType := trim (printf "%s" (or $item.activity_type "")) " \t\r\n" -}}
+    {{- $language := trim (printf "%s" (or $item.language "")) " \t\r\n" -}}
+    {{- $content := delimit (slice $title $sourceLabel $sourcePlatform $activityType $language) " " -}}
+    {{- if not $first }},{{ end -}}
+    {
+      "title": {{ $title | jsonify }},
+      "permalink": {{ $permalink | jsonify }},
+      "summary": {{ $sourceLabel | jsonify }},
+      "content": {{ $content | plainify | htmlUnescape | jsonify }},
+      "date": {{ printf "%s" (or $item.date "") | jsonify }},
+      "source_label": {{ $sourceLabel | jsonify }},
+      "source_platform": {{ $sourcePlatform | jsonify }},
+      "activity_type": {{ $activityType | jsonify }},
+      "language": {{ $language | jsonify }},
+      "external": true
     }
     {{- $first = false -}}
   {{- end -}}
