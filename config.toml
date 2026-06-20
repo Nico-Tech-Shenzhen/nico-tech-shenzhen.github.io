@@ -24,34 +24,49 @@ buildFuture = false
 # メニュー
 [menu]
   [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Updates"
+    url = "/updates/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Writing"
+    url = "/writing/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Videos / Podcasts"
+    url = "/videos-podcasts/"
     weight = 5
 
   [[menu.main]]
-    name = "Monthly"
-    url = "/tags/monthly-report/"
+    name = "Books"
+    url = "/books/"
     weight = 6
 
   [[menu.main]]
-    name = "Teardown"
-    url = "/teardown/"
-    weight = 10
+    name = "Talks / Research"
+    url = "/talks-research/"
+    weight = 7
 
   [[menu.main]]
-    name = "Shenzhen"
-    url = "/shenzhen/"
-    weight = 20
-
-  [[menu.main]]
-    name = "Years"
-    url = "/years/"
-    weight = 30
+    name = "English"
+    url = "/english/"
+    weight = 8
 
   [[menu.main]]
     name = "Search"
     url = "/search/"
-    weight = 35
+    weight = 9
 
 # PaperMod SEO設定
 [params.analytics.google]
@@ -85,5 +100,4 @@ summaryLength = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
 

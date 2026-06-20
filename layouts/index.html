@@ -1,57 +1,168 @@
-<!-- OVERRIDE_HOME_TEMPLATE_ENABLED -->
 {{- define "main" -}}
 
-  {{- /* Collect pages across sections (URL維持のため固定) */ -}}
-  {{- $pages := where .Site.RegularPages "Section" "in" (slice "teardown" "shenzhen" "fabcross" "archive") -}}
-  {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
-  {{- $pages = $pages.ByDate.Reverse -}}
+{{- $monthlyReports := where .Site.RegularPages "Params.activity_type" "monthly_report" -}}
+{{- $monthlyReports = $monthlyReports.ByDate.Reverse -}}
+{{- $latestMonthly := first 1 $monthlyReports -}}
 
-  {{- /* First view: latest 3 posts */ -}}
-  {{- $top := first 3 $pages -}}
-  {{- if gt (len $top) 0 -}}
-    <div class="home-firstview">
-      {{- range $top -}}
-        <article class="post-entry">
-          <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}">
-            <header class="entry-header">
-              <h2>{{ .Title }}</h2>
-            </header>
-            {{- with .Summary -}}
-              <div class="entry-content">
-                <p>{{ . | plainify | truncate 160 }}</p>
-              </div>
-            {{- end -}}
-            <footer class="entry-footer">
-              {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min
-            </footer>
-          </a>
-        </article>
-      {{- end -}}
-    </div>
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items -}}
+    {{- $externalItems = . -}}
   {{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
 
-  {{- /* Rest: paginate */ -}}
-  {{- $rest := after 3 $pages -}}
-  {{- $paginator := .Paginate $rest -}}
-
-  {{- range $paginator.Pages -}}
-    <article class="post-entry">
-      <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}">
-        <header class="entry-header">
-          <h2>{{ .Title }}</h2>
-        </header>
-        {{- with .Summary -}}
-          <div class="entry-content">
-            <p>{{ . | plainify | truncate 160 }}</p>
-          </div>
-        {{- end -}}
-        <footer class="entry-footer">
-          {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min
-        </footer>
-      </a>
-    </article>
+{{- $videosRaw := where $externalItems "activity_type" "video" -}}
+{{- $videoByURL := dict -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $existing := index $videoByURL $urlKey -}}
+  {{- if or (not $existing) (and (eq $item.source_id "youtube_ja") (ne $existing.source_id "youtube_ja")) -}}
+    {{- $videoByURL = merge $videoByURL (dict $urlKey $item) -}}
   {{- end -}}
+{{- end -}}
+{{- $videos := slice -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $selected := index $videoByURL $urlKey -}}
+  {{- if eq $selected.id $item.id -}}
+    {{- $videos = $videos | append $item -}}
+  {{- end -}}
+{{- end -}}
 
-  {{- partial "pagination.html" . -}}
+{{- $podcasts := where $externalItems "activity_type" "podcast" -}}
+{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") -}}
+{{- $curatedOutputs := slice -}}
+{{- with .Site.Data.activity.curated_outputs -}}
+  {{- with .items -}}
+    {{- $curatedOutputs = . -}}
+  {{- end -}}
+{{- end -}}
+
+<header class="page-header">
+  <h1>TAKASU Masakazu / Nico-Tech Shenzhen</h1>
+  <div class="post-description">
+    Field reports, writing, videos, podcasts, talks, books, and research notes on Shenzhen, maker ecosystems, open hardware, robotics, and Physical AI.
+  </div>
+</header>
+
+<div class="post-content">
+  <p>
+    <a href="/updates/"><strong>Open Updates</strong></a> for the newest monthly reports, YouTube videos, podcast episodes, external columns, and publication activity.
+  </p>
+  <p>
+    <a href="/about/">About</a> ·
+    <a href="/writing/">Writing</a> ·
+    <a href="/videos-podcasts/">Videos / Podcasts</a> ·
+    <a href="/books/">Books</a> ·
+    <a href="/talks-research/">Talks / Research</a> ·
+    <a href="/english/">English</a>
+  </p>
+</div>
+
+{{- if $latestMonthly }}
+<h2>Latest Monthly Report</h2>
+{{- range $latestMonthly }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>{{ .Title }}</h2>
+  </header>
+  {{- with .Summary }}
+  <div class="entry-content">
+    <p>{{ . | plainify | htmlUnescape | truncate 180 }}</p>
+  </div>
+  {{- end }}
+  <footer class="entry-footer">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    {{- with .Params.source_platform }}<span>&nbsp;·&nbsp;{{ . }}</span>{{- end }}
+  </footer>
+  <a class="entry-link" aria-label="monthly report: {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+
+<h2>Recent Activity</h2>
+<div class="post-content">
+  <h3>Videos</h3>
+  {{- if $videos }}
+  <ul>
+    {{- range first 3 $videos }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No video updates found yet.</p>
+  {{- end }}
+
+  <h3>Podcasts</h3>
+  {{- if $podcasts }}
+  <ul>
+    {{- range first 2 $podcasts }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No podcast updates found yet.</p>
+  {{- end }}
+
+  <h3>Articles</h3>
+  {{- if $articles }}
+  <ul>
+    {{- range first 4 $articles }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No article updates found yet.</p>
+  {{- end }}
+</div>
+
+<h2>Outputs</h2>
+<div class="post-content">
+  {{- if $curatedOutputs }}
+  <ul>
+    {{- range first 5 $curatedOutputs }}
+    <li>
+      {{- if .source_url }}<a href="{{ .source_url }}">{{ .title }}</a>{{- else }}{{ .title }}{{- end }}
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+  <p><a href="/books/">Books</a> · <a href="/talks-research/">Talks / Research</a></p>
+</div>
+
+<h2>Explore Topics</h2>
+<div class="post-content">
+  <p>
+    <a href="/shenzhen/">Shenzhen</a> ·
+    <a href="/teardown/">Teardown</a> ·
+    <a href="/search/?q=open%20hardware">Open Hardware</a> ·
+    <a href="/search/?q=robotics%20physical%20ai">Robotics / Physical AI</a> ·
+    <a href="/tags/monthly-report/">Monthly archive</a> ·
+    <a href="/years/">Years archive</a>
+  </p>
+</div>
 
 {{- end -}}

@@ -1,10 +1,13 @@
 ---
-title: 'ニコ技深セン / Nico-Tech Shenzhen website'
+title: "TAKASU Masakazu / Nico-Tech Shenzhen"
+description: "Activity and output hub for field reports, writing, videos, podcasts, talks, books, and research notes."
 ---
 
-## Sections
+TAKASU Masakazu / Nico-Tech Shenzhen publishes field reports, writing, videos, podcasts, talks, books, and research notes on Shenzhen, maker ecosystems, open hardware, robotics, and Physical AI.
 
-- **Teardown** — reverse engineering / chip decap / teardown notes → [Teardown](/teardown/)
-- **Shenzhen** — Shenzhen & community logs → [Shenzhen](/shenzhen/)
-- **Fabcross** — Fabcross series → [Fabcross](/fabcross/)
-- **Archive** — everything else → [Archive](/archive/)
+- [Updates](/updates/)
+- [Writing](/writing/)
+- [Videos / Podcasts](/videos-podcasts/)
+- [Books](/books/)
+- [Talks / Research](/talks-research/)
+- [English](/english/)
