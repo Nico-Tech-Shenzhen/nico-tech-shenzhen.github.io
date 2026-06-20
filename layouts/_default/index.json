@@ -37,6 +37,7 @@
     {{- $summary := trim (printf "%s" (or $item.summary "")) " \t\r\n" -}}
     {{- $sourceLabel := trim (printf "%s" (or $item.source_label $item.source_platform "")) " \t\r\n" -}}
     {{- $sourcePlatform := trim (printf "%s" (or $item.source_platform "")) " \t\r\n" -}}
+    {{- $sourceIcon := trim (printf "%s" (or $item.source_icon "")) " \t\r\n" -}}
     {{- $activityType := trim (printf "%s" (or $item.activity_type "")) " \t\r\n" -}}
     {{- $language := trim (printf "%s" (or $item.language "")) " \t\r\n" -}}
     {{- $content := delimit (slice $title $summary $sourceLabel $sourcePlatform $activityType $language) " " -}}
@@ -48,6 +49,7 @@
       "content": {{ $content | plainify | htmlUnescape | jsonify }},
       "date": {{ printf "%s" (or $item.date "") | jsonify }},
       "source_label": {{ $sourceLabel | jsonify }},
+      "source_icon": {{ $sourceIcon | jsonify }},
       "source_platform": {{ $sourcePlatform | jsonify }},
       "activity_type": {{ $activityType | jsonify }},
       "language": {{ $language | jsonify }},

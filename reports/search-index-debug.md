@@ -122,8 +122,24 @@ researchmap:
 ## Files Changed
 
 - `layouts/_default/index.json`
+- `layouts/_default/layouts_defaultindex.json.json`
+- `assets/js/fastsearch.js`
 - `reports/search-external-activity-audit.md`
 - `reports/search-index-debug.md`
+
+## Inline Source Icons
+
+External activity records now include `source_icon` in the search index when available from `data/activity/external_updates.json`. The current data has `source_icon` for all 149 external activity items, so no data regeneration was required.
+
+Search result rendering now prepends a compact 16px inline icon before the title only when `source_icon` is present and renderable:
+
+`[16px icon] Title »`
+
+Records without `source_icon`, including normal internal Hugo pages, still render as:
+
+`Title »`
+
+Broken icon images are hidden with an inline `onerror` handler, keeping the title visible and avoiding broken-image chrome.
 
 ## Public Directory
 

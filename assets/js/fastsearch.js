@@ -18,6 +18,10 @@ function escapeHTML(value) {
     });
 }
 
+function isRenderableIcon(value) {
+    return /^(https?:\/\/|\/)/.test(value);
+}
+
 // load our search index
 window.onload = function () {
     let xhr = new XMLHttpRequest();
@@ -111,9 +115,11 @@ sInput.onkeyup = function (e) {
                 const title = typeof result.title === 'string' ? result.title.trim() : '';
                 const permalink = typeof result.permalink === 'string' ? result.permalink.trim() : '';
                 if (!title || !permalink) continue;
-                const sourceLabel = typeof result.source_label === 'string' ? result.source_label.trim() : '';
-                const marker = result.external ? ` <span class="entry-hint">[${escapeHTML(sourceLabel || 'external')}]</span>` : '';
-                resultSet += `<li class="post-entry"><header class="entry-header">${escapeHTML(title)}${marker}&nbsp;»</header>` +
+                const sourceIcon = typeof result.source_icon === 'string' ? result.source_icon.trim() : '';
+                const icon = isRenderableIcon(sourceIcon)
+                    ? `<img src="${escapeHTML(sourceIcon)}" alt="" loading="lazy" decoding="async" onerror="this.style.display='none'" style="display:inline-block;width:16px;height:16px;margin:0 6px 0 0;vertical-align:-2px;border-radius:3px;object-fit:contain;">`
+                    : '';
+                resultSet += `<li class="post-entry"><header class="entry-header">${icon}${escapeHTML(title)}&nbsp;»</header>` +
                     `<a href="${escapeHTML(permalink)}" aria-label="${escapeHTML(title)}"></a></li>`
             }
 
