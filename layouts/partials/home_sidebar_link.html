@@ -1,0 +1,12 @@
+{{- $label := .label -}}
+{{- $url := .url -}}
+{{- $icon := .icon -}}
+
+<p>
+  <a href="{{ $url }}" style="display:inline-flex; align-items:center; gap:.35rem;">
+    {{- with $icon }}
+    <img src="{{ . }}" alt="" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; object-fit:contain; flex:0 0 auto;">
+    {{- end }}
+    <span>{{ $label }}</span>
+  </a>
+</p>

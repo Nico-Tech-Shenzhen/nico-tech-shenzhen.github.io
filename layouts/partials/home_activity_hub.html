@@ -139,6 +139,9 @@
     margin: .25rem 0;
     line-height: 1.5;
   }
+  .home-hub-sidebar a {
+    overflow-wrap: anywhere;
+  }
   @media (max-width: 760px) {
     .home-hub-layout {
       grid-template-columns: 1fr;
@@ -166,9 +169,50 @@
 
   <aside class="home-hub-sidebar">
     <section>
-      <h3>月次報告・メルマガ</h3>
-      <p><a href="/tags/monthly-report/"><strong>Monthly Updates</strong></a></p>
-      <p style="font-size:.9rem; opacity:.82;">月次報告とニュースレター形式の更新。</p>
+      <h3>高須正和へのリンク</h3>
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "X / Twitter"
+        "url" "https://x.com/tks"
+        "icon" "https://x.com/favicon.ico"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "YouTube"
+        "url" "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo"
+        "icon" "https://www.youtube.com/favicon.ico"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "Email"
+        "url" "mailto:info@takasumasakazu.net"
+        "icon" "https://www.google.com/s2/favicons?domain=takasumasakazu.net&sz=32"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "LinkedIn"
+        "url" "https://www.linkedin.com/in/takasumasakazu"
+        "icon" "https://www.linkedin.com/favicon.ico"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "researchmap"
+        "url" "https://researchmap.jp/takasumasakazu"
+        "icon" "https://researchmap.jp/favicon.ico"
+      ) -}}
+    </section>
+
+    <section>
+      <h3>ニコ技深セン</h3>
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "メルマガ登録"
+        "url" "https://docs.google.com/forms/d/e/1FAIpQLSddiAQbO63yVutwxrcoOpsRrw-0z-0gx4qWdbCSIGy3tl0esw/viewform?usp=send_form"
+        "icon" "https://ssl.gstatic.com/docs/forms/device_home/favicon.ico"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "深圳ハードウェアイベントカレンダー"
+        "url" "https://medium.com/ecosystembymakers/shenzheneventcalender-b1b4176970d3"
+        "icon" "https://medium.com/favicon.ico"
+      ) -}}
+      {{- partial "home_sidebar_link.html" (dict
+        "label" "Monthly Updates"
+        "url" "/tags/monthly-report/"
+      ) -}}
     </section>
 
     <section>
