@@ -57,80 +57,94 @@
   <h2>最新コンテンツ / Latest Activity</h2>
   <div class="post-content">
     {{- if or $latestMonthly $videos $podcasts $articles $talkResearch }}
-    <div style="display:grid; gap:1rem; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));">
-      {{- range $latestMonthly }}
-        {{- $coverImage := "" -}}
-        {{- with .Params.cover -}}
-          {{- $coverImage = .image -}}
-        {{- end -}}
-        {{- partial "home_activity_card.html" (dict
-          "label" "Latest Monthly Report"
-          "title" .Title
-          "url" .RelPermalink
-          "date" (.Date.Format "2006-01-02")
-          "source" .Params.source_platform
-          "activity_type" "monthly_report"
-          "language" .Params.language
-          "summary" .Summary
-          "image" $coverImage
-        ) -}}
-      {{- end }}
-      {{- range first 1 $videos }}
-        {{- partial "home_activity_card.html" (dict
-          "label" "Latest Video"
-          "title" .title
-          "url" .source_url
-          "date" .date
-          "source" (or .source_label .source_platform)
-          "source_icon" .source_icon
-          "activity_type" .activity_type
-          "language" .language
-          "summary" .summary
-          "image" .image
-        ) -}}
-      {{- end }}
-      {{- range first 1 $podcasts }}
-        {{- partial "home_activity_card.html" (dict
-          "label" "Latest Podcast"
-          "title" .title
-          "url" .source_url
-          "date" .date
-          "source" (or .source_label .source_platform)
-          "source_icon" .source_icon
-          "activity_type" .activity_type
-          "language" .language
-          "summary" .summary
-          "image" .image
-        ) -}}
-      {{- end }}
-      {{- range first 1 $articles }}
-        {{- partial "home_activity_card.html" (dict
-          "label" "Latest Article"
-          "title" .title
-          "url" .source_url
-          "date" .date
-          "source" (or .source_label .source_platform)
-          "source_icon" .source_icon
-          "activity_type" .activity_type
-          "language" .language
-          "summary" .summary
-          "image" .image
-        ) -}}
-      {{- end }}
-      {{- range first 1 $talkResearch }}
-        {{- partial "home_activity_card.html" (dict
-          "label" "Latest Talk / Research"
-          "title" .title
-          "url" .source_url
-          "date" .date
-          "source" (or .source_label .source_platform)
-          "source_icon" .source_icon
-          "activity_type" .activity_type
-          "language" .language
-          "summary" .summary
-          "image" .image
-        ) -}}
-      {{- end }}
+    <div style="display:grid; gap:1rem 1.25rem; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));">
+      <section>
+        <h3 style="margin:.1rem 0 .35rem;">Latest Monthly Report</h3>
+        <ul style="margin:0; padding:0;">
+          {{- range $latestMonthly }}
+            {{- partial "home_activity_list_item.html" (dict
+              "title" .Title
+              "url" .RelPermalink
+              "date" (.Date.Format "2006-01-02")
+              "source" .Params.source_platform
+              "activity_type" "monthly_report"
+              "language" .Params.language
+            ) -}}
+          {{- end }}
+        </ul>
+      </section>
+
+      <section>
+        <h3 style="margin:.1rem 0 .35rem;">Latest Articles</h3>
+        <ul style="margin:0; padding:0;">
+          {{- range first 3 $articles }}
+            {{- partial "home_activity_list_item.html" (dict
+              "title" .title
+              "url" .source_url
+              "date" .date
+              "source" (or .source_label .source_platform)
+              "source_icon" .source_icon
+              "activity_type" .activity_type
+              "language" .language
+            ) -}}
+          {{- end }}
+        </ul>
+      </section>
+
+      <section>
+        <h3 style="margin:.1rem 0 .35rem;">Latest Videos</h3>
+        <ul style="margin:0; padding:0;">
+          {{- range first 2 $videos }}
+            {{- partial "home_activity_list_item.html" (dict
+              "title" .title
+              "url" .source_url
+              "date" .date
+              "source" (or .source_label .source_platform)
+              "source_icon" .source_icon
+              "activity_type" .activity_type
+              "language" .language
+              "image" .image
+              "show_image" true
+            ) -}}
+          {{- end }}
+        </ul>
+      </section>
+
+      <section>
+        <h3 style="margin:.1rem 0 .35rem;">Latest Podcasts</h3>
+        <ul style="margin:0; padding:0;">
+          {{- range first 2 $podcasts }}
+            {{- partial "home_activity_list_item.html" (dict
+              "title" .title
+              "url" .source_url
+              "date" .date
+              "source" (or .source_label .source_platform)
+              "source_icon" .source_icon
+              "activity_type" .activity_type
+              "language" .language
+            ) -}}
+          {{- end }}
+        </ul>
+      </section>
+
+      <section>
+        <h3 style="margin:.1rem 0 .35rem;">Latest Talks / Research</h3>
+        <ul style="margin:0; padding:0;">
+          {{- range first 2 $talkResearch }}
+            {{- partial "home_activity_list_item.html" (dict
+              "title" .title
+              "url" .source_url
+              "date" .date
+              "source" (or .source_label .source_platform)
+              "source_icon" .source_icon
+              "activity_type" .activity_type
+              "language" .language
+              "image" .image
+              "show_image" (eq .source_platform "youtube")
+            ) -}}
+          {{- end }}
+        </ul>
+      </section>
     </div>
     {{- else }}
     <p><a href="/updates/">Updates</a> で最新情報を見ることができます。</p>
