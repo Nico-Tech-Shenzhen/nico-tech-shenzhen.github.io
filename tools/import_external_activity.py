@@ -99,7 +99,7 @@ def write_report(
     safe, unsafe_reasons = is_safe_to_write(results)
 
     lines: list[str] = []
-    lines.append("# External Activity Import Dry Run")
+    lines.append("# External Activity Import Dry Run" if dry_run else "# External Activity Import Write")
     lines.append("")
     lines.append(f"Generated: `{datetime.now(timezone.utc).isoformat()}`")
     lines.append("")

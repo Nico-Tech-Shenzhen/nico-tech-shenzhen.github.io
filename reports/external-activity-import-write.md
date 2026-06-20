@@ -1,11 +1,11 @@
-# External Activity Import Dry Run
+# External Activity Import Write
 
-Generated: `2026-06-20T04:01:35.289133+00:00`
+Generated: `2026-06-20T04:03:37.272211+00:00`
 
-- mode: `dry-run`
+- mode: `write`
 - config used: `tools\activity_sources.example.json`
 - proposed output path: `data\activity\external_updates.json`
-- JSON written: `no`
+- JSON written: `yes`
 
 This run does not modify existing content posts, metadata, `public/`, homepage, navigation, config, templates, or GitHub Actions.
 
@@ -64,7 +64,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "medium:66e7ed494295",
@@ -81,7 +81,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "youtube:en:xAotcCqOcug",
@@ -98,7 +98,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "podcast:d526da0b-fef3-4b2f-91e3-ad9440eb444e",
@@ -115,7 +115,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "youtube:ja:UVJQNMm7wJk",
@@ -132,7 +132,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "note:nd01852684b73",
@@ -149,7 +149,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "medium:8c3d093fdd7f",
@@ -166,7 +166,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "note:n29dfc14da1fd",
@@ -183,7 +183,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "medium:32ab9a149fbf",
@@ -200,7 +200,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "32ab9a149fbf",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   },
   {
     "id": "youtube:en:iB4cfdz80yM",
@@ -217,7 +217,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "iB4cfdz80yM",
-    "imported_at": "2026-06-20T04:01:33.216489+00:00"
+    "imported_at": "2026-06-20T04:03:34.206001+00:00"
   }
 ]
 ```
