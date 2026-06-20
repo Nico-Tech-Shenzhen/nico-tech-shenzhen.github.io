@@ -20,7 +20,7 @@
     </h3>
     <p style="margin:.2rem 0; font-size:.85rem; opacity:.78;">
       {{- with $date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-      {{- with $source }}{{ if $date }} · {{ end }}{{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $source }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
+      {{- with $source }}{{ if $date }} · {{ end }}{{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $source }}" loading="lazy" decoding="async" onerror="this.remove();" style="display:inline-block; width:14px; height:14px; max-width:none; margin:0 3px 0 0; vertical-align:-2px;">{{ end }}{{ . }}{{ end -}}
       {{- with $activityType }} · {{ . }}{{ end -}}
       {{- with $language }} · {{ . }}{{ end -}}
     </p>

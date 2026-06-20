@@ -1,14 +1,14 @@
 {{- $item := . -}}
 {{- $sourceLabel := or $item.source_label $item.source_platform -}}
-<li>
+<li style="margin:.35rem 0;">
   {{- if $item.source_url -}}
   <a href="{{ $item.source_url }}">{{ $item.title }}</a>
   {{- else -}}
   {{ $item.title }}
   {{- end -}}
-  <small>
-    {{- with $item.date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-    {{- with $sourceLabel }} · {{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
+  <small style="display:block; margin-top:.1rem; line-height:1.35;">
+    {{- with $item.date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+    {{- with $sourceLabel }}{{ if $item.date }} · {{ end }}{{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="display:inline-block; width:14px; height:14px; max-width:none; margin:0 3px 0 0; vertical-align:-2px;">{{ end }}{{ . }}{{ end -}}
     {{- with $item.activity_type }} · {{ . }}{{ end -}}
     {{- with $item.language }} · {{ . }}{{ end -}}
   </small>
