@@ -3,11 +3,16 @@
 [
 {{- $first := true -}}
 {{- range $p := $pages -}}
-  {{- if and $p.Title $p.Permalink -}}
+  {{- $title := trim $p.Title " \t\r\n" -}}
+  {{- $permalink := trim $p.Permalink " \t\r\n" -}}
+  {{- $raw := lower $p.RawContent -}}
+  {{- $plain := lower ($p.Plain | htmlUnescape) -}}
+  {{- $isRedirectStub := or (and (in $raw "http-equiv=refresh") (in $raw "<link rel=canonical")) (and (hasPrefix (trim $plain " \t\r\n") "<!doctype html>") (in $plain "http")) -}}
+  {{- if and $title $permalink (not $isRedirectStub) -}}
     {{- if not $first }},{{ end -}}
     {
-      "title": {{ $p.Title | jsonify }},
-      "permalink": {{ $p.Permalink | jsonify }},
+      "title": {{ $title | jsonify }},
+      "permalink": {{ $permalink | jsonify }},
       "section": {{ $p.Section | jsonify }},
       "summary": {{ $p.Summary | plainify | htmlUnescape | jsonify }},
       "content": {{ $p.Plain | htmlUnescape | jsonify }}

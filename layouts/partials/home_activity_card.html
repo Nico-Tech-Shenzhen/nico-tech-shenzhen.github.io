@@ -1,0 +1,28 @@
+{{- $title := .title -}}
+{{- $url := .url -}}
+{{- $label := .label -}}
+{{- $date := .date -}}
+{{- $source := .source -}}
+{{- $language := .language -}}
+{{- $summary := .summary -}}
+{{- $image := .image -}}
+
+<article style="border:1px solid var(--border); border-radius:8px; padding:1rem; display:flex; gap:1rem; align-items:flex-start;">
+  {{- with $image }}
+  <img src="{{ . }}" alt="" loading="lazy" style="width:96px; height:72px; object-fit:cover; border-radius:6px; flex:0 0 auto;">
+  {{- end }}
+  <div>
+    <p style="margin:0 0 .35rem; font-size:.85rem; opacity:.75;">{{ $label }}</p>
+    <h3 style="margin:.1rem 0 .35rem;">
+      {{- if $url }}<a href="{{ $url }}">{{ $title }}</a>{{- else }}{{ $title }}{{- end }}
+    </h3>
+    <p style="margin:.2rem 0; font-size:.85rem; opacity:.78;">
+      {{- with $date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+      {{- with $source }}{{ if $date }} · {{ end }}{{ . }}{{ end -}}
+      {{- with $language }} · {{ . }}{{ end -}}
+    </p>
+    {{- with $summary }}
+    <p style="margin:.45rem 0 0;">{{ . | plainify | htmlUnescape | truncate 130 }}</p>
+    {{- end }}
+  </div>
+</article>
