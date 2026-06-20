@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "book:shenzhen-guide-2026-ja",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "深センの歩き方2026",
+      "date": "",
+      "source_url": "https://takasumasakazu.booth.pm/items/7985389",
+      "language": "ja",
+      "topics": ["shenzhen", "guide", "maker-ecosystem"],
+      "featured": true
+    },
+    {
+      "id": "book:exploring-shenzhen-2026",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "Exploring Shenzhen 2026",
+      "date": "",
+      "source_url": "https://gumroad.com/l/jeiskh",
+      "language": "en",
+      "topics": ["shenzhen", "guide", "maker-ecosystem"],
+      "featured": true
+    },
+    {
+      "id": "book:prototype-city",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "プロトタイプシティ 深センと世界的イノベーション",
+      "date": "2020-07-01",
+      "source_url": "https://amzn.to/2QTRpzO",
+      "language": "ja",
+      "topics": ["shenzhen", "innovation", "maker-ecosystem"],
+      "featured": true
+    },
+    {
+      "id": "book:hardware-hacker-ja",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Translation",
+      "title": "ハードウェアハッカー 新しいモノをつくる破壊と創造の冒険",
+      "date": "",
+      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/",
+      "language": "ja",
+      "topics": ["hardware", "manufacturing", "translation"],
+      "featured": false
+    },
+    {
+      "id": "book:makers-ecosystem",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "メイカーズのエコシステム 新しいモノづくりがとまらない。",
+      "date": "",
+      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/",
+      "language": "ja",
+      "topics": ["maker-ecosystem", "shenzhen", "hardware"],
+      "featured": false
+    },
+    {
+      "id": "talk:asian-maker-faire-mft2015",
+      "activity_type": "talk",
+      "source_platform": "conference",
+      "source_label": "Talk",
+      "title": "Talk: Asian Maker Faire at Maker Faire Tokyo 2015",
+      "date": "2015-08-06",
+      "source_url": "/shenzhen/talk-asian-maker-faire-at-maker-faire-tokyo-2015/",
+      "language": "en",
+      "topics": ["maker-faire", "shenzhen", "talk"],
+      "featured": false
+    }
+  ]
+}

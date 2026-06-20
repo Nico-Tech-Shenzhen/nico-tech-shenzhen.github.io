@@ -20,6 +20,12 @@
   {{- end }}
 {{- end }}
 {{- $externalItems = sort $externalItems "date" "desc" }}
+{{- $curatedOutputs := slice }}
+{{- with .Site.Data.activity.curated_outputs }}
+  {{- with .items }}
+    {{- $curatedOutputs = . }}
+  {{- end }}
+{{- end }}
 {{- $videosRaw := where $externalItems "activity_type" "video" }}
 {{- $videoByURL := dict }}
 {{- range $item := $videosRaw }}
@@ -100,10 +106,27 @@
   {{- end }}
 </div>
 
+{{- if $curatedOutputs }}
 <h2>Talks / Publications</h2>
 <div class="post-content">
-  <p>Talks, books, papers, and research updates will be connected here in a future phase.</p>
+  <ul>
+    {{- range first 6 $curatedOutputs }}
+    <li>
+      {{- if .source_url }}
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      {{- else }}
+      {{ .title }}
+      {{- end }}
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
+        {{- with .language }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
 </div>
+{{- end }}
 
 <h2>Featured Monthly Report</h2>
 {{- if $featuredMonthly }}
