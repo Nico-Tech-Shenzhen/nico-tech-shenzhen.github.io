@@ -1,6 +1,6 @@
 # External Activity Import Write
 
-Generated: `2026-06-20T09:31:05.267305+00:00`
+Generated: `2026-06-20T09:35:28.913870+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
@@ -78,7 +78,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -97,7 +97,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -110,13 +110,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "source_url": "https://www.youtube.com/watch?v=xAotcCqOcug",
     "canonical_url": "",
     "summary": "In this episode of Nico-Tech Shenzhen Field Notes, I take apart a pair of $10 “Huaqiangbei AirPods” bought in Shenzhen and look at what they reveal about China’s low-cost TWS earbud and semiconductor ecosystem. These fake AirPods are clearly not genuine Apple products. But once opened, they are not just “bad copies” either. Inside, we can see cost-optimized engineering: a highly integrated Bluetooth audio SoC, simpl...",
-    "image": "",
+    "image": "https://i1.ytimg.com/vi/xAotcCqOcug/hqdefault.jpg",
     "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -135,7 +135,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Podcast",
     "source_icon": "https://open.spotify.com/favicon.ico"
   },
@@ -148,13 +148,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "source_url": "https://www.youtube.com/watch?v=UVJQNMm7wJk",
     "canonical_url": "",
     "summary": "10ドル前後で売られている「華強北 AirPods」を分解し、その中に見える中国TWSイヤホン産業のエコシステム、SoC、基板設計、Decap業者、そしてTeardown 2026で話す内容のプレビューを紹介します。 偽物AirPodsは、もちろん本物のAirPodsとはまったく違います。 しかし中を見てみると、単なる雑なコピーではなく、安価なSoC、左右共通基板、部品点数削減、マーキングを消されたチップ、Taobaoで頼めるDecap業者など、中国のハードウェア産業らしい工夫と生態系が見えてきます。 今回は、深圳で購入した67元の偽AirPodsを分解し、Jieli / Bluetrum系のTWSチップ、System in Package、チップDecap、安価なTWS市場、そしてTeardown 2026でのオープニングトークにつながる話をします。 ▼ Chapters 00:00 オープニング：Teardown 2026...",
-    "image": "",
+    "image": "https://i2.ytimg.com/vi/UVJQNMm7wJk/hqdefault.jpg",
     "language": "ja",
     "topics": [],
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes JP",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -173,7 +173,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -192,7 +192,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -211,7 +211,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -230,7 +230,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "32ab9a149fbf",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -243,13 +243,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "source_url": "https://www.youtube.com/watch?v=iB4cfdz80yM",
     "canonical_url": "",
     "summary": "In this episode, I tear down a very cheap calculator I bought in Chennai, India. The box says Made in India, but when I opened it up, the PCB and chip structure looked deeply connected to the Chinese low-cost electronics supply chain. I then sent the chip to a Decap service in Shenzhen to look under the black epoxy blob. With analysis by Techanalye, we found what appears to be a Chinese SiLian Micro SC2118 series 4-...",
-    "image": "",
+    "image": "https://i2.ytimg.com/vi/iB4cfdz80yM/hqdefault.jpg",
     "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "iB4cfdz80yM",
-    "imported_at": "2026-06-20T09:31:02.746664+00:00",
+    "imported_at": "2026-06-20T09:35:25.176140+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN",
     "source_icon": "https://www.youtube.com/favicon.ico"
   }

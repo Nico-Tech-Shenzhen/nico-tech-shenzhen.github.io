@@ -164,7 +164,7 @@ def atom_link(entry: ET.Element) -> str:
     return fallback
 
 
-def parse_feed(xml_text: str) -> tuple[list[dict[str, str]], list[str]]:
+def parse_feed(xml_text: str, platform: str = "") -> tuple[list[dict[str, str]], list[str]]:
     issues: list[str] = []
     try:
         root = ET.fromstring(xml_text)
@@ -201,7 +201,7 @@ def parse_feed(xml_text: str) -> tuple[list[dict[str, str]], list[str]]:
                     "guid": text_of(first_child(entry, ("id",))),
                     "date": parse_date(text_of(first_child(entry, ("published", "updated")))),
                     "summary": feed_summary(entry),
-                    "image": image_from_atom_entry(entry),
+                    "image": image_from_youtube_atom_entry(entry) if platform == "youtube" else image_from_atom_entry(entry),
                 }
             )
         return entries, issues
@@ -343,6 +343,17 @@ def image_from_atom_entry(entry: ET.Element) -> str:
         if href and (rel in {"enclosure", "thumbnail"} or mime.startswith("image/")):
             return href
     return ""
+
+
+def image_from_youtube_atom_entry(entry: ET.Element) -> str:
+    for child in entry.iter():
+        local = child.tag.rsplit("}", 1)[-1].lower()
+        if local != "thumbnail" or namespace_of(child) != MEDIA_NS:
+            continue
+        url = (child.attrib.get("url") or "").strip()
+        if url:
+            return url
+    return image_from_atom_entry(entry)
 
 
 def external_id_for(source: dict[str, Any], entry: dict[str, str]) -> str:
@@ -511,7 +522,7 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
     except Exception as exc:
         return SourceResult(source, "failed", issues=[f"Fetch error for {source_id}: {exc}"])
 
-    parsed_items, parse_issues = parse_feed(xml_text)
+    parsed_items, parse_issues = parse_feed(xml_text, platform=platform)
     issues.extend(parse_issues)
     normalized = [normalize_entry(source, item, imported_at) for item in parsed_items]
     return SourceResult(source, "tested", normalized, issues)
