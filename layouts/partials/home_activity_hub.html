@@ -32,16 +32,19 @@
 {{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") -}}
 {{- $talkResearch := where $externalItems "activity_type" "in" (slice "talk" "paper" "research" "book") -}}
 
-<header class="page-header">
-  <h1>高須正和 / Nico-Tech Shenzhen の活動ハブ</h1>
-  <div class="post-description">
-    高須正和 / Nico-Tech Shenzhen の活動ハブです。深セン、メイカー、オープンハードウェア、ロボティクス、分解、開発者エコシステムについて、月次報告・記事・YouTube・Podcast・書籍・講演・研究をまとめています。日本語中心ですが、英語コンテンツもあります。
+<header class="page-header" style="margin-bottom:1.5rem;">
+  <div class="post-description" style="margin-top:0;">
+    <p style="margin:.25rem 0;">高須正和 / Nico-Tech Shenzhen の活動をまとめたサイトです。</p>
+    <p style="margin:.25rem 0;">深セン、メイカー、オープンハードウェア、ロボティクス、分解、開発者エコシステム。</p>
+    <p style="margin:.25rem 0;">月次報告、記事、YouTube、Podcast、書籍、講演、研究をまとめています。</p>
+    <p style="margin:.25rem 0;">日本語中心、一部英語あり。</p>
   </div>
 </header>
 
 <section class="post-content">
-  <p>
+  <p style="margin-bottom:.75rem;">
     <a href="/updates/"><strong>Latest Updates</strong></a> ·
+    <a href="/tags/monthly-report/"><strong>月次報告・メルマガ / Monthly Updates</strong></a> ·
     <a href="/writing/">Writing</a> ·
     <a href="/videos-podcasts/">Videos / Podcasts</a> ·
     <a href="/books/">Books</a> ·
@@ -66,6 +69,7 @@
           "url" .RelPermalink
           "date" (.Date.Format "2006-01-02")
           "source" .Params.source_platform
+          "activity_type" "monthly_report"
           "language" .Params.language
           "summary" .Summary
           "image" $coverImage
@@ -79,6 +83,7 @@
           "date" .date
           "source" (or .source_label .source_platform)
           "source_icon" .source_icon
+          "activity_type" .activity_type
           "language" .language
           "summary" .summary
           "image" .image
@@ -92,6 +97,7 @@
           "date" .date
           "source" (or .source_label .source_platform)
           "source_icon" .source_icon
+          "activity_type" .activity_type
           "language" .language
           "summary" .summary
           "image" .image
@@ -105,6 +111,7 @@
           "date" .date
           "source" (or .source_label .source_platform)
           "source_icon" .source_icon
+          "activity_type" .activity_type
           "language" .language
           "summary" .summary
           "image" .image
@@ -118,6 +125,7 @@
           "date" .date
           "source" (or .source_label .source_platform)
           "source_icon" .source_icon
+          "activity_type" .activity_type
           "language" .language
           "summary" .summary
           "image" .image

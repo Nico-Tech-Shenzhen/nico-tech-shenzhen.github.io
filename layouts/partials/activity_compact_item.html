@@ -8,7 +8,7 @@
   {{- end -}}
   <small>
     {{- with $item.date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-    {{- with $sourceLabel }} · {{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" onerror="this.style.display='none';" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
+    {{- with $sourceLabel }} · {{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
     {{- with $item.activity_type }} · {{ . }}{{ end -}}
     {{- with $item.language }} · {{ . }}{{ end -}}
   </small>
