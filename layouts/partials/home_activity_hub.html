@@ -1,0 +1,178 @@
+{{- $monthlyReports := where .Site.RegularPages "Params.activity_type" "monthly_report" -}}
+{{- $monthlyReports = $monthlyReports.ByDate.Reverse -}}
+{{- $latestMonthly := first 1 $monthlyReports -}}
+
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items -}}
+    {{- $externalItems = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
+
+{{- $videosRaw := where $externalItems "activity_type" "video" -}}
+{{- $videoByURL := dict -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $existing := index $videoByURL $urlKey -}}
+  {{- if or (not $existing) (and (eq $item.source_id "youtube_ja") (ne $existing.source_id "youtube_ja")) -}}
+    {{- $videoByURL = merge $videoByURL (dict $urlKey $item) -}}
+  {{- end -}}
+{{- end -}}
+{{- $videos := slice -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $selected := index $videoByURL $urlKey -}}
+  {{- if eq $selected.id $item.id -}}
+    {{- $videos = $videos | append $item -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $podcasts := where $externalItems "activity_type" "podcast" -}}
+{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") -}}
+{{- $talkResearch := where $externalItems "activity_type" "in" (slice "talk" "paper" "research" "book") -}}
+
+<header class="page-header">
+  <h1>高須正和 / Nico-Tech Shenzhen の活動ハブ</h1>
+  <div class="post-description">
+    高須正和 / Nico-Tech Shenzhen の活動ハブです。深セン、メイカー、オープンハードウェア、ロボティクス、分解、開発者エコシステムについて、月次報告・記事・YouTube・Podcast・書籍・講演・研究をまとめています。日本語中心ですが、英語コンテンツもあります。
+  </div>
+</header>
+
+<section class="post-content">
+  <p>
+    <a href="/updates/"><strong>Latest Updates</strong></a> ·
+    <a href="/writing/">Writing</a> ·
+    <a href="/videos-podcasts/">Videos / Podcasts</a> ·
+    <a href="/books/">Books</a> ·
+    <a href="/talks-research/">Talks / Research</a> ·
+    <a href="/english/">English</a>
+  </p>
+</section>
+
+<section>
+  <h2>最新コンテンツ / Latest Activity</h2>
+  <div class="post-content">
+    {{- if or $latestMonthly $videos $podcasts $articles $talkResearch }}
+    <div style="display:grid; gap:1rem; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));">
+      {{- range $latestMonthly }}
+        {{- $coverImage := "" -}}
+        {{- with .Params.cover -}}
+          {{- $coverImage = .image -}}
+        {{- end -}}
+        {{- partial "home_activity_card.html" (dict
+          "label" "Latest Monthly Report"
+          "title" .Title
+          "url" .RelPermalink
+          "date" (.Date.Format "2006-01-02")
+          "source" .Params.source_platform
+          "language" .Params.language
+          "summary" .Summary
+          "image" $coverImage
+        ) -}}
+      {{- end }}
+      {{- range first 1 $videos }}
+        {{- partial "home_activity_card.html" (dict
+          "label" "Latest Video"
+          "title" .title
+          "url" .source_url
+          "date" .date
+          "source" (or .source_label .source_platform)
+          "source_icon" .source_icon
+          "language" .language
+          "summary" .summary
+          "image" .image
+        ) -}}
+      {{- end }}
+      {{- range first 1 $podcasts }}
+        {{- partial "home_activity_card.html" (dict
+          "label" "Latest Podcast"
+          "title" .title
+          "url" .source_url
+          "date" .date
+          "source" (or .source_label .source_platform)
+          "source_icon" .source_icon
+          "language" .language
+          "summary" .summary
+          "image" .image
+        ) -}}
+      {{- end }}
+      {{- range first 1 $articles }}
+        {{- partial "home_activity_card.html" (dict
+          "label" "Latest Article"
+          "title" .title
+          "url" .source_url
+          "date" .date
+          "source" (or .source_label .source_platform)
+          "source_icon" .source_icon
+          "language" .language
+          "summary" .summary
+          "image" .image
+        ) -}}
+      {{- end }}
+      {{- range first 1 $talkResearch }}
+        {{- partial "home_activity_card.html" (dict
+          "label" "Latest Talk / Research"
+          "title" .title
+          "url" .source_url
+          "date" .date
+          "source" (or .source_label .source_platform)
+          "source_icon" .source_icon
+          "language" .language
+          "summary" .summary
+          "image" .image
+        ) -}}
+      {{- end }}
+    </div>
+    {{- else }}
+    <p><a href="/updates/">Updates</a> で最新情報を見ることができます。</p>
+    {{- end }}
+  </div>
+</section>
+
+<section>
+  <h2>主なアウトプット / Main Outputs</h2>
+  <div class="post-content">
+    <div style="display:grid; gap:1rem; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));">
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/updates/">Updates</a></h3>
+        <p>全活動の最新一覧。月次報告、動画、Podcast、記事、講演、研究をまとめて見られます。</p>
+      </article>
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/writing/">Writing</a></h3>
+        <p>note / Medium / JST Science Portal China / DG Lab Haus / archive の記事。</p>
+      </article>
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/videos-podcasts/">Videos / Podcasts</a></h3>
+        <p>YouTube と Podcast。深セン、ハードウェア、分解、メイカー文化について。</p>
+      </article>
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/books/">Books</a></h3>
+        <p>書籍・翻訳書・ガイド・出版プロジェクト。</p>
+      </article>
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/talks-research/">Talks / Research</a></h3>
+        <p>講演・researchmap・論文・研究発表。</p>
+      </article>
+      <article style="border:1px solid var(--border); border-radius:8px; padding:1rem;">
+        <h3 style="margin-top:0;"><a href="/english/">English</a></h3>
+        <p>英語コンテンツ。English articles, videos, talks, and field notes.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>トピック / Topics</h2>
+  <div class="post-content">
+    <p>
+      <a href="/shenzhen/">Shenzhen</a> ·
+      <a href="/teardown/">Teardown</a> ·
+      <a href="/search/?q=open%20hardware">Open Hardware</a> ·
+      <a href="/search/?q=robotics%20physical%20ai">Robotics / Physical AI</a> ·
+      <a href="/tags/monthly-report/">Monthly Reports</a> ·
+      <a href="/years/">Archive / Years</a> ·
+      <a href="/search/">Search</a>
+    </p>
+  </div>
+</section>

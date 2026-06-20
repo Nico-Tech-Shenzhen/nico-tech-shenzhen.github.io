@@ -1,6 +1,6 @@
 # External Activity Import Write
 
-Generated: `2026-06-20T08:22:00.492888+00:00`
+Generated: `2026-06-20T08:35:46.106524+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
@@ -78,9 +78,9 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "note",
-    "source_icon": "https://assets.st-note.com/poc-image/manual/production/favicon.ico"
+    "source_icon": "https://note.com/favicon.ico"
   },
   {
     "id": "medium:66e7ed494295",
@@ -97,7 +97,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -116,7 +116,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -135,7 +135,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Podcast",
     "source_icon": "https://open.spotify.com/favicon.ico"
   },
@@ -154,7 +154,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes JP",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -173,9 +173,9 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "note",
-    "source_icon": "https://assets.st-note.com/poc-image/manual/production/favicon.ico"
+    "source_icon": "https://note.com/favicon.ico"
   },
   {
     "id": "medium:8c3d093fdd7f",
@@ -192,7 +192,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -211,9 +211,9 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "note",
-    "source_icon": "https://assets.st-note.com/poc-image/manual/production/favicon.ico"
+    "source_icon": "https://note.com/favicon.ico"
   },
   {
     "id": "medium:32ab9a149fbf",
@@ -230,7 +230,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "32ab9a149fbf",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -249,7 +249,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "iB4cfdz80yM",
-    "imported_at": "2026-06-20T08:21:53.645942+00:00",
+    "imported_at": "2026-06-20T08:35:42.556394+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN",
     "source_icon": "https://www.youtube.com/favicon.ico"
   }

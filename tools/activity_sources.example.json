@@ -61,7 +61,7 @@
 "source_platform": "note",
 "activity_type": "external",
 "language": "ja",
-"source_icon": "https://assets.st-note.com/poc-image/manual/production/favicon.ico",
+"source_icon": "https://note.com/favicon.ico",
 "feed_url": "https://note.com/takasu/rss",
 "site_url": "https://note.com/takasu",
 "enabled": true

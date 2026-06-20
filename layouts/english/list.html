@@ -13,19 +13,28 @@
 {{- end -}}
 {{- $externalItems = sort $externalItems "date" "desc" -}}
 {{- $englishItems := where $externalItems "language" "en" -}}
+{{- $englishArticles := where $englishItems "source_platform" "in" (slice "medium" "note" "jst_spc" "dglab") -}}
+{{- $englishVideos := where $englishItems "activity_type" "video" -}}
 
+<h2>Latest English Articles</h2>
 <div class="post-content">
-  {{ .Content }}
-</div>
-
-<h2>Latest English Activity</h2>
-<div class="post-content">
-  {{- if $englishItems }}
+  {{- if $englishArticles }}
   <ul>
-    {{- range first 10 $englishItems }}{{- partial "activity_compact_item.html" . }}{{- end }}
+    {{- range first 10 $englishArticles }}{{- partial "activity_compact_item.html" . }}{{- end }}
   </ul>
   {{- else }}
-  <p>No English activity found yet. <a href="/updates/">View Updates</a>.</p>
+  <p>No English article activity found yet.</p>
+  {{- end }}
+</div>
+
+<h2>Latest English Videos</h2>
+<div class="post-content">
+  {{- if $englishVideos }}
+  <ul>
+    {{- range first 10 $englishVideos }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>No English video activity found yet.</p>
   {{- end }}
 </div>
 
@@ -34,7 +43,8 @@
   <p>
     <a href="https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU">English YouTube playlist</a> ·
     <a href="https://medium.com/shenzhen-high-tour-by-makers">Medium articles</a> ·
-    <a href="https://gumroad.com/l/jeiskh">Exploring Shenzhen 2026</a>
+    <a href="https://gumroad.com/l/jeiskh">Exploring Shenzhen 2026</a> ·
+    <a href="/updates/">All Updates</a>
   </p>
 </div>
 {{- end -}}

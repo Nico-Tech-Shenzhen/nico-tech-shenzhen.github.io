@@ -19,7 +19,7 @@
     </h3>
     <p style="margin:.2rem 0; font-size:.85rem; opacity:.78;">
       {{- with $date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-      {{- with $source }}{{ if $date }} · {{ end }}{{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $source }}" loading="lazy" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
+      {{- with $source }}{{ if $date }} · {{ end }}{{ with $sourceIcon }}<img src="{{ . }}" alt="{{ $source }}" loading="lazy" onerror="this.style.display='none';" style="width:16px; height:16px; vertical-align:-3px; margin-right:4px;">{{ end }}{{ . }}{{ end -}}
       {{- with $language }} · {{ . }}{{ end -}}
     </p>
     {{- with $summary }}
