@@ -6,6 +6,7 @@
 "source_platform": "youtube",
 "activity_type": "video",
 "language": "ja",
+"source_icon": "https://www.youtube.com/favicon.ico",
 "feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
 "site_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
 "enabled": true
@@ -16,6 +17,7 @@
 "source_platform": "youtube",
 "activity_type": "video",
 "language": "en",
+"source_icon": "https://www.youtube.com/favicon.ico",
 "feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
 "site_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
 "enabled": true
@@ -26,6 +28,7 @@
 "source_platform": "youtube",
 "activity_type": "talk",
 "language": "mixed",
+"source_icon": "https://www.youtube.com/favicon.ico",
 "feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu",
 "site_url": "https://www.youtube.com/watch?v=Wpm6Z5G3lnY&list=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu",
 "enabled": true
@@ -36,6 +39,7 @@
 "source_platform": "podcast",
 "activity_type": "podcast",
 "language": "ja",
+"source_icon": "https://open.spotify.com/favicon.ico",
 "feed_url": "https://anchor.fm/s/10fd96ec0/podcast/rss",
 "site_url": "https://open.spotify.com/show/2c7sclWEHDJBDqPwewLwHr",
 "enabled": true
@@ -46,6 +50,7 @@
 "source_platform": "medium",
 "activity_type": "external",
 "language": "ja",
+"source_icon": "https://medium.com/favicon.ico",
 "feed_url": "https://medium.com/feed/shenzhen-high-tour-by-makers",
 "site_url": "https://medium.com/shenzhen-high-tour-by-makers",
 "enabled": true
@@ -56,6 +61,7 @@
 "source_platform": "note",
 "activity_type": "external",
 "language": "ja",
+"source_icon": "https://assets.st-note.com/poc-image/manual/production/favicon.ico",
 "feed_url": "https://note.com/takasu/rss",
 "site_url": "https://note.com/takasu",
 "enabled": true
@@ -66,6 +72,7 @@
 "source_platform": "dglab",
 "activity_type": "external",
 "language": "ja",
+"source_icon": "https://media.dglab.com/favicon.ico",
 "feed_url": "https://media.dglab.com/author/masakazu-takasu/feed/",
 "site_url": "https://media.dglab.com/author/masakazu-takasu/",
 "enabled": true
@@ -76,6 +83,7 @@
 "source_platform": "jst_spc",
 "activity_type": "external",
 "language": "ja",
+"source_icon": "https://spap.jst.go.jp/favicon.ico",
 "feed_url": "",
 "site_url": "https://spap.jst.go.jp/china/experiences/writers/takasu_06.html",
 "source_type": "html_list",
@@ -87,6 +95,7 @@
 "source_platform": "researchmap",
 "activity_type": "research",
 "language": "mixed",
+"source_icon": "https://researchmap.jp/favicon.ico",
 "feed_url": "",
 "site_url": "https://researchmap.jp/takasumasakazu",
 "source_type": "researchmap_profile",

@@ -82,6 +82,7 @@ def detect_language(text: str, fallback: str) -> str:
 def enrich_item(item: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
     enriched = dict(item)
     enriched["source_label"] = source_label(source)
+    enriched["source_icon"] = str(source.get("source_icon", "") or "")
     if enriched.get("source_platform") in {"medium", "note", "researchmap"} or enriched.get("source_id") == "youtube_talks":
         text = f"{enriched.get('title', '')} {enriched.get('summary', '')}"
         enriched["language"] = detect_language(text, str(source.get("language", enriched.get("language", "ja"))))
