@@ -1,54 +1,54 @@
 {
-  "sources": [
-    {
-      "id": "youtube_ja",
-      "label": "Japanese YouTube channel",
-      "source_platform": "youtube",
-      "activity_type": "video",
-      "language": "ja",
-      "feed_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
-      "site_url": "",
-      "enabled": true
-    },
-    {
-      "id": "youtube_en",
-      "label": "English YouTube channel",
-      "source_platform": "youtube",
-      "activity_type": "video",
-      "language": "en",
-      "feed_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
-      "site_url": "",
-      "enabled": true
-    },
-    {
-      "id": "podcast_main",
-      "label": "Podcast RSS",
-      "source_platform": "podcast",
-      "activity_type": "podcast",
-      "language": "ja",
-      "feed_url": "https://open.spotify.com/show/2c7sclWEHDJBDqPwewLwHr?si=nbURLC5pQ0uAch6jXqnlAw",
-      "site_url": "",
-      "enabled": true
-    },
-    {
-      "id": "medium_main",
-      "label": "Medium RSS",
-      "source_platform": "medium",
-      "activity_type": "external",
-      "language": "ja",
-      "feed_url": "",
-      "site_url": "https://medium.com/shenzhen-high-tour-by-makers",
-      "enabled": true
-    },
-    {
-      "id": "note_main",
-      "label": "note RSS",
-      "source_platform": "note",
-      "activity_type": "external",
-      "language": "ja",
-      "feed_url": "",
-      "site_url": "https://note.com/takasu",
-      "enabled": true
-    }
-  ]
+"sources": [
+{
+"id": "youtube_ja",
+"label": "日本語: Nico-Tech Shenzhen フィールドノート",
+"source_platform": "youtube",
+"activity_type": "video",
+"language": "ja",
+"feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
+"site_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo",
+"enabled": true
+},
+{
+"id": "youtube_en",
+"label": "English: Nico-Tech Shenzhen Field Notes",
+"source_platform": "youtube",
+"activity_type": "video",
+"language": "en",
+"feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
+"site_url": "https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU",
+"enabled": true
+},
+{
+"id": "podcast_main",
+"label": "Podcast: Nico-Tech Shenzhen フィールドノート",
+"source_platform": "podcast",
+"activity_type": "podcast",
+"language": "ja",
+"feed_url": "https://anchor.fm/s/10fd96ec0/podcast/rss",
+"site_url": "https://open.spotify.com/show/2c7sclWEHDJBDqPwewLwHr",
+"enabled": true
+},
+{
+"id": "medium_main",
+"label": "Nico-Tech Shenzhen on Medium",
+"source_platform": "medium",
+"activity_type": "external",
+"language": "ja",
+"feed_url": "https://medium.com/feed/shenzhen-high-tour-by-makers",
+"site_url": "https://medium.com/shenzhen-high-tour-by-makers",
+"enabled": true
+},
+{
+"id": "note_main",
+"label": "TAKASU Masakazu on note",
+"source_platform": "note",
+"activity_type": "external",
+"language": "ja",
+"feed_url": "https://note.com/takasu/rss",
+"site_url": "https://note.com/takasu",
+"enabled": true
+}
+]
 }
