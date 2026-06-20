@@ -13,24 +13,95 @@
 {{- $updates = $updates.ByDate.Reverse }}
 {{- $featuredMonthly := first 1 $updates }}
 {{- $recentMonthly := first 4 (after 1 $updates) }}
+{{- $externalItems := slice }}
+{{- with .Site.Data.activity.external_updates }}
+  {{- with .items }}
+    {{- $externalItems = . }}
+  {{- end }}
+{{- end }}
+{{- $externalItems = sort $externalItems "date" "desc" }}
+{{- $videosRaw := where $externalItems "activity_type" "video" }}
+{{- $videoByURL := dict }}
+{{- range $item := $videosRaw }}
+  {{- $urlKey := or $item.source_url $item.id }}
+  {{- $existing := index $videoByURL $urlKey }}
+  {{- if or (not $existing) (and (eq $item.source_id "youtube_ja") (ne $existing.source_id "youtube_ja")) }}
+    {{- $videoByURL = merge $videoByURL (dict $urlKey $item) }}
+  {{- end }}
+{{- end }}
+{{- $videos := slice }}
+{{- range $item := $videosRaw }}
+  {{- $urlKey := or $item.source_url $item.id }}
+  {{- $selected := index $videoByURL $urlKey }}
+  {{- if eq $selected.id $item.id }}
+    {{- $videos = $videos | append $item }}
+  {{- end }}
+{{- end }}
+{{- $podcasts := where $externalItems "activity_type" "podcast" }}
+{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note") }}
 
 <div class="post-content">
-  <p>Updates is a curated activity hub. For now it features the latest monthly report and points to the monthly archive; future phases will connect YouTube, Podcast, Note, Medium, talks, books, and research updates here.</p>
+  <p>Updates is a curated activity hub. It now collects the latest monthly report plus recent YouTube, Podcast, Note, and Medium activity; talks, books, and research updates will be connected later.</p>
 </div>
 
 <h2>Videos</h2>
 <div class="post-content">
-  <p>YouTube updates will be connected here in a future phase.</p>
+  {{- if $videos }}
+  <ul>
+    {{- range first 3 $videos }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with .source_platform }} · {{ . }}{{ end -}}
+        {{- with .language }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No video updates found yet.</p>
+  {{- end }}
 </div>
 
 <h2>Podcasts</h2>
 <div class="post-content">
-  <p>Podcast episodes and related audio updates will be connected here in a future phase.</p>
+  {{- if $podcasts }}
+  <ul>
+    {{- range first 3 $podcasts }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with .source_platform }} · {{ . }}{{ end -}}
+        {{- with .language }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No podcast updates found yet.</p>
+  {{- end }}
 </div>
 
 <h2>Articles</h2>
 <div class="post-content">
-  <p>Note, Medium, and other article updates will be connected here in a future phase.</p>
+  {{- if $articles }}
+  <ul>
+    {{- range first 5 $articles }}
+    <li>
+      <a href="{{ .source_url }}">{{ .title }}</a>
+      <small>
+        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with .source_platform }} · {{ . }}{{ end -}}
+        {{- with .language }} · {{ . }}{{ end -}}
+      </small>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No article updates found yet.</p>
+  {{- end }}
 </div>
 
 <h2>Talks / Publications</h2>
