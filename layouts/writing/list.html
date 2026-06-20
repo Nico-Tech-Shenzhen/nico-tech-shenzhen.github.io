@@ -1,0 +1,43 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items }}{{- $externalItems = . -}}{{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
+{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "jst_spc" "dglab") -}}
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+<h2>Latest Articles</h2>
+<div class="post-content">
+  {{- if $articles }}
+  <ul>
+    {{- range first 10 $articles }}
+      {{- partial "activity_compact_item.html" . }}
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>No article activity found yet. <a href="/updates/">View Updates</a>.</p>
+  {{- end }}
+</div>
+
+<h2>Archives</h2>
+<div class="post-content">
+  <p>
+    <a href="/shenzhen/">Shenzhen archive</a> ·
+    <a href="/teardown/">Teardown archive</a> ·
+    <a href="/fabcross/">Fabcross archive</a> ·
+    <a href="/search/">Search all posts</a>
+  </p>
+</div>
+{{- end -}}

@@ -1,0 +1,37 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $outputs := slice -}}
+{{- with .Site.Data.activity.curated_outputs -}}
+  {{- with .items }}{{- $outputs = . -}}{{- end -}}
+{{- end -}}
+{{- $books := slice -}}
+{{- range $item := $outputs -}}
+  {{- $title := lower (printf "%s" $item.title) -}}
+  {{- $label := lower (printf "%s" $item.source_label) -}}
+  {{- if or (eq $item.activity_type "book") (in $label "book") (in $label "publication") (in $title "book") -}}
+    {{- $books = $books | append $item -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+<h2>Books and Publications</h2>
+<div class="post-content">
+  {{- if $books }}
+  <ul>
+    {{- range $books }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>No curated book items found yet. <a href="/updates/">View Updates</a>.</p>
+  {{- end }}
+</div>
+{{- end -}}

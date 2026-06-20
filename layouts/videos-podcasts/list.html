@@ -1,0 +1,57 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items }}{{- $externalItems = . -}}{{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
+{{- $videosRaw := where $externalItems "activity_type" "video" -}}
+{{- $videoByURL := dict -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $existing := index $videoByURL $urlKey -}}
+  {{- if or (not $existing) (and (eq $item.source_id "youtube_ja") (ne $existing.source_id "youtube_ja")) -}}
+    {{- $videoByURL = merge $videoByURL (dict $urlKey $item) -}}
+  {{- end -}}
+{{- end -}}
+{{- $videos := slice -}}
+{{- range $item := $videosRaw -}}
+  {{- $urlKey := or $item.source_url $item.id -}}
+  {{- $selected := index $videoByURL $urlKey -}}
+  {{- if eq $selected.id $item.id -}}{{- $videos = $videos | append $item -}}{{- end -}}
+{{- end -}}
+{{- $podcasts := where $externalItems "activity_type" "podcast" -}}
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+<h2>Latest Videos</h2>
+<div class="post-content">
+  {{- if $videos }}
+  <ul>
+    {{- range first 6 $videos }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>No video activity found yet.</p>
+  {{- end }}
+</div>
+
+<h2>Latest Podcasts</h2>
+<div class="post-content">
+  {{- if $podcasts }}
+  <ul>
+    {{- range first 6 $podcasts }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>No podcast activity found yet.</p>
+  {{- end }}
+</div>
+{{- end -}}

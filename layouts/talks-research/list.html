@@ -1,0 +1,40 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $outputs := slice -}}
+{{- with .Site.Data.activity.curated_outputs -}}
+  {{- with .items }}{{- $outputs = . -}}{{- end -}}
+{{- end -}}
+{{- $items := slice -}}
+{{- range $item := $outputs -}}
+  {{- $title := lower (printf "%s" $item.title) -}}
+  {{- $label := lower (printf "%s" $item.source_label) -}}
+  {{- if or (in (slice "talk" "paper" "research" "publication") $item.activity_type) (in $label "talk") (in $label "research") (in $label "publication") (in $title "talk") (in $title "research") -}}
+    {{- $items = $items | append $item -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+<h2>Talks / Research Outputs</h2>
+<div class="post-content">
+  {{- if $items }}
+  <ul>
+    {{- range $items }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>Talks and research outputs are still being curated. <a href="/updates/">View Updates</a> for current activity.</p>
+  {{- end }}
+  {{- if lt (len $items) 3 }}
+  <p>More talks and research records will be added as reliable metadata is confirmed.</p>
+  {{- end }}
+</div>
+{{- end -}}

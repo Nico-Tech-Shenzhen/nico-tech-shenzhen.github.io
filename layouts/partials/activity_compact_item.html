@@ -1,0 +1,14 @@
+{{- $item := . -}}
+<li>
+  {{- if $item.source_url -}}
+  <a href="{{ $item.source_url }}">{{ $item.title }}</a>
+  {{- else -}}
+  {{ $item.title }}
+  {{- end -}}
+  <small>
+    {{- with $item.date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+    {{- with (or $item.source_label $item.source_platform) }} · {{ . }}{{ end -}}
+    {{- with $item.activity_type }} · {{ . }}{{ end -}}
+    {{- with $item.language }} · {{ . }}{{ end -}}
+  </small>
+</li>

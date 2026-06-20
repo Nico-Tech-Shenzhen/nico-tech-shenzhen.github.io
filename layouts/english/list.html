@@ -1,0 +1,40 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items }}{{- $externalItems = . -}}{{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
+{{- $englishItems := where $externalItems "language" "en" -}}
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+<h2>Latest English Activity</h2>
+<div class="post-content">
+  {{- if $englishItems }}
+  <ul>
+    {{- range first 10 $englishItems }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>No English activity found yet. <a href="/updates/">View Updates</a>.</p>
+  {{- end }}
+</div>
+
+<h2>English Sources</h2>
+<div class="post-content">
+  <p>
+    <a href="https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU">English YouTube playlist</a> ·
+    <a href="https://medium.com/shenzhen-high-tour-by-makers">Medium articles</a> ·
+    <a href="https://gumroad.com/l/jeiskh">Exploring Shenzhen 2026</a>
+  </p>
+</div>
+{{- end -}}
