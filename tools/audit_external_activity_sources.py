@@ -23,6 +23,8 @@ DEFAULT_REPORT = ROOT / "reports" / "external-activity-audit.md"
 
 SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note", "dglab", "jst_spc", "researchmap"}
 PLACEHOLDER_VALUES = {"", "todo", "tbd", "placeholder", "example"}
+MEDIA_NS = "http://search.yahoo.com/mrss/"
+SUMMARY_LIMIT = 420
 
 
 @dataclass
@@ -117,6 +119,35 @@ def first_child(element: ET.Element, names: tuple[str, ...]) -> ET.Element | Non
     return None
 
 
+def namespace_of(element: ET.Element) -> str:
+    if element.tag.startswith("{") and "}" in element.tag:
+        return element.tag[1:].split("}", 1)[0]
+    return ""
+
+
+def first_media_description(element: ET.Element) -> ET.Element | None:
+    for child in element.iter():
+        local = child.tag.rsplit("}", 1)[-1].lower()
+        if local == "description" and namespace_of(child) == MEDIA_NS:
+            return child
+    return None
+
+
+def feed_summary(element: ET.Element) -> str:
+    candidates = (
+        first_media_description(element),
+        first_child(element, ("summary",)),
+        first_child(element, ("description",)),
+        first_child(element, ("content",)),
+        first_child(element, ("encoded",)),
+    )
+    for candidate in candidates:
+        normalized = strip_html(text_of(candidate), limit=SUMMARY_LIMIT)
+        if normalized:
+            return normalized
+    return ""
+
+
 def all_children(element: ET.Element, name: str) -> list[ET.Element]:
     return [child for child in list(element) if child.tag.rsplit("}", 1)[-1].lower() == name]
 
@@ -149,15 +180,13 @@ def parse_feed(xml_text: str) -> tuple[list[dict[str, str]], list[str]]:
             issues.append("RSS channel element not found.")
             return entries, issues
         for item in channel.findall("item"):
-            content = first_child(item, ("encoded",))
-            description = first_child(item, ("description", "summary"))
             entries.append(
                 {
                     "title": text_of(first_child(item, ("title",))),
                     "link": text_of(first_child(item, ("link",))),
                     "guid": text_of(first_child(item, ("guid",))),
                     "date": parse_date(text_of(first_child(item, ("pubdate", "published", "updated")))),
-                    "summary": strip_html(text_of(content) or text_of(description)),
+                    "summary": feed_summary(item),
                     "image": image_from_rss_item(item),
                 }
             )
@@ -165,14 +194,13 @@ def parse_feed(xml_text: str) -> tuple[list[dict[str, str]], list[str]]:
 
     if root_name == "feed":
         for entry in all_children(root, "entry"):
-            summary = first_child(entry, ("summary", "content"))
             entries.append(
                 {
                     "title": text_of(first_child(entry, ("title",))),
                     "link": atom_link(entry),
                     "guid": text_of(first_child(entry, ("id",))),
                     "date": parse_date(text_of(first_child(entry, ("published", "updated")))),
-                    "summary": strip_html(text_of(summary)),
+                    "summary": feed_summary(entry),
                     "image": image_from_atom_entry(entry),
                 }
             )
