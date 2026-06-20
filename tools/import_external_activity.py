@@ -59,6 +59,8 @@ def source_label(source: dict[str, Any]) -> str:
         "note_main": "note",
         "dglab_main": "DG Lab Haus",
         "jst_spc_takasu": "JST Science Portal China",
+        "youtube_talks": "Talks on YouTube",
+        "researchmap_takasu": "researchmap",
     }
     if source_id in labels:
         return labels[source_id]
@@ -80,7 +82,7 @@ def detect_language(text: str, fallback: str) -> str:
 def enrich_item(item: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
     enriched = dict(item)
     enriched["source_label"] = source_label(source)
-    if enriched.get("source_platform") in {"medium", "note"}:
+    if enriched.get("source_platform") in {"medium", "note", "researchmap"} or enriched.get("source_id") == "youtube_talks":
         text = f"{enriched.get('title', '')} {enriched.get('summary', '')}"
         enriched["language"] = detect_language(text, str(source.get("language", enriched.get("language", "ja"))))
     return enriched

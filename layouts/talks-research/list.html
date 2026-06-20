@@ -7,16 +7,24 @@
   {{- end }}
 </header>
 
+{{- $externalItems := slice -}}
+{{- with .Site.Data.activity.external_updates -}}
+  {{- with .items }}{{- $externalItems = . -}}{{- end -}}
+{{- end -}}
+{{- $externalItems = sort $externalItems "date" "desc" -}}
+{{- $talks := where $externalItems "source_id" "youtube_talks" -}}
+{{- $research := where $externalItems "source_id" "researchmap_takasu" -}}
+
 {{- $outputs := slice -}}
 {{- with .Site.Data.activity.curated_outputs -}}
   {{- with .items }}{{- $outputs = . -}}{{- end -}}
 {{- end -}}
-{{- $items := slice -}}
+{{- $curated := slice -}}
 {{- range $item := $outputs -}}
   {{- $title := lower (printf "%s" $item.title) -}}
   {{- $label := lower (printf "%s" $item.source_label) -}}
-  {{- if or (in (slice "talk" "paper" "research" "publication") $item.activity_type) (in $label "talk") (in $label "research") (in $label "publication") (in $title "talk") (in $title "research") -}}
-    {{- $items = $items | append $item -}}
+  {{- if or (in (slice "talk" "paper" "research" "publication") $item.activity_type) (in $label "talk") (in $label "research") (in $label "paper") (in $label "publication") (in $title "talk") (in $title "research") (in $title "paper") (in $title "publication") -}}
+    {{- $curated = $curated | append $item -}}
   {{- end -}}
 {{- end -}}
 
@@ -24,17 +32,34 @@
   {{ .Content }}
 </div>
 
-<h2>Talks / Research Outputs</h2>
+<h2>Latest Talks</h2>
 <div class="post-content">
-  {{- if $items }}
+  {{- if $talks }}
   <ul>
-    {{- range $items }}{{- partial "activity_compact_item.html" . }}{{- end }}
+    {{- range first 8 $talks }}{{- partial "activity_compact_item.html" . }}{{- end }}
   </ul>
   {{- else }}
-  <p>Talks and research outputs are still being curated. <a href="/updates/">View Updates</a> for current activity.</p>
-  {{- end }}
-  {{- if lt (len $items) 3 }}
-  <p>More talks and research records will be added as reliable metadata is confirmed.</p>
+  <p>No YouTube talk items found yet. <a href="/updates/">View Updates</a>.</p>
   {{- end }}
 </div>
+
+<h2>Research / Publications</h2>
+<div class="post-content">
+  {{- if $research }}
+  <ul>
+    {{- range first 12 $research }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p>Detailed researchmap records are not available yet. <a href="https://researchmap.jp/takasumasakazu">View the researchmap profile</a>.</p>
+  {{- end }}
+</div>
+
+{{- if $curated }}
+<h2>Curated Outputs</h2>
+<div class="post-content">
+  <ul>
+    {{- range first 6 $curated }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+</div>
+{{- end }}
 {{- end -}}

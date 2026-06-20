@@ -45,6 +45,14 @@
 {{- end }}
 {{- $podcasts := where $externalItems "activity_type" "podcast" }}
 {{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") }}
+{{- $talkPublicationsRaw := where $externalItems "activity_type" "in" (slice "talk" "paper" "research" "publication" "book") }}
+{{- $talkPublications := slice }}
+{{- range $item := $talkPublicationsRaw }}
+  {{- $urlKey := or $item.source_url $item.id }}
+  {{- if not (index $videoByURL $urlKey) }}
+    {{- $talkPublications = $talkPublications | append $item }}
+  {{- end }}
+{{- end }}
 
 <h2>Videos</h2>
 <div class="post-content">
@@ -106,23 +114,17 @@
   {{- end }}
 </div>
 
-{{- if $curatedOutputs }}
+{{- if or $talkPublications $curatedOutputs }}
 <h2>Talks / Publications</h2>
 <div class="post-content">
   <ul>
-    {{- range first 6 $curatedOutputs }}
-    <li>
-      {{- if .source_url }}
-      <a href="{{ .source_url }}">{{ .title }}</a>
-      {{- else }}
-      {{ .title }}
+    {{- range first 3 $talkPublications }}
+      {{- partial "activity_compact_item.html" . }}
+    {{- end }}
+    {{- if not $talkPublications }}
+      {{- range first 3 $curatedOutputs }}
+        {{- partial "activity_compact_item.html" . }}
       {{- end }}
-      <small>
-        {{- with .date }} — <time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-        {{- with (or .source_label .source_platform) }} · {{ . }}{{ end -}}
-        {{- with .language }} · {{ . }}{{ end -}}
-      </small>
-    </li>
     {{- end }}
   </ul>
 </div>

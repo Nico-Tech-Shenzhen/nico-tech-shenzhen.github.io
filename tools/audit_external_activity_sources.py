@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "tools" / "activity_sources.example.json"
 DEFAULT_REPORT = ROOT / "reports" / "external-activity-audit.md"
 
-SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note", "dglab", "jst_spc"}
+SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note", "dglab", "jst_spc", "researchmap"}
 PLACEHOLDER_VALUES = {"", "todo", "tbd", "placeholder", "example"}
 
 
@@ -224,6 +224,73 @@ def parse_jst_spc_author_html(html_text: str, base_url: str) -> tuple[list[dict[
     return entries, issues
 
 
+def parse_researchmap_profile_html(html_text: str, base_url: str) -> tuple[list[dict[str, str]], list[str]]:
+    section_types = {
+        "published_papers": "paper",
+        "misc": "research",
+        "books_etc": "book",
+        "presentations": "talk",
+    }
+    entries: list[dict[str, str]] = []
+    issues: list[str] = []
+
+    for section_id, activity_type in section_types.items():
+        section_match = re.search(
+            rf'id="{re.escape(section_id)}".*?(?=<div class="panel panel-default">|\Z)',
+            html_text,
+            flags=re.I | re.S,
+        )
+        if not section_match:
+            issues.append(f"researchmap section `{section_id}` was not found.")
+            continue
+
+        section_html = section_match.group(0)
+        for item_match in re.finditer(r'<li\b[^>]*class="[^"]*\blist-group-item\b[^"]*"[^>]*>(.*?)</li>', section_html, flags=re.I | re.S):
+            item_html = item_match.group(1)
+            title_match = re.search(
+                r'<a\s+href="([^"]+)"\s+class="rm-cv-list-title"[^>]*>(.*?)</a>',
+                item_html,
+                flags=re.I | re.S,
+            )
+            if not title_match:
+                continue
+            href, raw_title = title_match.groups()
+            title = strip_html(raw_title, limit=500)
+            link = urljoin(base_url, html.unescape(href.strip()))
+            detail = strip_html(re.sub(r'<a\b.*?</a>', " ", item_html, flags=re.I | re.S), limit=300)
+            entries.append(
+                {
+                    "title": title,
+                    "link": link,
+                    "guid": link,
+                    "date": parse_researchmap_date(detail),
+                    "summary": detail,
+                    "image": "",
+                    "activity_type": activity_type,
+                }
+            )
+
+    if not entries:
+        issues.append("No researchmap profile items matched the expected list markup.")
+    return entries, issues
+
+
+def parse_researchmap_date(value: str) -> str:
+    value = value or ""
+    match = re.search(r"(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日", value)
+    if match:
+        year, month, day = (int(part) for part in match.groups())
+        return f"{year:04d}-{month:02d}-{day:02d}"
+    match = re.search(r"(\d{4})年\s*(\d{1,2})月", value)
+    if match:
+        year, month = (int(part) for part in match.groups())
+        return f"{year:04d}-{month:02d}-01"
+    match = re.search(r"\b(20\d{2}|19\d{2})\b", value)
+    if match:
+        return f"{int(match.group(1)):04d}-01-01"
+    return ""
+
+
 def image_from_rss_item(item: ET.Element) -> str:
     for child in list(item):
         local = child.tag.rsplit("}", 1)[-1].lower()
@@ -280,6 +347,11 @@ def external_id_for(source: dict[str, Any], entry: dict[str, str]) -> str:
         jst_id = url_path_id(link or guid)
         if jst_id:
             return jst_id
+
+    if platform == "researchmap":
+        researchmap_id = url_path_id(link or guid)
+        if researchmap_id:
+            return researchmap_id
 
     if guid:
         return guid
@@ -345,7 +417,7 @@ def normalize_entry(source: dict[str, Any], entry: dict[str, str], imported_at: 
     external_id = external_id_for(source, entry)
     return {
         "id": normalized_id_for(source, external_id),
-        "activity_type": source.get("activity_type", "external"),
+        "activity_type": entry.get("activity_type") or source.get("activity_type", "external"),
         "source_platform": source.get("source_platform", ""),
         "title": entry.get("title", ""),
         "date": entry.get("date", ""),
@@ -375,7 +447,7 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
     if platform not in SUPPORTED_PLATFORMS:
         return SourceResult(source, "skipped", issues=[f"Unsupported platform: {platform}"])
 
-    if source_type == "html_list" or platform == "jst_spc":
+    if source_type in {"html_list", "researchmap_profile"} or platform in {"jst_spc", "researchmap"}:
         if is_placeholder_url(site_url):
             return SourceResult(source, "skipped", issues=["No real site_url configured yet."])
         try:
@@ -387,6 +459,11 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
         except Exception as exc:
             return SourceResult(source, "failed", issues=[f"Fetch error for {source_id}: {exc}"])
 
+        if platform == "researchmap":
+            parsed_items, parse_issues = parse_researchmap_profile_html(html_text, site_url)
+            issues.extend(parse_issues)
+            normalized = [normalize_entry(source, item, imported_at) for item in parsed_items]
+            return SourceResult(source, "tested", normalized, issues)
         if platform != "jst_spc":
             return SourceResult(source, "skipped", issues=[f"Unsupported HTML list platform: {platform}"])
         parsed_items, parse_issues = parse_jst_spc_author_html(html_text, site_url)
@@ -456,8 +533,8 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
     lines.append("")
     lines.append("- `id`: stable source ID, for example `youtube_ja` or `youtube_en`")
     lines.append("- `label`: human-readable source name")
-    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, `note`, `dglab`, or `jst_spc`")
-    lines.append("- `activity_type`: `video`, `podcast`, or `external`")
+    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, `note`, `dglab`, `jst_spc`, or `researchmap`")
+    lines.append("- `activity_type`: `video`, `podcast`, `talk`, `paper`, `book`, `research`, or `external`")
     lines.append("- `language`: default language for items from this source")
     lines.append("- `feed_url`: RSS/Atom feed URL")
     lines.append("- `site_url`: public profile/channel URL")

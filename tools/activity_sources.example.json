@@ -21,6 +21,16 @@
 "enabled": true
 },
 {
+"id": "youtube_talks",
+"label": "Talks on YouTube",
+"source_platform": "youtube",
+"activity_type": "talk",
+"language": "mixed",
+"feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu",
+"site_url": "https://www.youtube.com/watch?v=Wpm6Z5G3lnY&list=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu",
+"enabled": true
+},
+{
 "id": "podcast_main",
 "label": "Podcast: Nico-Tech Shenzhen フィールドノート",
 "source_platform": "podcast",
@@ -69,6 +79,17 @@
 "feed_url": "",
 "site_url": "https://spap.jst.go.jp/china/experiences/writers/takasu_06.html",
 "source_type": "html_list",
+"enabled": true
+},
+{
+"id": "researchmap_takasu",
+"label": "researchmap",
+"source_platform": "researchmap",
+"activity_type": "research",
+"language": "mixed",
+"feed_url": "",
+"site_url": "https://researchmap.jp/takasumasakazu",
+"source_type": "researchmap_profile",
 "enabled": true
 }
 ]
