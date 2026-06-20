@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T04:09:57.085719+00:00",
+  "generated_at": "2026-06-20T04:24:26.999725+00:00",
   "items": [
     {
       "id": "note:n1b8935b01237",
@@ -16,7 +16,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1b8935b01237",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -34,7 +34,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "66e7ed494295",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -52,7 +52,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "xAotcCqOcug",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
@@ -70,7 +70,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -88,7 +88,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "UVJQNMm7wJk",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -106,7 +106,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd01852684b73",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -124,7 +124,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "8c3d093fdd7f",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -142,7 +142,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n29dfc14da1fd",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -160,7 +160,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "32ab9a149fbf",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -178,7 +178,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "iB4cfdz80yM",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
@@ -196,7 +196,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "bd870c5e-e782-4a64-80a9-5a9a75522be2",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -214,8 +214,26 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2ZxE0nYgXe8",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_26047",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "フィジカルAIを実機でどう評価するか DEXMALのRoboChallengeが目指すもの",
+      "date": "2026-06-03T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_26047.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_26047",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
     },
     {
       "id": "medium:5f79ce45df89",
@@ -232,7 +250,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "5f79ce45df89",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -250,7 +268,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n8981a16df9c9",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -268,7 +286,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "0ea2164dab8d",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -286,7 +304,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "910416a2-3ef7-4e50-a49f-89233f6d572a",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -304,7 +322,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -322,7 +340,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
@@ -340,7 +358,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "hMKFGIl6o6o",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -358,7 +376,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1ef2117406a0",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -376,7 +394,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "e00820057cc3",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -394,7 +412,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -412,7 +430,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN"
     },
     {
@@ -430,7 +448,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "3767f9ca-0889-4425-8cc3-9779fdfcb2eb",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -448,8 +466,44 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "3EJHIP4YP94",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
+    },
+    {
+      "id": "dglab:2026-05-18-robot-half-marathon-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "「見られる力」も重要　中国ロボットハーフマラソン大会は大規模な社会実験",
+      "date": "2026-05-18T01:08:04+00:00",
+      "source_url": "https://media.dglab.com/2026/05/18-robot-half-marathon-01",
+      "canonical_url": "",
+      "summary": "2026年4月19日、北京経済技術開発区（Beijing E-Town 略称：北京亦庄」）において「2026北京亦庄ハーフマラソンおよび人型ロボットハーフマラソン」が開催された。コースは科創十七街を起点とし、南海子公園... The post 「見られる力」も重要 中国ロボットハーフマラソン大会は大規模な社会実験 first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2026-05-18-robot-half-marathon-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_26040",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "北京ロボットハーフマラソン 現場で見た技術開発の意義",
+      "date": "2026-05-18T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_26040.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_26040",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
     },
     {
       "id": "note:n79d857be5fcf",
@@ -466,7 +520,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n79d857be5fcf",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -484,8 +538,26 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n353378bc8df2",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_26032",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "「米国からの制裁が中国AIの隆盛につながる」──香港上場のAxera Technology",
+      "date": "2026-04-16T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_26032.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_26032",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
     },
     {
       "id": "note:n30e0987489de",
@@ -502,7 +574,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n30e0987489de",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -520,7 +592,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "neab691ad19b4",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -538,7 +610,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "2d58b0c4-e32d-40f6-ac24-89e3c6eea89b",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -556,7 +628,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "JziGukdskEw",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -574,7 +646,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n7faabdc0651c",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -592,7 +664,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "63fab589-5844-4ab6-b951-e4fd378e6c18",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -610,7 +682,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2fNYqw8S2XE",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -628,7 +700,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd5d3c710e513",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -646,7 +718,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "521ed1ce6fc1",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -664,7 +736,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "6a1804f3-7966-4330-90cc-a95e72f9a038",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -682,7 +754,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "8ns686EsWYQ",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -700,7 +772,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n5f93f22f8fa8",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -718,7 +790,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "4716e40986bf",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -736,7 +808,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "8c82dd8b-e8ae-4047-97a3-b9a76eda2e72",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -754,7 +826,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jZdneot7yhs",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -772,7 +844,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nce9261fc844a",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -790,7 +862,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "18abc240eccf",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -808,7 +880,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "96ae6fc0-2ebe-4411-99dc-8f8caf079352",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Podcast"
     },
     {
@@ -826,7 +898,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "OfBVEJAlKJQ",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
     },
     {
@@ -844,7 +916,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1c9af2e5af22",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -862,7 +934,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "6c25e09985ec",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Medium"
     },
     {
@@ -880,7 +952,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n12c50868489f",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -898,7 +970,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n2219d2ce888c",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -916,7 +988,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n33bca64c9995",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -934,7 +1006,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n64afb458f583",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -952,7 +1024,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n66c2fb2dff75",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -970,7 +1042,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n9dd52088306e",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -988,8 +1060,44 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "u-fWQ2WNavk",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_26014",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "クラウド企業ならではのPhysicalAI開発 Tencent AI Labが公開した「Tairos」",
+      "date": "2026-02-06T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_26014.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_26014",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "dglab:2026-01-15-ces2026-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "展示スタイルもいろいろ　ロボット企業の出展が目立ったCES2026でわかったこと",
+      "date": "2026-01-15T06:00:00+00:00",
+      "source_url": "https://media.dglab.com/2026/01/15-ces2026-01",
+      "canonical_url": "",
+      "summary": "筆者は2026年1月6日～9日、米国ラスベガスで開催されたCES2026を訪問した。AIやロボットへの注目はここ数年の傾向だが、特に今回は中国から多くのヒューマノイドロボットが出展されており、注目を集めていた。 会場... The post 展示スタイルもいろいろ ロボット企業の出展が目立ったCES2026でわかったこと first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2026-01-15-ces2026-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
     },
     {
       "id": "note:n5d2df93184b5",
@@ -1006,8 +1114,26 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n5d2df93184b5",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
+    },
+    {
+      "id": "dglab:2026-01-08-humanoid-robot2026-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "ヒューマノイドロボット2026年——AI駆動の現実　実用化への溝　そして今なすべきこと",
+      "date": "2026-01-08T01:08:21+00:00",
+      "source_url": "https://media.dglab.com/2026/01/08-humanoid-robot2026-01",
+      "canonical_url": "",
+      "summary": "“Well known, well misunderstand” 2025年、「ヒューマノイドロボット」という単語は、一気に広く知られる言葉となった。同時にそれは大きな誤解をともなった言葉でもある。派手な宣伝文句や短い動... The post ヒューマノイドロボット2026年——AI駆動の現実 実用化への溝 そして今なすべきこと first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2026-01-08-humanoid-robot2026-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
     },
     {
       "id": "note:n9270a5c6eeab",
@@ -1024,7 +1150,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n9270a5c6eeab",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -1042,7 +1168,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nca9e6b98eac9",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -1060,7 +1186,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1ee8fe5dac8f",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
     },
     {
@@ -1078,8 +1204,620 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n04763ebb2ce3",
-      "imported_at": "2026-06-20T04:09:55.000335+00:00",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
       "source_label": "note"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25111",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "エンボディドAIの開発を支える\"ロボット開発共通基盤\" D-Roboticsが示す方向性",
+      "date": "2025-12-04T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25111.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25111",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "dglab:2025-12-03-cephalon-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "目指すゴールは「生成AI技術の民主化」Cephalon COO ツイ・ジェーアン氏インタビュー",
+      "date": "2025-12-03T02:58:23+00:00",
+      "source_url": "https://media.dglab.com/2025/12/03-cephalon-01",
+      "canonical_url": "",
+      "summary": "生成AIモデルの高度化により、コンテンツ生成や推論処理のための計算要求は急激に増大している。NVIDIA GPU の価格は高騰し、クラウド利用料の負担も大きくのしかかる。AIの利用が進む一方で、その利活用にあたっての課... The post 目指すゴールは「生成AI技術の民主化」Cephalon COO ツイ・ジェーアン氏インタビュー first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2025-12-03-cephalon-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25097",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "科学技術教育・普及に力を入れる深圳 ZHA設計の巨大な科学館を開設",
+      "date": "2025-10-27T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25097.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25097",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "dglab:2025-10-20-humanoid-robot-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "中国ヒューマノイドロボットの現状——現場と投資の間で進む「多様な最適化」",
+      "date": "2025-10-20T02:30:43+00:00",
+      "source_url": "https://media.dglab.com/2025/10/20-humanoid-robot-01",
+      "canonical_url": "",
+      "summary": "2023年頃から、中国でヒューマノイドロボットへの資金投入と注目度が一気に上がった。 深センや北京の拠点を見て歩くと、EVやAI出身の起業家が次々とこの分野に参入している。そこに政策・投資・メディアの後押しが加わり、... The post 中国ヒューマノイドロボットの現状——現場と投資の間で進む「多様な最適化」 first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2025-10-20-humanoid-robot-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25075",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "北京で開かれた「世界ロボット運動会」体験記",
+      "date": "2025-08-26T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25075.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25075",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25071",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "ROBOMASTERのエコシステム 卒業生がスタートアップを立ち上げ、現役生が製品を活用",
+      "date": "2025-08-15T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25071.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25071",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "dglab:2025-07-29-yarbo-01",
+      "activity_type": "external",
+      "source_platform": "dglab",
+      "title": "雪の降らない深センから　全自動雪かきロボットで世界一のスタートアップが登場",
+      "date": "2025-07-29T00:52:36+00:00",
+      "source_url": "https://media.dglab.com/2025/07/29-yarbo-01",
+      "canonical_url": "",
+      "summary": "深センのロボット製造企業のYarboは、全自動の雪かき・草刈りロボットを開発している。同社の製品はすでに3万台以上の出荷実績がある。最初に北米アラスカでヒットし、その後カナダ、欧州と代理店網を広げてきた注目のスタートア... The post 雪の降らない深センから 全自動雪かきロボットで世界一のスタートアップが登場 first appeared on DG Lab Haus .",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "dglab_main",
+      "external_id": "2025-07-29-yarbo-01",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "DG Lab Haus"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25047",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "オープンソースは中国の大学でどう教えられているか？ 学生開発者急増の背景",
+      "date": "2025-06-04T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25047.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25047",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25039",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国オープンソース年度報告2024が発行 社会のオープンソース推進が明らかに",
+      "date": "2025-05-21T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25039.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25039",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25018",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "DeepSeekショックの真の意味、AIの「オープンor独占」を関係者が語る",
+      "date": "2025-02-25T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25018.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25018",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_25006",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国大陸で初のROSCon、上海で開催",
+      "date": "2025-01-15T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_25006.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_25006",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_24111",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "会員260万人以上、オープンソースのロボットOSによる開発を助けるコミュニティ",
+      "date": "2024-12-06T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_24111.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_24111",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_24108",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国のロボットコンテストから200以上のスタートアップが誕生",
+      "date": "2024-11-25T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_24108.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_24108",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2480",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国でオープンソースハードウェアに向けてのライセンス整備開始",
+      "date": "2024-08-26T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2480.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2480",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-education_human-eh_2414",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "産官学連携によるオープンソースコンテスト、中国で次々と開催 賞金10億円超も",
+      "date": "2024-08-02T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/education_human/eh_2414.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-education_human-eh_2414",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-economy-economy_2429",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "次の成長ステージに向けて、中国・南京でESG投資白書が発表",
+      "date": "2024-07-18T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/economy/economy_2429.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-economy-economy_2429",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2448",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "ハードウェアのGitHubを目指す、中国製造サービス大手の試み",
+      "date": "2024-06-03T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2448.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2448",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-law-law_2404",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "GPLv2ライセンスを自力で中国語訳した裁判官、盗用認めない判決下す",
+      "date": "2024-05-13T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/law/law_2404.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-law-law_2404",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-law-law_2403",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国で再びオープンソース・ライセンス訴訟。勝手な独占・商用化認めず、帰属は認める",
+      "date": "2024-03-21T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/law/law_2403.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-law-law_2403",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2409",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国でDevRelレポート公開 日本語への翻訳も",
+      "date": "2024-02-01T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2409.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2409",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2374",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "急速に進化するOpenAtom Foundation、中国のソフトウェア開発を主導",
+      "date": "2023-12-28T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2374.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2374",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2370",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "企業とコミュニティの距離は縮まるか？ 成都で中国オープンソース年次総会",
+      "date": "2023-12-06T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2370.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2370",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-law-law_2311",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "オープンソースでの成功を工業分野の国際標準づくりに生かす中国",
+      "date": "2023-11-02T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/law/law_2311.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-law-law_2311",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2352",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "投資の冷え込む中国、OSSの活用は大企業へ",
+      "date": "2023-09-26T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2352.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2352",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2343",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国政府、特許やデータセット公開に向けたオープン化ライセンスを整備",
+      "date": "2023-08-24T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2343.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2343",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-law-law_2306",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国初のオープンソース・ライセンス訴訟、法廷がGPLライセンスの意義を認める",
+      "date": "2023-07-18T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/law/law_2306.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-law-law_2306",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2330",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "オープンソースで次世代車のフレームワークをつくる中国のOpenSDV連盟",
+      "date": "2023-07-04T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2330.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2330",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2324",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "深圳市政府の支援でAI企業15社が日本の技術イベントに出展",
+      "date": "2023-05-30T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2324.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2324",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2265",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国のオープンソースとWeb3 中国で進むブロックチェーンの産業利用",
+      "date": "2022-12-06T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2265.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2265",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2258",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "OSSへの注力が高まる中国、推進団体が続々設立される",
+      "date": "2022-11-01T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2258.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2258",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2252",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "RISC-Vにより結びつく中国政府の政策と中小企業の活動",
+      "date": "2022-10-18T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2252.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2252",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2229",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国のオープンハードウェアM5Stackが日本の研究者の間で広く使われている理由",
+      "date": "2022-08-09T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2229.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2229",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2219",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国のオープン推進を引っ張る産学の連携",
+      "date": "2022-07-07T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2219.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2219",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
+    },
+    {
+      "id": "jst_spc:china-experiences-science-st_2206",
+      "activity_type": "external",
+      "source_platform": "jst_spc",
+      "title": "中国政府、14次五カ年計画に「オープンソースの知財戦略」を組み込む",
+      "date": "2022-05-20T00:00:00+09:00",
+      "source_url": "https://spap.jst.go.jp/china/experiences/science/st_2206.html",
+      "canonical_url": "",
+      "summary": "",
+      "image": "",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "jst_spc_takasu",
+      "external_id": "china-experiences-science-st_2206",
+      "imported_at": "2026-06-20T04:24:26.014743+00:00",
+      "source_label": "JST Science Portal China"
     }
   ]
 }

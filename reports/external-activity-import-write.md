@@ -1,26 +1,30 @@
 # External Activity Import Write
 
-Generated: `2026-06-20T04:09:57.087224+00:00`
+Generated: `2026-06-20T04:24:27.001726+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
-- proposed output path: `data\activity\external_updates.json`
+- output path: `data\activity\external_updates.json`
 - JSON written: `yes`
 
 This run does not modify existing content posts, metadata, `public/`, homepage, navigation, config, templates, or GitHub Actions.
 
 ## Source Results
 
-| source_id | feed_url | platform | activity_type | language | status | items | issues |
+| source_id | feed_or_site_url | platform | activity_type | language | status | items | issues |
 | --- | --- | --- | --- | --- | --- | ---: | --- |
 | youtube_ja | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo | youtube | video | ja | tested | 12 |  |
 | youtube_en | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU | youtube | video | en | tested | 4 |  |
 | podcast_main | https://anchor.fm/s/10fd96ec0/podcast/rss | podcast | podcast | ja | tested | 9 |  |
 | medium_main | https://medium.com/feed/shenzhen-high-tour-by-makers | medium | external | ja | tested | 10 |  |
 | note_main | https://note.com/takasu/rss | note | external | ja | tested | 25 |  |
+| dglab_main | https://media.dglab.com/author/masakazu-takasu/feed/ | dglab | external | ja | tested | 6 |  |
+| jst_spc_takasu | https://spap.jst.go.jp/china/experiences/writers/takasu_06.html | jst_spc | external | ja | tested | 35 |  |
 
 ## Counts By Source
 
+- `dglab_main`: 6
+- `jst_spc_takasu`: 35
 - `medium_main`: 10
 - `note_main`: 25
 - `podcast_main`: 9
@@ -29,14 +33,14 @@ This run does not modify existing content posts, metadata, `public/`, homepage, 
 
 ## Counts By Activity Type
 
-- `external`: 35
+- `external`: 76
 - `podcast`: 9
 - `video`: 16
 
 ## Counts By Language
 
 - `en`: 14
-- `ja`: 46
+- `ja`: 87
 
 ## Duplicate URL Warnings
 
@@ -64,7 +68,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "note"
   },
   {
@@ -82,7 +86,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Medium"
   },
   {
@@ -100,7 +104,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN"
   },
   {
@@ -118,7 +122,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Podcast"
   },
   {
@@ -136,7 +140,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes JP"
   },
   {
@@ -154,7 +158,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "note"
   },
   {
@@ -172,7 +176,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Medium"
   },
   {
@@ -190,7 +194,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "note"
   },
   {
@@ -208,7 +212,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "medium_main",
     "external_id": "32ab9a149fbf",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Medium"
   },
   {
@@ -226,16 +230,16 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "iB4cfdz80yM",
-    "imported_at": "2026-06-20T04:09:55.000335+00:00",
+    "imported_at": "2026-06-20T04:24:26.014743+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN"
   }
 ]
 ```
 
-## Safe To Run `--write` Next?
+## Write Safety
 
-Yes, with one caveat: duplicate source URLs should be accepted as known warnings or handled by display logic later. This importer will not remove duplicates yet.
+The write completed successfully. Duplicate source URLs were retained in JSON and should be handled by display logic.
 
 ## Recommended Next Step
 
-Review this dry-run report. If the counts, sample records, and duplicate URL warnings are acceptable, run `tools/import_external_activity.py --write` in a later step to create `data/activity/external_updates.json`.
+Review `data/activity/external_updates.json` and the `/updates/` display before adding automation.

@@ -49,6 +49,27 @@
 "feed_url": "https://note.com/takasu/rss",
 "site_url": "https://note.com/takasu",
 "enabled": true
+},
+{
+"id": "dglab_main",
+"label": "DG Lab Haus",
+"source_platform": "dglab",
+"activity_type": "external",
+"language": "ja",
+"feed_url": "https://media.dglab.com/author/masakazu-takasu/feed/",
+"site_url": "https://media.dglab.com/author/masakazu-takasu/",
+"enabled": true
+},
+{
+"id": "jst_spc_takasu",
+"label": "JST Science Portal China",
+"source_platform": "jst_spc",
+"activity_type": "external",
+"language": "ja",
+"feed_url": "",
+"site_url": "https://spap.jst.go.jp/china/experiences/writers/takasu_06.html",
+"source_type": "html_list",
+"enabled": true
 }
 ]
 }

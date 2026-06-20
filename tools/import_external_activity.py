@@ -22,6 +22,7 @@ DEFAULT_CONFIG = ROOT / "tools" / "activity_sources.json"
 FALLBACK_CONFIG = ROOT / "tools" / "activity_sources.example.json"
 DEFAULT_OUTPUT = ROOT / "data" / "activity" / "external_updates.json"
 DEFAULT_DRY_RUN_REPORT = ROOT / "reports" / "external-activity-import-dry-run.md"
+DEFAULT_WRITE_REPORT = ROOT / "reports" / "external-activity-import-write.md"
 
 
 def parse_args() -> argparse.Namespace:
@@ -31,7 +32,7 @@ def parse_args() -> argparse.Namespace:
     mode.add_argument("--write", action="store_true", help="Write normalized records to data/activity/external_updates.json.")
     parser.add_argument("--config", type=Path, default=None)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--report", type=Path, default=DEFAULT_DRY_RUN_REPORT)
+    parser.add_argument("--report", type=Path, default=None)
     return parser.parse_args()
 
 
@@ -56,6 +57,8 @@ def source_label(source: dict[str, Any]) -> str:
         "podcast_main": "Podcast",
         "medium_main": "Medium",
         "note_main": "note",
+        "dglab_main": "DG Lab Haus",
+        "jst_spc_takasu": "JST Science Portal China",
     }
     if source_id in labels:
         return labels[source_id]
@@ -142,7 +145,7 @@ def write_report(
     lines.append("")
     lines.append(f"- mode: `{'dry-run' if dry_run else 'write'}`")
     lines.append(f"- config used: `{config_path.relative_to(ROOT)}`")
-    lines.append(f"- proposed output path: `{output_path.relative_to(ROOT)}`")
+    lines.append(f"- {'proposed output path' if dry_run else 'output path'}: `{output_path.relative_to(ROOT)}`")
     lines.append(f"- JSON written: `{'no' if dry_run else 'yes'}`")
     lines.append("")
     lines.append("This run does not modify existing content posts, metadata, `public/`, homepage, navigation, config, templates, or GitHub Actions.")
@@ -150,7 +153,7 @@ def write_report(
 
     lines.append("## Source Results")
     lines.append("")
-    lines.append("| source_id | feed_url | platform | activity_type | language | status | items | issues |")
+    lines.append("| source_id | feed_or_site_url | platform | activity_type | language | status | items | issues |")
     lines.append("| --- | --- | --- | --- | --- | --- | ---: | --- |")
     for result in results:
         source = result.source
@@ -159,7 +162,7 @@ def write_report(
             + " | ".join(
                 [
                     md_escape(source.get("id", "")),
-                    md_escape(source.get("feed_url", "")),
+                    md_escape(source.get("feed_url", "") or source.get("site_url", "")),
                     md_escape(source.get("source_platform", "")),
                     md_escape(source.get("activity_type", "")),
                     md_escape(source.get("language", "")),
@@ -220,10 +223,13 @@ def write_report(
         lines.append("_No records normalized._")
     lines.append("")
 
-    lines.append("## Safe To Run `--write` Next?")
+    lines.append("## Safe To Run `--write` Next?" if dry_run else "## Write Safety")
     lines.append("")
     if safe:
-        lines.append("Yes, with one caveat: duplicate source URLs should be accepted as known warnings or handled by display logic later. This importer will not remove duplicates yet.")
+        if dry_run:
+            lines.append("Yes, with one caveat: duplicate source URLs should be accepted as known warnings or handled by display logic later. This importer will not remove duplicates yet.")
+        else:
+            lines.append("The write completed successfully. Duplicate source URLs were retained in JSON and should be handled by display logic.")
     else:
         lines.append("No.")
         for reason in unsafe_reasons:
@@ -232,7 +238,10 @@ def write_report(
 
     lines.append("## Recommended Next Step")
     lines.append("")
-    lines.append("Review this dry-run report. If the counts, sample records, and duplicate URL warnings are acceptable, run `tools/import_external_activity.py --write` in a later step to create `data/activity/external_updates.json`.")
+    if dry_run:
+        lines.append("Review this dry-run report. If the counts, sample records, and duplicate URL warnings are acceptable, run `tools/import_external_activity.py --write` in a later step to create `data/activity/external_updates.json`.")
+    else:
+        lines.append("Review `data/activity/external_updates.json` and the `/updates/` display before adding automation.")
     lines.append("")
 
     path.write_text("\n".join(lines), encoding="utf-8")
@@ -242,7 +251,9 @@ def main() -> int:
     args = parse_args()
     config_path = resolve_config(args.config)
     output_path = args.output if args.output.is_absolute() else ROOT / args.output
-    report_path = args.report if args.report.is_absolute() else ROOT / args.report
+    default_report = DEFAULT_DRY_RUN_REPORT if args.dry_run else DEFAULT_WRITE_REPORT
+    report_path = args.report or default_report
+    report_path = report_path if report_path.is_absolute() else ROOT / report_path
 
     sources = load_config(config_path)
     imported_at = datetime.now(timezone.utc).isoformat()

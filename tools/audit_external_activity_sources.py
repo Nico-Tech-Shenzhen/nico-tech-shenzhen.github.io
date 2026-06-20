@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "tools" / "activity_sources.example.json"
 DEFAULT_REPORT = ROOT / "reports" / "external-activity-audit.md"
 
-SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note"}
+SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note", "dglab", "jst_spc"}
 PLACEHOLDER_VALUES = {"", "todo", "tbd", "placeholder", "example"}
 
 
@@ -182,6 +182,48 @@ def parse_feed(xml_text: str) -> tuple[list[dict[str, str]], list[str]]:
     return entries, issues
 
 
+def parse_jst_spc_author_html(html_text: str, base_url: str) -> tuple[list[dict[str, str]], list[str]]:
+    issues: list[str] = []
+    entries: list[dict[str, str]] = []
+    backnumber_match = re.search(
+        r'<p\s+class="backnumber_title">\s*バックナンバー\s*</p>(.*?)(?:<div\s+id="footer"|</body>)',
+        html_text,
+        flags=re.I | re.S,
+    )
+    if not backnumber_match:
+        return entries, ["JST backnumber block was not found."]
+
+    block = backnumber_match.group(1)
+    pattern = re.compile(
+        r'<p\s+class="list_lines_last">\s*'
+        r'(\d{4})年(\d{2})月(\d{2})日\s*　\s*'
+        r'(.*?)\s*　\s*'
+        r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>\s*</p>',
+        flags=re.I | re.S,
+    )
+
+    for match in pattern.finditer(block):
+        year, month, day, _category, href, raw_title = match.groups()
+        title = strip_html(raw_title, limit=500)
+        link = urljoin(base_url, html.unescape(href.strip()))
+        if not title or not link:
+            continue
+        entries.append(
+            {
+                "title": title,
+                "link": link,
+                "guid": link,
+                "date": f"{year}-{month}-{day}T00:00:00+09:00",
+                "summary": "",
+                "image": "",
+            }
+        )
+
+    if not entries:
+        issues.append("No JST author list entries matched the expected list markup.")
+    return entries, issues
+
+
 def image_from_rss_item(item: ET.Element) -> str:
     for child in list(item):
         local = child.tag.rsplit("}", 1)[-1].lower()
@@ -229,6 +271,16 @@ def external_id_for(source: dict[str, Any], entry: dict[str, str]) -> str:
         if note_id:
             return note_id
 
+    if platform == "dglab":
+        dglab_id = url_path_id(link or guid)
+        if dglab_id:
+            return dglab_id
+
+    if platform == "jst_spc":
+        jst_id = url_path_id(link or guid)
+        if jst_id:
+            return jst_id
+
     if guid:
         return guid
     if link:
@@ -274,6 +326,17 @@ def note_entry_id(value: str) -> str:
     return match.group(1) if match else ""
 
 
+def url_path_id(value: str) -> str:
+    parsed = urlparse(normalize_url(value or ""))
+    path = parsed.path.strip("/")
+    if not path:
+        return ""
+    if path.endswith(".html"):
+        path = path[:-5]
+    path = re.sub(r"[^A-Za-z0-9_-]+", "-", path)
+    return path.strip("-") or stable_hash(parsed.path)
+
+
 def stable_hash(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8")).hexdigest()[:16]
 
@@ -303,12 +366,34 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
     source_id = source.get("id", "(missing)")
     platform = source.get("source_platform", "")
     feed_url = source.get("feed_url", "")
+    site_url = source.get("site_url", "")
+    source_type = source.get("source_type", "feed")
     issues: list[str] = []
 
     if not source.get("enabled", True):
         return SourceResult(source, "disabled", issues=["Source is disabled."])
     if platform not in SUPPORTED_PLATFORMS:
         return SourceResult(source, "skipped", issues=[f"Unsupported platform: {platform}"])
+
+    if source_type == "html_list" or platform == "jst_spc":
+        if is_placeholder_url(site_url):
+            return SourceResult(source, "skipped", issues=["No real site_url configured yet."])
+        try:
+            html_text = fetch_text(site_url)
+        except HTTPError as exc:
+            return SourceResult(source, "failed", issues=[f"HTTP error for {source_id}: {exc.code} {exc.reason}"])
+        except URLError as exc:
+            return SourceResult(source, "failed", issues=[f"URL error for {source_id}: {exc.reason}"])
+        except Exception as exc:
+            return SourceResult(source, "failed", issues=[f"Fetch error for {source_id}: {exc}"])
+
+        if platform != "jst_spc":
+            return SourceResult(source, "skipped", issues=[f"Unsupported HTML list platform: {platform}"])
+        parsed_items, parse_issues = parse_jst_spc_author_html(html_text, site_url)
+        issues.extend(parse_issues)
+        normalized = [normalize_entry(source, item, imported_at) for item in parsed_items]
+        return SourceResult(source, "tested", normalized, issues)
+
     if is_placeholder_url(feed_url):
         return SourceResult(source, "skipped", issues=["No real feed_url configured yet."])
 
@@ -371,18 +456,19 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
     lines.append("")
     lines.append("- `id`: stable source ID, for example `youtube_ja` or `youtube_en`")
     lines.append("- `label`: human-readable source name")
-    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, or `note`")
+    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, `note`, `dglab`, or `jst_spc`")
     lines.append("- `activity_type`: `video`, `podcast`, or `external`")
     lines.append("- `language`: default language for items from this source")
     lines.append("- `feed_url`: RSS/Atom feed URL")
     lines.append("- `site_url`: public profile/channel URL")
+    lines.append("- `source_type`: optional source type; `html_list` fetches only the configured `site_url`")
     lines.append("- `enabled`: whether the source should be tested")
     lines.append("")
     lines.append("YouTube sources are intentionally separate: `youtube_ja` uses IDs like `youtube:ja:VIDEO_ID`; `youtube_en` uses IDs like `youtube:en:VIDEO_ID`.")
     lines.append("")
     lines.append("## Sources Tested")
     lines.append("")
-    lines.append("| source_id | feed_url | platform | activity_type | language | status | items | issues |")
+    lines.append("| source_id | feed_or_site_url | platform | activity_type | language | status | items | issues |")
     lines.append("| --- | --- | --- | --- | --- | --- | ---: | --- |")
     for result in results:
         source = result.source
@@ -391,7 +477,7 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
             + " | ".join(
                 [
                     md_escape(source.get("id", "")),
-                    md_escape(source.get("feed_url", "")),
+                    md_escape(source.get("feed_url", "") or source.get("site_url", "")),
                     md_escape(source.get("source_platform", "")),
                     md_escape(source.get("activity_type", "")),
                     md_escape(source.get("language", "")),

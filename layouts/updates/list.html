@@ -38,7 +38,7 @@
   {{- end }}
 {{- end }}
 {{- $podcasts := where $externalItems "activity_type" "podcast" }}
-{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note") }}
+{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") }}
 
 <h2>Videos</h2>
 <div class="post-content">
@@ -84,7 +84,7 @@
 <div class="post-content">
   {{- if $articles }}
   <ul>
-    {{- range first 5 $articles }}
+    {{- range first 8 $articles }}
     <li>
       <a href="{{ .source_url }}">{{ .title }}</a>
       <small>
