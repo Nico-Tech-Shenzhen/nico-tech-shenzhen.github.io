@@ -89,6 +89,17 @@ buildFuture = false
   author = "Masakazu Takasu"
   description = "ニコ技深セン（Nico-Tech Shenzhen）は、深センのハードウェア産業、Makerエコシステム、スタートアップ、分解（Teardown）、ロボティクス、Physical AIを現地視点で記録するアーカイブ。Field archive of Shenzhen hardware startups, maker ecosystem, reverse engineering, chip teardown, robotics and Physical AI by Masakazu Takasu."
 
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+
+[params.label]
+  icon = "images/ntshenzhen-logo.jpg"
+  iconHeight = 30
+  text = "ニコ技深セン / Nico-Tech Shenzhen website"
+
 # Cover 表示
 [params.cover]
   hidden = false
@@ -100,4 +111,3 @@ summaryLength = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-

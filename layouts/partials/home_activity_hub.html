@@ -93,13 +93,19 @@
 {{- end -}}
 {{- $activityFeed = sort $activityFeed "date" "desc" -}}
 
-<header class="page-header" style="margin-bottom:1.5rem;">
-  <div class="post-description" style="margin-top:0;">
+<header class="page-header home-intro" style="margin-bottom:1.5rem;">
+  <div class="post-description home-intro-copy" style="margin-top:0;">
     <p style="margin:.25rem 0;">高須正和 / Nico-Tech Shenzhen の活動をまとめたサイトです。</p>
     <p style="margin:.25rem 0;">深セン、メイカー、オープンハードウェア、ロボティクス、分解、開発者エコシステム。</p>
     <p style="margin:.25rem 0;">月次報告、記事、YouTube、Podcast、書籍、講演、研究をまとめています。</p>
-    <p style="margin:.25rem 0;">日本語中心、一部英語あり。</p>
   </div>
+  <img
+    class="home-intro-photo"
+    src="/images/takasu-profile.jpg"
+    alt="TAKASU Masakazu in Huaqiangbei, Shenzhen"
+    width="900"
+    height="600"
+    loading="lazy">
 </header>
 
 <section class="post-content">
@@ -115,6 +121,19 @@
 </section>
 
 <style>
+  .home-intro {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 300px);
+    align-items: center;
+  }
+  .home-intro-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    justify-self: end;
+  }
   .home-hub-layout {
     display: grid;
     gap: 1.5rem;
@@ -143,6 +162,13 @@
     overflow-wrap: anywhere;
   }
   @media (max-width: 760px) {
+    .home-intro {
+      grid-template-columns: 1fr;
+    }
+    .home-intro-photo {
+      max-width: 100%;
+      justify-self: start;
+    }
     .home-hub-layout {
       grid-template-columns: 1fr;
     }
