@@ -15,15 +15,36 @@
 {{- $englishItems := where $externalItems "language" "en" -}}
 {{- $englishArticles := where $englishItems "source_platform" "in" (slice "medium" "note" "jst_spc" "dglab") -}}
 {{- $englishVideos := where $englishItems "activity_type" "video" -}}
+{{- $talkResearchTypes := slice "talk" "paper" "research" "publication" "book" -}}
+{{- $englishTalkResearch := slice -}}
+{{- range where $externalItems "activity_type" "in" $talkResearchTypes -}}
+  {{- $hasEnglishTitle := gt (len (findRE "[A-Za-z]" .title)) 0 -}}
+  {{- if or (eq .language "en") (and (eq .language "mixed") (eq .source_platform "researchmap") $hasEnglishTitle) -}}
+    {{- $englishTalkResearch = $englishTalkResearch | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $englishTalkResearch = sort $englishTalkResearch "date" "desc" -}}
+
+{{- $curatedItems := slice -}}
+{{- with .Site.Data.activity.curated_outputs -}}
+  {{- with .items }}{{- $curatedItems = . -}}{{- end -}}
+{{- end -}}
+{{- $englishBooks := slice -}}
+{{- range where $curatedItems "language" "en" -}}
+  {{- if in (slice "book" "publication") .activity_type -}}
+    {{- $englishBooks = $englishBooks | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $englishBooks = sort $englishBooks "date" "desc" -}}
 
 <h2>Latest English Articles</h2>
 <div class="post-content">
   {{- if $englishArticles }}
   <ul>
-    {{- range first 10 $englishArticles }}{{- partial "activity_compact_item.html" . }}{{- end }}
+    {{- range first 5 $englishArticles }}{{- partial "activity_compact_item.html" . }}{{- end }}
   </ul>
   {{- else }}
-  <p>No English article activity found yet.</p>
+  <p>No English article activity found yet. See <a href="/writing/">Writing</a> for the full archive.</p>
   {{- end }}
 </div>
 
@@ -31,19 +52,42 @@
 <div class="post-content">
   {{- if $englishVideos }}
   <ul>
-    {{- range first 10 $englishVideos }}{{- partial "activity_compact_item.html" . }}{{- end }}
+    {{- range first 5 $englishVideos }}{{- partial "activity_compact_item.html" . }}{{- end }}
   </ul>
   {{- else }}
-  <p>No English video activity found yet.</p>
+  <p>No English video activity found yet. See <a href="/videos-podcasts/">Videos / Podcasts</a> for the full archive.</p>
   {{- end }}
 </div>
 
-<h2>Related Links</h2>
+<h2>English Talks / Research</h2>
+<div class="post-content">
+  {{- if $englishTalkResearch }}
+  <ul>
+    {{- range first 5 $englishTalkResearch }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p><a href="/talks-research/">Talks / Research</a> · <a href="https://researchmap.jp/takasumasakazu">researchmap</a></p>
+  {{- end }}
+</div>
+
+<h2>English Books / Publications</h2>
+<div class="post-content">
+  {{- if $englishBooks }}
+  <ul>
+    {{- range first 5 $englishBooks }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  </ul>
+  {{- else }}
+  <p><a href="/books/">Books</a> includes the broader publication archive.</p>
+  {{- end }}
+</div>
+
+<h2>More</h2>
 <div class="post-content">
   <p>
+    <a href="/updates/">Full Updates</a> ·
+    <a href="/talks-research/">Talks / Research</a> ·
     <a href="https://www.youtube.com/playlist?list=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU">English YouTube playlist</a> ·
-    <a href="https://medium.com/shenzhen-high-tour-by-makers">Medium articles</a> ·
-    <a href="https://gumroad.com/l/jeiskh">Exploring Shenzhen 2026</a>
+    <a href="https://medium.com/shenzhen-high-tour-by-makers">Medium articles</a>
   </p>
 </div>
 {{- end -}}
