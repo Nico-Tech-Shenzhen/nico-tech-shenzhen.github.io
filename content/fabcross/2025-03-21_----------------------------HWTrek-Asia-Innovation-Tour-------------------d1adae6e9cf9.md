@@ -3,8 +3,8 @@ title: "世界のベンチャーに対して見せた、日本製造業の可能
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Oi_jmucE5v5wT2tY1yLubA.jpeg"
   relative: false
-aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
-slug: hwtrek-asia-innovation-tour
+aliases: ["/2025/03/hwtrek-asia-innovation-tour-d1adae6e9cf9/"]
+slug: hwtrek-asia-innovation-tour-d1adae6e9cf9
 date: 2025-03-21
 ---
 

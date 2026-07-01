@@ -48,6 +48,14 @@ jobs:
           echo "== marker check =="
           grep -R "OVERRIDE_HOME_TEMPLATE_ENABLED" -n layouts || true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate content
+        run: python tools/validate_content.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

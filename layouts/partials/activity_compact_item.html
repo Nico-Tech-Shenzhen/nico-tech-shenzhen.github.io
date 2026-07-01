@@ -1,15 +1,24 @@
 {{- $item := . -}}
 {{- $sourceLabel := or $item.source_label $item.source_platform -}}
-<li style="margin:.35rem 0;">
-  {{- if $item.source_url -}}
-  <a href="{{ $item.source_url }}">{{ $item.title }}</a>
-  {{- else -}}
-  {{ $item.title }}
-  {{- end -}}
-  <small style="display:block; margin-top:.1rem; line-height:1.35;">
-    {{- with $item.date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
-    {{- with $sourceLabel }}{{ if $item.date }} · {{ end }}{{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="display:inline-block; width:14px; height:14px; max-width:none; margin:0 3px 0 0; vertical-align:-2px;">{{ end }}{{ . }}{{ end -}}
-    {{- with $item.activity_type }} · {{ . }}{{ end -}}
-    {{- with $item.language }} · {{ . }}{{ end -}}
-  </small>
+<li style="list-style:none; margin:.55rem 0; padding:.55rem 0; border-top:1px solid var(--border);">
+  <article style="display:flex; gap:.75rem; align-items:flex-start;">
+    {{- with $item.image }}
+    <img src="{{ . }}" alt="" loading="lazy" decoding="async" onerror="this.remove();" style="width:96px; height:60px; object-fit:cover; border-radius:6px; flex:0 0 auto;">
+    {{- end }}
+    <div style="min-width:0;">
+      <div style="font-size:.98rem; line-height:1.4; overflow-wrap:anywhere;">
+        {{- if $item.source_url -}}
+        <a href="{{ $item.source_url }}">{{ $item.title }}</a>
+        {{- else -}}
+        {{ $item.title }}
+        {{- end -}}
+      </div>
+      <small style="display:block; margin-top:.15rem; line-height:1.35;">
+        {{- with $item.date }}<time datetime="{{ . }}">{{ (time .).Format "2006-01-02" }}</time>{{ end -}}
+        {{- with $sourceLabel }}{{ if $item.date }} · {{ end }}{{ with $item.source_icon }}<img src="{{ . }}" alt="{{ $sourceLabel }}" loading="lazy" decoding="async" onerror="this.remove();" style="display:inline-block; width:14px; height:14px; max-width:none; margin:0 3px 0 0; vertical-align:-2px;">{{ end }}{{ . }}{{ end -}}
+        {{- with $item.activity_type }} · {{ . }}{{ end -}}
+        {{- with $item.language }} · {{ . }}{{ end -}}
+      </small>
+    </div>
+  </article>
 </li>

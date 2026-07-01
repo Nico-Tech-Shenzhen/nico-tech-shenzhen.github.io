@@ -323,7 +323,11 @@ def image_from_rss_item(item: ET.Element) -> str:
     for child in list(item):
         local = child.tag.rsplit("}", 1)[-1].lower()
         if local in {"thumbnail", "content"}:
+            # Prefer url= attribute (YouTube, standard media RSS).
+            # note.com puts the image URL as element text instead of url=.
             url = (child.attrib.get("url") or "").strip()
+            if not url and local == "thumbnail":
+                url = (child.text or "").strip()
             medium = (child.attrib.get("medium") or "").strip()
             if url and (local == "thumbnail" or medium == "image"):
                 return url

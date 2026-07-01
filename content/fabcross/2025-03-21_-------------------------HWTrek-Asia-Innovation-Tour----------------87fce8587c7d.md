@@ -3,8 +3,8 @@ title: "世界の工場・深センのプロトタイピング環境 --- --- HWT
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg"
   relative: false
-aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
-slug: hwtrek-asia-innovation-tour
+aliases: ["/2025/03/hwtrek-asia-innovation-tour-87fce8587c7d/"]
+slug: hwtrek-asia-innovation-tour-87fce8587c7d
 date: 2025-03-21
 ---
 

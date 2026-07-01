@@ -3,8 +3,8 @@ title: "世界の工場深センに見る、「製品化」を助けるサプラ
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*u3O6AlEQ2nC7-XXGgtITgQ.jpeg"
   relative: false
-aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
-slug: hwtrek-asia-innovation-tour
+aliases: ["/2025/03/hwtrek-asia-innovation-tour-8b4db20e3264/"]
+slug: hwtrek-asia-innovation-tour-8b4db20e3264
 date: 2025-03-21
 ---
 
