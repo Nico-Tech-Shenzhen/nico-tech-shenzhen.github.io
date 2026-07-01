@@ -1,4 +1,4 @@
-baseURL = "https://nico-tech-shenzhen.github.io/"
+baseURL = "https://takasumasakazu.net/"
 title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
 publishDir = "public"
