@@ -155,6 +155,16 @@ def check_external_data(errors: list[str]) -> None:
             f"  latest note article not found in external_updates.json: {LATEST_KNOWN_NOTE_URL}"
         )
 
+    # Rule 8: at least one YouTube/video entry must be present. A known YouTube
+    # source (youtube_ja/youtube_en) exists, so a drop to zero video entries
+    # means the importer silently lost data rather than the channel going empty.
+    video_items = [i for i in items if i.get("activity_type") == "video"]
+    if not video_items:
+        errors.append(
+            "  no video-type entries found in external_updates.json "
+            "(YouTube sources are configured; this indicates lost data, not an empty channel)"
+        )
+
 
 # ---------------------------------------------------------------------------
 # Main
@@ -173,7 +183,8 @@ def main() -> int:
 
     print(
         "Validation passed: no slug:post, no /post/ aliases, no duplicate slugs or aliases, "
-        "external_updates.json is present and contains latest note article with thumbnails."
+        "external_updates.json is present and contains latest note article with thumbnails "
+        "and at least one video entry."
     )
     return 0
 

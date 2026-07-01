@@ -116,6 +116,45 @@ def is_safe_to_write(results: list[SourceResult]) -> tuple[bool, list[str]]:
     return not reasons, reasons
 
 
+def load_previous_items_by_source(path: Path) -> dict[str, list[dict[str, Any]]]:
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in data.get("items", []):
+        source_id = str(item.get("source_id", ""))
+        if source_id:
+            grouped[source_id].append(item)
+    return dict(grouped)
+
+
+def apply_failure_fallback(
+    results: list[SourceResult], previous_by_source: dict[str, list[dict[str, Any]]]
+) -> list[str]:
+    """A source that returns zero items this run (fetch error, or a fetch that
+    parsed to nothing) must not silently wipe out previously imported items for
+    that source. Fall back to the last known-good items instead. Returns the
+    source_ids that failed outright with no previous data to fall back on."""
+    unrecoverable: list[str] = []
+    for result in results:
+        if result.status in {"disabled", "skipped"} or result.items:
+            continue
+        source_id = str(result.source.get("id", ""))
+        previous_items = previous_by_source.get(source_id, [])
+        if previous_items:
+            result.items = previous_items
+            result.issues.append(
+                f"No items returned this run (status={result.status}); "
+                f"carried forward {len(previous_items)} previous item(s) instead of dropping them."
+            )
+        elif result.status == "failed":
+            unrecoverable.append(source_id)
+    return unrecoverable
+
+
 def write_json_output(path: Path, items: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -261,9 +300,29 @@ def main() -> int:
     sources = load_config(config_path)
     imported_at = datetime.now(timezone.utc).isoformat()
     results = [audit_source(source, imported_at) for source in sources]
+
+    previous_by_source = load_previous_items_by_source(output_path)
+    unrecoverable = apply_failure_fallback(results, previous_by_source)
+
     items = collect_items(results)
     duplicate_warnings = find_duplicates(results)
     duplicate_groups = duplicate_url_groups(items)
+
+    if unrecoverable:
+        write_report(
+            report_path,
+            config_path,
+            output_path,
+            results,
+            items,
+            duplicate_warnings,
+            duplicate_groups,
+            dry_run=args.dry_run,
+        )
+        print("External activity import aborted: some sources failed with no previous data to fall back on.")
+        print(f"Unrecoverable failed sources: {', '.join(unrecoverable)}")
+        print(f"Report: {report_path.relative_to(ROOT)}")
+        return 1
 
     if args.write:
         write_json_output(output_path, items)
@@ -282,8 +341,15 @@ def main() -> int:
     tested = sum(1 for result in results if result.status == "tested")
     skipped = sum(1 for result in results if result.status == "skipped")
     failed = sum(1 for result in results if result.status == "failed")
+    carried_forward = [
+        str(result.source.get("id", ""))
+        for result in results
+        if any("carried forward" in issue for issue in result.issues)
+    ]
     print("External activity import dry run complete." if args.dry_run else "External activity import write complete.")
     print(f"Sources: {len(results)} total, {tested} tested, {skipped} skipped, {failed} failed.")
+    if carried_forward:
+        print(f"WARNING: carried forward previous items for sources with no fresh data: {', '.join(carried_forward)}")
     print(f"Normalized items: {len(items)}")
     print(f"Duplicate warnings: {len(duplicate_warnings)}")
     print(f"Report: {report_path.relative_to(ROOT)}")

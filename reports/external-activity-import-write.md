@@ -1,6 +1,6 @@
 # External Activity Import Write
 
-Generated: `2026-07-01T05:47:36.210493+00:00`
+Generated: `2026-07-01T09:13:33.424250+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
@@ -13,9 +13,9 @@ This run does not modify existing content posts, metadata, `public/`, homepage, 
 
 | source_id | feed_or_site_url | platform | activity_type | language | status | items | issues |
 | --- | --- | --- | --- | --- | --- | ---: | --- |
-| youtube_ja | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo | youtube | video | ja | failed | 0 | HTTP error for youtube_ja: 404 Not Found |
-| youtube_en | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU | youtube | video | en | failed | 0 | HTTP error for youtube_en: 404 Not Found |
-| youtube_talks | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu | youtube | talk | mixed | failed | 0 | HTTP error for youtube_talks: 404 Not Found |
+| youtube_ja | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNJzI4HDEtX6dxsQsU01jmo | youtube | video | ja | tested | 12 |  |
+| youtube_en | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DNW74Y6kD4h5Uh0CCAy_EtU | youtube | video | en | tested | 4 |  |
+| youtube_talks | https://www.youtube.com/feeds/videos.xml?playlist_id=PLvhFXFu5H1DONMcAltBRgYqRJn_bPxFnu | youtube | talk | mixed | tested | 13 |  |
 | podcast_main | https://anchor.fm/s/10fd96ec0/podcast/rss | podcast | podcast | ja | tested | 9 |  |
 | medium_main | https://medium.com/feed/shenzhen-high-tour-by-makers | medium | external | ja | tested | 10 |  |
 | note_main | https://note.com/takasu/rss | note | external | ja | tested | 25 |  |
@@ -31,6 +31,9 @@ This run does not modify existing content posts, metadata, `public/`, homepage, 
 - `note_main`: 25
 - `podcast_main`: 9
 - `researchmap_takasu`: 35
+- `youtube_en`: 4
+- `youtube_ja`: 12
+- `youtube_talks`: 13
 
 ## Counts By Activity Type
 
@@ -39,19 +42,22 @@ This run does not modify existing content posts, metadata, `public/`, homepage, 
 - `paper`: 7
 - `podcast`: 9
 - `research`: 13
-- `talk`: 9
+- `talk`: 22
+- `video`: 16
 
 ## Counts By Language
 
-- `en`: 14
-- `ja`: 105
-- `mixed`: 1
+- `en`: 18
+- `ja`: 129
+- `mixed`: 2
 
 ## Duplicate URL Warnings
 
-- No duplicate normalized IDs or source URLs found.
+- Duplicate source URL `https://www.youtube.com/watch?v=ONTOW8gMeQ4` in `youtube_ja` and `youtube_en`.
+- Duplicate source URL `https://www.youtube.com/watch?v=jV2kn8LlUZk` in `youtube_ja` and `youtube_en`.
+- Duplicate source URL `https://www.youtube.com/watch?v=u-fWQ2WNavk` in `youtube_ja` and `youtube_talks`.
 
-Recommendation for future `/updates/` display: no duplicate URL handling is needed for this run.
+Recommendation for future `/updates/` display: hide duplicate source URLs by default and show the newest or preferred-language variant, while retaining both records in data for language/source-specific views.
 
 ## Sample Normalized Records
 
@@ -72,7 +78,7 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "note_main",
     "external_id": "naf4b628e3aef",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -91,7 +97,7 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "dglab_main",
     "external_id": "2026-06-29-dexmal-01",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "DG Lab Haus",
     "source_icon": "https://media.dglab.com/favicon.ico"
   },
@@ -110,7 +116,7 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -129,9 +135,28 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
+  },
+  {
+    "id": "youtube:en:xAotcCqOcug",
+    "activity_type": "video",
+    "source_platform": "youtube",
+    "title": "I Took Apart $10 Fake AirPods — Inside China’s TWS Earbud Ecosystem",
+    "date": "2026-06-19T12:19:06+00:00",
+    "source_url": "https://www.youtube.com/watch?v=xAotcCqOcug",
+    "canonical_url": "",
+    "summary": "In this episode of Nico-Tech Shenzhen Field Notes, I take apart a pair of $10 “Huaqiangbei AirPods” bought in Shenzhen and look at what they reveal about China’s low-cost TWS earbud and semiconductor ecosystem. These fake AirPods are clearly not genuine Apple products. But once opened, they are not just “bad copies” either. Inside, we can see cost-optimized engineering: a highly integrated Bluetooth audio SoC, simpl...",
+    "image": "https://i1.ytimg.com/vi/xAotcCqOcug/hqdefault.jpg",
+    "language": "en",
+    "topics": [],
+    "featured": false,
+    "source_id": "youtube_en",
+    "external_id": "xAotcCqOcug",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "source_label": "Nico-Tech Shenzhen Field Notes EN",
+    "source_icon": "https://www.youtube.com/favicon.ico"
   },
   {
     "id": "podcast:d526da0b-fef3-4b2f-91e3-ad9440eb444e",
@@ -148,9 +173,28 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "Podcast",
     "source_icon": "https://open.spotify.com/favicon.ico"
+  },
+  {
+    "id": "youtube:ja:UVJQNMm7wJk",
+    "activity_type": "video",
+    "source_platform": "youtube",
+    "title": "第9回：10ドルの偽AirPodsを分解したら、中国TWSエコシステムが見えた｜Teardown 2026プレビュー",
+    "date": "2026-06-19T11:25:49+00:00",
+    "source_url": "https://www.youtube.com/watch?v=UVJQNMm7wJk",
+    "canonical_url": "",
+    "summary": "10ドル前後で売られている「華強北 AirPods」を分解し、その中に見える中国TWSイヤホン産業のエコシステム、SoC、基板設計、Decap業者、そしてTeardown 2026で話す内容のプレビューを紹介します。 偽物AirPodsは、もちろん本物のAirPodsとはまったく違います。 しかし中を見てみると、単なる雑なコピーではなく、安価なSoC、左右共通基板、部品点数削減、マーキングを消されたチップ、Taobaoで頼めるDecap業者など、中国のハードウェア産業らしい工夫と生態系が見えてきます。 今回は、深圳で購入した67元の偽AirPodsを分解し、Jieli / Bluetrum系のTWSチップ、System in Package、チップDecap、安価なTWS市場、そしてTeardown 2026でのオープニングトークにつながる話をします。 ▼ Chapters 00:00 オープニング：Teardown 2026...",
+    "image": "https://i2.ytimg.com/vi/UVJQNMm7wJk/hqdefault.jpg",
+    "language": "ja",
+    "topics": [],
+    "featured": false,
+    "source_id": "youtube_ja",
+    "external_id": "UVJQNMm7wJk",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "source_label": "Nico-Tech Shenzhen Field Notes JP",
+    "source_icon": "https://www.youtube.com/favicon.ico"
   },
   {
     "id": "note:nd01852684b73",
@@ -167,7 +211,7 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -186,7 +230,7 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -205,55 +249,16 @@ Recommendation for future `/updates/` display: no duplicate URL handling is need
     "featured": false,
     "source_id": "note_main",
     "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
+    "imported_at": "2026-07-01T09:13:19.134149+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
-  },
-  {
-    "id": "medium:32ab9a149fbf",
-    "activity_type": "external",
-    "source_platform": "medium",
-    "title": "From a $1 Made-in-India Calculator to a Chinese 4-bit CPU",
-    "date": "2026-06-07T09:02:25+00:00",
-    "source_url": "https://medium.com/shenzhen-high-tour-by-makers/from-a-1-made-in-india-calculator-to-a-chinese-4-bit-cpu-32ab9a149fbf",
-    "canonical_url": "",
-    "summary": "Chip decap in Shenzhen, low-cost electronics, and what “Made in” really means I gave the opening talk on Day 1 at Teardown 2026 . The talk was not only about opening products. It was about what teardown can reveal about the real structure of hardware manufacturing: where design happens, where components come from, how supply chains are connected, and how much of the story is hidden behind a simple “Made in” label. O...",
-    "image": "",
-    "language": "en",
-    "topics": [],
-    "featured": false,
-    "source_id": "medium_main",
-    "external_id": "32ab9a149fbf",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
-    "source_label": "Medium",
-    "source_icon": "https://medium.com/favicon.ico"
-  },
-  {
-    "id": "podcast:bd870c5e-e782-4a64-80a9-5a9a75522be2",
-    "activity_type": "podcast",
-    "source_platform": "podcast",
-    "title": "#08 インド製100円電卓をDecapしたら、中国製4ビットCPUが見えてきた Nico-Tech深圳フィールドノート",
-    "date": "2026-06-07T02:09:00+00:00",
-    "source_url": "https://podcasters.spotify.com/pod/show/masakazu-tks-takasu/episodes/08-100Decap4CPU-Nico-Tech-e3kedvc",
-    "canonical_url": "",
-    "summary": "インド・チェンナイの雑貨屋で買った、Made in India表記の100円台の電卓を分解し、さらに深圳のチップDecap業者に依頼して、黒いエポキシの下にあるチップの中まで見た話です。 以前の記事では、ホテルで分解した基板から「Made in Indiaの中に深圳の設計重力が見えるのではないか」と書きました。今回はその続きとして、Techanalyeさんの分析とチップDecapによって、基板のさらに下、シリコンのレイヤーまで見ています。そこにあったのは、中国SiLian MicroのSC2118系と見られる4ビットCPUでした。 この話は、2026年の分解・リバースエンジニアリング系イベント Teardown 2026 で、僕が初日のキーノートとして話す内容にもつながっています。安い電卓ひとつから、インドの製造、中国の低価格半導体、深圳のDecapサービス、日本の電卓産業史、そして「Made in」の意味までが見えてくる。今...",
-    "image": "",
-    "language": "ja",
-    "topics": [],
-    "featured": false,
-    "source_id": "podcast_main",
-    "external_id": "bd870c5e-e782-4a64-80a9-5a9a75522be2",
-    "imported_at": "2026-07-01T05:47:23.485312+00:00",
-    "source_label": "Podcast",
-    "source_icon": "https://open.spotify.com/favicon.ico"
   }
 ]
 ```
 
 ## Write Safety
 
-No.
-- Some sources failed: youtube_ja, youtube_en, youtube_talks
+The write completed successfully. Duplicate source URLs were retained in JSON and should be handled by display logic.
 
 ## Recommended Next Step
 
