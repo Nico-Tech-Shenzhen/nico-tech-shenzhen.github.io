@@ -188,6 +188,7 @@ def parse_feed(xml_text: str, platform: str = "") -> tuple[list[dict[str, str]],
                     "date": parse_date(text_of(first_child(item, ("pubdate", "published", "updated")))),
                     "summary": feed_summary(item),
                     "image": image_from_rss_item(item),
+                    "content_image": image_from_content_encoded(item),
                 }
             )
         return entries, issues
@@ -336,6 +337,67 @@ def image_from_rss_item(item: ET.Element) -> str:
             mime = (child.attrib.get("type") or "").strip()
             if url and mime.startswith("image/"):
                 return url
+    return ""
+
+
+def image_from_content_encoded(item: ET.Element) -> str:
+    """Extract the first inline <img> from an RSS item's content:encoded body.
+    Medium's RSS has no media:thumbnail/enclosure, but content:encoded embeds
+    the article's lead image, which is the same image Medium uses for
+    og:image. Used as a network-free stand-in for an article-specific image.
+    """
+    content_html = text_of(first_child(item, ("encoded",)))
+    if not content_html:
+        return ""
+    for match in re.finditer(r'<img\b[^>]*\bsrc=["\']([^"\']+)["\']', content_html, flags=re.I):
+        src = match.group(1).strip()
+        if src and "medium.com/_/stat" not in src:
+            return src
+    return ""
+
+
+OGP_IMAGE_BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
+
+META_IMAGE_RE = re.compile(
+    r'<meta\b[^>]*(?:property|name)=["\'](og:image|twitter:image(?::src)?)["\'][^>]*content=["\']([^"\']+)["\']',
+    re.I,
+)
+META_IMAGE_RE_REVERSED = re.compile(
+    r'<meta\b[^>]*content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](og:image|twitter:image(?::src)?)["\']',
+    re.I,
+)
+
+
+def fetch_ogp_image(url: str, timeout: int = 15) -> str:
+    """Fetch an article page and return its og:image, falling back to
+    twitter:image. Any fetch/parse failure (including bot-blocking) returns
+    an empty string rather than raising, so callers can fall back to other
+    image sources."""
+    if not url:
+        return ""
+    try:
+        req = Request(url, headers=OGP_IMAGE_BROWSER_HEADERS)
+        with urlopen(req, timeout=timeout) as response:
+            html_text = response.read().decode("utf-8", errors="replace")
+    except Exception:
+        return ""
+
+    candidates: dict[str, str] = {}
+    for regex in (META_IMAGE_RE, META_IMAGE_RE_REVERSED):
+        for match in regex.finditer(html_text):
+            groups = match.groups()
+            prop, content = (groups[0], groups[1]) if regex is META_IMAGE_RE else (groups[1], groups[0])
+            candidates.setdefault(prop.lower(), html.unescape(content.strip()))
+
+    for key in ("og:image", "twitter:image", "twitter:image:src"):
+        if candidates.get(key):
+            return candidates[key]
     return ""
 
 
@@ -528,8 +590,23 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
 
     parsed_items, parse_issues = parse_feed(xml_text, platform=platform)
     issues.extend(parse_issues)
+    if platform == "medium":
+        enrich_medium_images(parsed_items)
     normalized = [normalize_entry(source, item, imported_at) for item in parsed_items]
     return SourceResult(source, "tested", normalized, issues)
+
+
+def enrich_medium_images(entries: list[dict[str, str]]) -> None:
+    """Medium's RSS has no media:thumbnail/enclosure image. Fill in each
+    entry's article-specific image, preferring a live og:image/twitter:image
+    fetch from the article page, then falling back to the lead image already
+    embedded in content:encoded (image_from_content_encoded) if the fetch is
+    blocked or fails."""
+    for entry in entries:
+        image = fetch_ogp_image(entry.get("link", ""))
+        if not image:
+            image = entry.get("content_image", "")
+        entry["image"] = image
 
 
 def find_duplicates(results: list[SourceResult]) -> list[str]:

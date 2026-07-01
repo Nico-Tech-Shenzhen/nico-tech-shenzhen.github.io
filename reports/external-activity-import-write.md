@@ -1,6 +1,6 @@
 # External Activity Import Write
 
-Generated: `2026-07-01T09:13:33.424250+00:00`
+Generated: `2026-07-01T09:36:23.436559+00:00`
 
 - mode: `write`
 - config used: `tools\activity_sources.example.json`
@@ -78,9 +78,28 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "naf4b628e3aef",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
+  },
+  {
+    "id": "medium:9caa5d0dfd65",
+    "activity_type": "external",
+    "source_platform": "medium",
+    "title": "What a 35-Cent USB-C Cable Reveals About Shenzhen’s Supply Chain",
+    "date": "2026-07-01T09:19:22+00:00",
+    "source_url": "https://medium.com/shenzhen-high-tour-by-makers/what-a-35-cent-usb-c-cable-reveals-about-shenzhens-supply-chain-9caa5d0dfd65",
+    "canonical_url": "",
+    "summary": "Small products often explain Shenzhen better than big slogans. A short USB-C to USB-C cable can be surprisingly useful. The type I looked at is a small strap-style cable. You can attach it to a phone, a bag, or a small device, and use it when you need to charge something outside. It is not a special product. You may find something similar in a 100-yen shop in Japan, or on Chinese e-commerce platforms for around 200...",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*_t8_gUAs0HDXyAOcQ6mm1g.jpeg",
+    "language": "en",
+    "topics": [],
+    "featured": false,
+    "source_id": "medium_main",
+    "external_id": "9caa5d0dfd65",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
+    "source_label": "Medium",
+    "source_icon": "https://medium.com/favicon.ico"
   },
   {
     "id": "dglab:2026-06-29-dexmal-01",
@@ -97,7 +116,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "dglab_main",
     "external_id": "2026-06-29-dexmal-01",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "DG Lab Haus",
     "source_icon": "https://media.dglab.com/favicon.ico"
   },
@@ -116,7 +135,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "n1b8935b01237",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -129,13 +148,13 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "source_url": "https://medium.com/shenzhen-high-tour-by-makers/what-10-fake-airpods-reveal-about-chinas-semiconductor-ecosystem-66e7ed494295",
     "canonical_url": "",
     "summary": "A field note from Shenzhen: low-cost TWS earbuds, chip decap services, and the supply chains behind “fake” hardware I bought a pair of “Huaqiangbei AirPods” on Taobao for 67 RMB — about 10 USD at the time. They are clearly not genuine Apple AirPods. The packaging, the pairing screen, and the overall experience are designed to look familiar, but the product itself is a completely different piece of hardware. That is...",
-    "image": "",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*8KIJ3FyahjHrllkj-QhyaA.jpeg",
     "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "medium_main",
     "external_id": "66e7ed494295",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
   },
@@ -154,7 +173,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_en",
     "external_id": "xAotcCqOcug",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes EN",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -173,7 +192,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "podcast_main",
     "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "Podcast",
     "source_icon": "https://open.spotify.com/favicon.ico"
   },
@@ -192,7 +211,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "youtube_ja",
     "external_id": "UVJQNMm7wJk",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "Nico-Tech Shenzhen Field Notes JP",
     "source_icon": "https://www.youtube.com/favicon.ico"
   },
@@ -211,7 +230,7 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "featured": false,
     "source_id": "note_main",
     "external_id": "nd01852684b73",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "note",
     "source_icon": "https://note.com/favicon.ico"
   },
@@ -224,34 +243,15 @@ Recommendation for future `/updates/` display: hide duplicate source URLs by def
     "source_url": "https://medium.com/shenzhen-high-tour-by-makers/reading-the-hardware-hacker-in-the-age-of-ai-8c3d093fdd7f",
     "canonical_url": "",
     "summary": "Where Does Your Curiosity Come From? I am very happy and honored that The Hardware Hacker by Andrew “bunnie” Huang has been chosen as a reading assignment for a seminar at the Interface Device Laboratory at Kanazawa University, where I currently belong. This book is personally meaningful to me because I am the Japanese translator of The Hardware Hacker . Seeing a book I translated become part of an academic discussi...",
-    "image": "",
+    "image": "https://cdn-images-1.medium.com/max/747/1*wD5NtdMcxt_MgnPAWRNdmw.jpeg",
     "language": "en",
     "topics": [],
     "featured": false,
     "source_id": "medium_main",
     "external_id": "8c3d093fdd7f",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
+    "imported_at": "2026-07-01T09:35:58.977762+00:00",
     "source_label": "Medium",
     "source_icon": "https://medium.com/favicon.ico"
-  },
-  {
-    "id": "note:n29dfc14da1fd",
-    "activity_type": "external",
-    "source_platform": "note",
-    "title": "インド製100円電卓をチップDecapしたら、中国製4ビットCPUが見えてきた【フィールドノート #08】",
-    "date": "2026-06-07T10:54:17+09:00",
-    "source_url": "https://note.com/takasu/n/n29dfc14da1fd",
-    "canonical_url": "",
-    "summary": "インド・チェンナイで買った、Made in India表記の100円台の電卓を分解し、さらに深圳のチップDecap業者に依頼して、黒いエポキシの下にあるチップの中まで見た話です。 以前の記事では、ホテルで分解した基板から「Made in Indiaの中に深圳の設計重力が見えるのではないか」と書きました。今回はその続きとして、Techanalyeさんの分析とチップDecapによって、基板のさらに下、シリコンのレイヤーまで見ています。そこにあったのは、中国SiLian MicroのSC2118系と見られる4ビットCPUでした。 続きをみる",
-    "image": "https://assets.st-note.com/production/uploads/images/283205909/rectangle_large_type_2_b5239c0868643875095ff38df68a6a03.png?width=800",
-    "language": "ja",
-    "topics": [],
-    "featured": false,
-    "source_id": "note_main",
-    "external_id": "n29dfc14da1fd",
-    "imported_at": "2026-07-01T09:13:19.134149+00:00",
-    "source_label": "note",
-    "source_icon": "https://note.com/favicon.ico"
   }
 ]
 ```
