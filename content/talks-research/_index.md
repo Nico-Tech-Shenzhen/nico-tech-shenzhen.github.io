@@ -4,3 +4,5 @@ description: "Talks, research outputs, public presentations, and community knowl
 ---
 
 Talks, research outputs, public presentations, and researchmap-linked publication records.
+
+→ [Slides, videos & books hub: Materials](/materials/) | [Teardown 2026](/teardown-2026/)

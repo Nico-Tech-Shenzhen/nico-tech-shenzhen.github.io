@@ -59,14 +59,19 @@ buildFuture = false
     weight = 7
 
   [[menu.main]]
+    name = "Materials"
+    url = "/materials/"
+    weight = 8
+
+  [[menu.main]]
     name = "English"
     url = "/english/"
-    weight = 8
+    weight = 9
 
   [[menu.main]]
     name = "Search"
     url = "/search/"
-    weight = 9
+    weight = 10
 
 # PaperMod SEO設定
 [params.analytics.google]
