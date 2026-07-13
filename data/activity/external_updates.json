@@ -2,6 +2,25 @@
   "generated_at": "2026-07-11T22:37:04.118647+00:00",
   "items": [
     {
+      "id": "note:ncbb378be7a25",
+      "activity_type": "external",
+      "source_platform": "note",
+      "title": "翻訳にもCI/CDを──『Hacking the Xbox』日本語版で試していること",
+      "date": "2026-07-13T01:30:00+09:00",
+      "source_url": "https://note.com/takasu/n/ncbb378be7a25",
+      "canonical_url": "",
+      "summary": "最近、Andrew \"bunnie\" Huangの『Hacking the Xbox』を日本語に翻訳し、GitHub Pagesで公開する作業をしている。AIがなければ、少なくとも今のタイミングで始めようとは思わなかっただろう。この翻訳で行っている作業と、AI時代に人間が何をすべきかについて、プロジェクトのサイトに文章をまとめた。",
+      "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/15d51ac0ff6c2b2bfe3cec2ca6ff0479e1653568.png",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "note_main",
+      "external_id": "ncbb378be7a25",
+      "imported_at": "2026-07-13T00:00:00+00:00",
+      "source_label": "note",
+      "source_icon": "https://note.com/favicon.ico"
+    },
+    {
       "id": "note:naf4b628e3aef",
       "activity_type": "external",
       "source_platform": "note",

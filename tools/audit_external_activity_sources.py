@@ -592,6 +592,8 @@ def audit_source(source: dict[str, Any], imported_at: str) -> SourceResult:
     issues.extend(parse_issues)
     if platform == "medium":
         enrich_medium_images(parsed_items)
+    if platform == "note":
+        enrich_note_images(parsed_items)
     normalized = [normalize_entry(source, item, imported_at) for item in parsed_items]
     return SourceResult(source, "tested", normalized, issues)
 
@@ -607,6 +609,18 @@ def enrich_medium_images(entries: list[dict[str, str]]) -> None:
         if not image:
             image = entry.get("content_image", "")
         entry["image"] = image
+
+
+def enrich_note_images(entries: list[dict[str, str]]) -> None:
+    """note.com's RSS includes media:thumbnail only when the article has a
+    cover image. Articles without a cover image have no media:thumbnail.
+    For those, fall back to og:image from the article page (note.com generates
+    a social card image for every article regardless of cover image)."""
+    for entry in entries:
+        if not entry.get("image"):
+            image = fetch_ogp_image(entry.get("link", ""))
+            if image:
+                entry["image"] = image
 
 
 def find_duplicates(results: list[SourceResult]) -> list[str]:

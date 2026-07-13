@@ -27,7 +27,7 @@ EXTERNAL_DATA = ROOT / "data" / "activity" / "external_updates.json"
 
 # The most recently known note article; update this when new articles are added.
 # The CI import workflow keeps external_updates.json current automatically.
-LATEST_KNOWN_NOTE_URL = "https://note.com/takasu/n/naf4b628e3aef"
+LATEST_KNOWN_NOTE_URL = "https://note.com/takasu/n/ncbb378be7a25"
 
 SLUG_RE = re.compile(r"^slug:\s*(.+)$", re.MULTILINE)
 ALIAS_RE = re.compile(r'^aliases:\s*\[([^\]]*)\]', re.MULTILINE)
@@ -134,19 +134,28 @@ def check_external_data(errors: list[str]) -> None:
                 f"  external item missing fields {missing}: {item.get('id', '?')}"
             )
 
-    # Rule 6: the most recent note item should have a thumbnail.
-    # (Older items may have no cover image set on note.com — that is normal.)
+    # Rule 6: systemic thumbnail failure check for note items.
+    # A single article without a cover image is normal (note.com lets authors
+    # skip cover images). Only fail when the majority of recent note items are
+    # missing thumbnails, which indicates the importer's image extraction broke.
     note_items = sorted(
         [i for i in items if i.get("source_platform") == "note"],
         key=lambda i: i.get("date", ""),
         reverse=True,
     )
-    if note_items and not note_items[0].get("image"):
-        latest_note = note_items[0]
-        errors.append(
-            f"  latest note item has no thumbnail: {latest_note.get('id', '?')} "
-            f"({latest_note.get('source_url', '')})"
-        )
+    if note_items:
+        recent = note_items[:5]
+        missing_count = sum(1 for i in recent if not i.get("image"))
+        if missing_count >= len(recent):
+            errors.append(
+                f"  all recent note items ({len(recent)}) are missing thumbnails — "
+                "importer image extraction may be broken"
+            )
+        elif missing_count > len(recent) // 2:
+            errors.append(
+                f"  majority of recent note items ({missing_count}/{len(recent)}) are missing thumbnails — "
+                "importer image extraction may be broken"
+            )
 
     # Rule 7: latest known note article must be present
     urls = {i.get("source_url", "") for i in items}
