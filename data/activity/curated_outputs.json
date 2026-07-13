@@ -61,6 +61,54 @@
       "featured": false
     },
     {
+      "id": "book:hacking-the-xbox",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "Hacking the Xbox",
+      "date": "",
+      "source_url": "",
+      "language": "en",
+      "topics": ["hardware", "hacking", "bunnie"],
+      "featured": false
+    },
+    {
+      "id": "book:east-asia-innovation",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "東アジアのイノベーション",
+      "date": "",
+      "source_url": "https://amzn.to/32CNAVA",
+      "language": "ja",
+      "topics": ["innovation", "east-asia", "ecosystem"],
+      "featured": false
+    },
+    {
+      "id": "book:people-powered-ja",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Translation",
+      "title": "遠くへ行きたければ　みんなで行け",
+      "date": "2022-04-23",
+      "source_url": "https://amzn.to/3NtJR2G",
+      "language": "ja",
+      "topics": ["community", "translation"],
+      "featured": false
+    },
+    {
+      "id": "book:hackerspace-guide",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "世界ハッカースペースガイド",
+      "date": "",
+      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/hirayasutakas-22/ref=nosim/",
+      "language": "ja",
+      "topics": ["hackerspace", "maker-ecosystem"],
+      "featured": false
+    },
+    {
       "id": "talk:asian-maker-faire-mft2015",
       "activity_type": "talk",
       "source_platform": "conference",
