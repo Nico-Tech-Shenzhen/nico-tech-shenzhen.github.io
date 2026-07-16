@@ -20,11 +20,46 @@
   {{- end -}}
 {{- end -}}
 
+{{/* Sort newest first by pub_date (string: YYYY, YYYY-MM, or YYYY-MM-DD). Items without pub_date go last. */}}
+{{- $dated := slice -}}
+{{- $undated := slice -}}
+{{- range $books -}}
+  {{- $sk := or .sort_key .pub_date -}}
+  {{- if $sk -}}{{- $dated = $dated | append (merge . (dict "sk" (printf "%v" $sk))) -}}{{- else -}}{{- $undated = $undated | append . -}}{{- end -}}
+{{- end -}}
+{{- $sorted := sort $dated "sk" "desc" -}}
+
 <h2>Books and Publications</h2>
 <div class="post-content">
   {{- if $books }}
-  <ul>
-    {{- range $books }}{{- partial "activity_compact_item.html" . }}{{- end }}
+  <ul style="margin:0; padding:0;">
+    {{- range (append $undated $sorted) }}
+    {{- $item := . }}
+    <li style="list-style:none; margin:.9rem 0; padding:.9rem 0 0; border-top:1px solid var(--border);">
+      <article style="display:flex; gap:1rem; align-items:flex-start;">
+        {{- with $item.cover }}
+        <img src="{{ . }}" alt="{{ or $item.cover_alt $item.title }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove();" style="width:88px; height:auto; max-height:126px; object-fit:contain; border-radius:4px; flex:0 0 auto; margin:0;">
+        {{- end }}
+        <div style="min-width:0;">
+          <div style="font-size:1rem; line-height:1.45; overflow-wrap:anywhere;">
+            {{- if $item.source_url -}}
+            <a href="{{ $item.source_url }}">{{ $item.title }}</a>
+            {{- else -}}
+            {{ $item.title }}
+            {{- end -}}
+          </div>
+          <small style="display:block; margin-top:.2rem; line-height:1.4;">
+            {{- with $item.pub_date_display }}{{ . }}{{ end -}}
+            {{- with $item.source_label }}{{ if $item.pub_date_display }} · {{ end }}{{ . }}{{ end -}}
+            {{- with $item.language }} · {{ . }}{{ end -}}
+          </small>
+          {{- with $item.note }}
+          <p style="margin:.35rem 0 0; font-size:.85rem; line-height:1.55; color:var(--secondary);">{{ . }}</p>
+          {{- end }}
+        </div>
+      </article>
+    </li>
+    {{- end }}
   </ul>
   {{- else }}
   <p>No curated book items found yet.</p>

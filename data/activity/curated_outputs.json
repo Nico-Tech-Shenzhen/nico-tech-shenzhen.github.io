@@ -9,8 +9,17 @@
       "date": "",
       "source_url": "https://takasumasakazu.booth.pm/items/7985389",
       "language": "ja",
-      "topics": ["shenzhen", "guide", "maker-ecosystem"],
-      "featured": true
+      "topics": [
+        "shenzhen",
+        "guide",
+        "maker-ecosystem"
+      ],
+      "featured": true,
+      "pub_date": "2026-02-13",
+      "pub_date_display": "2026-02-13",
+      "cover": "https://booth.pximg.net/c/620x620/8be8e897-c475-44da-bb13-b535d4a0dd6e/i/7985389/af58dca0-47ed-4042-b5a3-9c968e403ae5_base_resized.jpg",
+      "cover_alt": "『深センの歩き方2026』表紙",
+      "note": "初めて深圳を訪れる人向けの実践ガイド。マッハ新書（PDF）、2026年内に随時更新。"
     },
     {
       "id": "book:exploring-shenzhen-2026",
@@ -21,8 +30,57 @@
       "date": "",
       "source_url": "https://gumroad.com/l/jeiskh",
       "language": "en",
-      "topics": ["shenzhen", "guide", "maker-ecosystem"],
-      "featured": true
+      "topics": [
+        "shenzhen",
+        "guide",
+        "maker-ecosystem"
+      ],
+      "featured": true,
+      "pub_date": "2026-02",
+      "pub_date_display": "2026-02",
+      "note": "A field guide to China's hardware capital, urban technology, and real-world innovation (English edition)."
+    },
+    {
+      "id": "book:hacking-the-xbox-ja",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Translation",
+      "title": "『Hacking the Xbox』日本語訳",
+      "date": "",
+      "source_url": "/hacking-the-xbox-ja/",
+      "language": "ja",
+      "topics": [
+        "hardware",
+        "hacking",
+        "bunnie",
+        "translation"
+      ],
+      "featured": false,
+      "pub_date": "2026",
+      "pub_date_display": "2026（翻訳進行中）",
+      "note": "Andrew “bunnie” Huang 著『Hacking the Xbox』（No Starch Press, 2003）の日本語訳プロジェクト。ニコ技深圳コミュニティ／高須正和による翻訳コントリビューションで、出版社による公式日本語版ではありません。",
+      "sort_key": "2026-01-01",
+      "date_note": "Ongoing community translation project (2026). Year-only date used conservatively; sort_key is a conservative sorting placeholder, not a publication date."
+    },
+    {
+      "id": "book:people-powered-ja",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Translation",
+      "title": "遠くへ行きたければ、みんなで行け",
+      "date": "2022-04-21",
+      "source_url": "https://gihyo.jp/book/2022/978-4-297-12769-5",
+      "language": "ja",
+      "topics": [
+        "community",
+        "translation"
+      ],
+      "featured": false,
+      "pub_date": "2022-04-21",
+      "pub_date_display": "2022-04-21",
+      "cover": "https://gihyo.jp/assets/images/cover/2022/thumb/TH800_9784297127695.jpg",
+      "cover_alt": "『遠くへ行きたければ、みんなで行け』表紙",
+      "note": "ジョノ・ベーコン 著／高須正和 訳／山形浩生 監訳（技術評論社）。"
     },
     {
       "id": "book:prototype-city",
@@ -30,47 +88,20 @@
       "source_platform": "publication",
       "source_label": "Book",
       "title": "プロトタイプシティ 深センと世界的イノベーション",
-      "date": "2020-07-01",
-      "source_url": "https://amzn.to/2QTRpzO",
+      "date": "2020-07-31",
+      "source_url": "https://www.kadokawa.co.jp/product/321810000028/",
       "language": "ja",
-      "topics": ["shenzhen", "innovation", "maker-ecosystem"],
-      "featured": true
-    },
-    {
-      "id": "book:hardware-hacker-ja",
-      "activity_type": "book",
-      "source_platform": "publication",
-      "source_label": "Translation",
-      "title": "ハードウェアハッカー 新しいモノをつくる破壊と創造の冒険",
-      "date": "",
-      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/",
-      "language": "ja",
-      "topics": ["hardware", "manufacturing", "translation"],
-      "featured": false
-    },
-    {
-      "id": "book:makers-ecosystem",
-      "activity_type": "book",
-      "source_platform": "publication",
-      "source_label": "Book",
-      "title": "メイカーズのエコシステム 新しいモノづくりがとまらない。",
-      "date": "",
-      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/",
-      "language": "ja",
-      "topics": ["maker-ecosystem", "shenzhen", "hardware"],
-      "featured": false
-    },
-    {
-      "id": "book:hacking-the-xbox",
-      "activity_type": "book",
-      "source_platform": "publication",
-      "source_label": "Book",
-      "title": "Hacking the Xbox",
-      "date": "",
-      "source_url": "",
-      "language": "en",
-      "topics": ["hardware", "hacking", "bunnie"],
-      "featured": false
+      "topics": [
+        "shenzhen",
+        "innovation",
+        "maker-ecosystem"
+      ],
+      "featured": true,
+      "pub_date": "2020-07-31",
+      "pub_date_display": "2020-07-31",
+      "cover": "https://cdn.kdkw.jp/cover_1000/321810/321810000028.webp",
+      "cover_alt": "『プロトタイプシティ 深センと世界的イノベーション』表紙",
+      "note": "高須正和・高口康太 編著（KADOKAWA）。第37回大平正芳記念賞特別賞受賞。"
     },
     {
       "id": "book:east-asia-innovation",
@@ -79,22 +110,40 @@
       "source_label": "Book",
       "title": "東アジアのイノベーション",
       "date": "",
-      "source_url": "https://amzn.to/32CNAVA",
+      "source_url": "https://www.ide.go.jp/Japanese/Publish/Books/Jpn_Books/Extpub/b073.html",
       "language": "ja",
-      "topics": ["innovation", "east-asia", "ecosystem"],
-      "featured": false
+      "topics": [
+        "innovation",
+        "east-asia",
+        "ecosystem"
+      ],
+      "featured": false,
+      "pub_date": "2019-11",
+      "pub_date_display": "2019-11",
+      "cover": "https://www.ide.go.jp/library/Japanese/Publish/Books/Jpn_Books/Extpub/images/b073.jpg",
+      "cover_alt": "『東アジアのイノベーション』表紙",
+      "note": "木村公一朗 編（作品社）。高須は第6章「オープンソースとマスイノベーション」を執筆。"
     },
     {
-      "id": "book:people-powered-ja",
+      "id": "book:hardware-hacker-ja",
       "activity_type": "book",
       "source_platform": "publication",
       "source_label": "Translation",
-      "title": "遠くへ行きたければ　みんなで行け",
-      "date": "2022-04-23",
-      "source_url": "https://amzn.to/3NtJR2G",
+      "title": "ハードウェアハッカー 新しいモノをつくる破壊と創造の冒険",
+      "date": "",
+      "source_url": "https://gihyo.jp/book/2018/978-4-297-10106-0",
       "language": "ja",
-      "topics": ["community", "translation"],
-      "featured": false
+      "topics": [
+        "hardware",
+        "manufacturing",
+        "translation"
+      ],
+      "featured": false,
+      "pub_date": "2018-10-19",
+      "pub_date_display": "2018-10-19",
+      "cover": "https://gihyo.jp/assets/images/cover/2018/thumb/TH800_9784297101060.jpg",
+      "cover_alt": "『ハードウェアハッカー』表紙",
+      "note": "アンドリュー“バニー”ファン 著／高須正和 訳／山形浩生 監訳（技術評論社）。"
     },
     {
       "id": "book:hackerspace-guide",
@@ -103,10 +152,39 @@
       "source_label": "Book",
       "title": "世界ハッカースペースガイド",
       "date": "",
-      "source_url": "http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/hirayasutakas-22/ref=nosim/",
+      "source_url": "https://www.shoeisha.co.jp/book/detail/9784798150499",
       "language": "ja",
-      "topics": ["hackerspace", "maker-ecosystem"],
-      "featured": false
+      "topics": [
+        "hackerspace",
+        "maker-ecosystem"
+      ],
+      "featured": false,
+      "pub_date": "2018-01-30",
+      "pub_date_display": "2018-01-30",
+      "cover": "https://www.shoeisha.co.jp/static/book/cover/9784798150505.jpg",
+      "cover_alt": "『世界ハッカースペースガイド』表紙",
+      "note": "高須正和 著（翔泳社）。世界14か所のハッカースペースを紹介するガイド。"
+    },
+    {
+      "id": "book:makers-ecosystem",
+      "activity_type": "book",
+      "source_platform": "publication",
+      "source_label": "Book",
+      "title": "メイカーズのエコシステム 新しいモノづくりがとまらない。",
+      "date": "",
+      "source_url": "https://nextpublishing.jp/book/7208.html",
+      "language": "ja",
+      "topics": [
+        "maker-ecosystem",
+        "shenzhen",
+        "hardware"
+      ],
+      "featured": false,
+      "pub_date": "2016-01-29",
+      "pub_date_display": "2016-01-29",
+      "cover": "https://nextpublishing.jp/wp-content/uploads/2016/01/N00383.jpg",
+      "cover_alt": "『メイカーズのエコシステム』表紙",
+      "note": "高須正和 著（インプレスR&D）。電子版2016-01-29発行、印刷版は2016-04発売。"
     },
     {
       "id": "talk:asian-maker-faire-mft2015",
@@ -117,7 +195,11 @@
       "date": "2015-08-06",
       "source_url": "/shenzhen/talk-asian-maker-faire-at-maker-faire-tokyo-2015/",
       "language": "en",
-      "topics": ["maker-faire", "shenzhen", "talk"],
+      "topics": [
+        "maker-faire",
+        "shenzhen",
+        "talk"
+      ],
       "featured": false
     }
   ]
