@@ -8,19 +8,13 @@ slug: maker-faire-maker-faire
 date: 2025-03-23
 ---
 
-2017/07/03 08:00
-
-
 ------------------------------------------------------------------------
-2017/07/03 08:00
-
 
 8月にはMaker Faire Tokyoが開催されるが、この夏はアジア各国でもMaker
 Faireが行われている。アジアにはまだ「はじめてのMaker
 Faire」や、小さいイベントを盛り上げていこうとする途中の荒削りなMaker
 Faireがあり、東京とは違った魅力がある。Makeの世界は広い。今回は日本から出展しやすいアジアのMaker
 Faireを紹介する。
-
 
 ------------------------------------------------------------------------
 
@@ -70,39 +64,28 @@ Xianのサイン。秦始皇帝陵の兵馬俑で知られる西安だけに、M
 FaireのシンボルMakeyが兵馬俑型になっている。](https://cdn-images-1.medium.com/max/800/1*Kw0Lv_h1lkdkLb2PnPYuKA.jpeg)
 
 2017年、初めて中国の[**西安でMaker
-Faireが開かれる**](https://www.facebook.com/makerfairexian/){.markup--anchor
-.markup--p-anchor}。Miniではなくて大サイズのフェアをいきなり開く西安は中国の中でも大学の多い文教都市として知られ、日本の京都と姉妹都市になっている。旧名の長安は奈良や京都（というより平城京や平安京）のモデルとなった。会場は中国陝西省西安市
+Faireが開かれる**](https://www.facebook.com/makerfairexian/)。Miniではなくて大サイズのフェアをいきなり開く西安は中国の中でも大学の多い文教都市として知られ、日本の京都と姉妹都市になっている。旧名の長安は奈良や京都（というより平城京や平安京）のモデルとなった。会場は中国陝西省西安市
 曲江国際会展中心というコンベンションセンター。
 
 ![Maker Faire
 Xianでは、巨大なステージで明和電機などがパフォーマンスを行う。写真右下の赤いMakeyの高さが5mなので、ステージの巨大さがわかる](https://cdn-images-1.medium.com/max/800/1*Db3nc0cAXMED7z8tHePRIw.jpeg)
 
-今回は西安市が大きな投資をしていて、世界からさまざまなMakerを招いている。VRエヴァンジェリストの[**GOROman氏**](https://twitter.com/goroman){.markup--anchor
-.markup--p-anchor}が登壇するほか、ブースとして[**デイリーポータルZ**](http://portal.nifty.com/){.markup--anchor
-.markup--p-anchor}、ロボットバンド[**「こさんくん」**](http://www.asahi-net.or.jp/~HB9T-KTD/music/Japan/Research/Robot/kosankun_Series.html){.markup--anchor
-.markup--p-anchor}、ロボットプロレス[**「流血仮面」**](http://www.ryuketsu-kamen.jp/){.markup--anchor
-.markup--p-anchor}、ヒゲキタ氏の[**3Dプラネタリウム**](http://higekita.wixsite.com/kilostar){.markup--anchor
-.markup--p-anchor}など、Maker Faire
+今回は西安市が大きな投資をしていて、世界からさまざまなMakerを招いている。VRエヴァンジェリストの[**GOROman氏**](https://twitter.com/goroman)が登壇するほか、ブースとして[**デイリーポータルZ**](http://portal.nifty.com/)、ロボットバンド[**「こさんくん」**](http://www.asahi-net.or.jp/~HB9T-KTD/music/Japan/Research/Robot/kosankun_Series.html)、ロボットプロレス[**「流血仮面」**](http://www.ryuketsu-kamen.jp/)、ヒゲキタ氏の[**3Dプラネタリウム**](http://higekita.wixsite.com/kilostar)など、Maker Faire
 TokyoでもおなじみのMakerたちが招待されているほか、[**Nerdy
-Derby**](https://nerdyderby.com/){.markup--anchor
-.markup--p-anchor}や[**MakeFashion**](http://www.makefashion.ca/){.markup--anchor
-.markup--p-anchor}など欧米のMakerたちも見ることができる。
+Derby**](https://nerdyderby.com/)や[**MakeFashion**](http://www.makefashion.ca/)など欧米のMakerたちも見ることができる。
 
 ![ステージで行われる予定のMakeFashion。カナダのカルガリーから参加。（写真はMaker
 Faire
 成都 2016）](https://cdn-images-1.medium.com/max/800/1*E_rApZk00XFuPrJHPWXZHw.jpeg)
 
 ![Maker Faire成都
-2016での[「ロボットプロレス流血仮面」](http://www.ryuketsu-kamen.jp/robot){.markup--anchor
-.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*kXPj6eo562LAKlMCzZjdZQ.jpeg)
+2016での[「ロボットプロレス流血仮面」](http://www.ryuketsu-kamen.jp/robot)](https://cdn-images-1.medium.com/max/800/1*kXPj6eo562LAKlMCzZjdZQ.jpeg)
 
-一般募集は締め切られてしまっているが、西安では日本Maker達の出展を歓迎するため、個別に申し込まなくても合同出展できる日本人Maker出展ブースを設けている。[**こちらのページ**](http://j.nicotech.jp/ntxian2017){.markup--anchor
-.markup--p-anchor}に出展案内があり、Googleスプレッドシートの申し込みを書けば、当日いきなり会場に作品を持ち込むだけで出展できる。他の日本人と並んでの共同出展なので、作品を持ち込みつつ交代で会場を見学することもしやすいだろう。共同申し込みのサポートサイトでは最小限の時間と予算で往復するための航空券の案内など、さまざまな情報が掲載されている。
+一般募集は締め切られてしまっているが、西安では日本Maker達の出展を歓迎するため、個別に申し込まなくても合同出展できる日本人Maker出展ブースを設けている。[**こちらのページ**](http://j.nicotech.jp/ntxian2017)に出展案内があり、Googleスプレッドシートの申し込みを書けば、当日いきなり会場に作品を持ち込むだけで出展できる。他の日本人と並んでの共同出展なので、作品を持ち込みつつ交代で会場を見学することもしやすいだろう。共同申し込みのサポートサイトでは最小限の時間と予算で往復するための航空券の案内など、さまざまな情報が掲載されている。
 
 日時：2017/07/15～16\
 会場：中国陝西省西安市 曲江国際会展中心\
-公式サイト：情報少なく、[**Facebookグループ**](https://www.facebook.com/makerfairexian/){.markup--anchor
-.markup--p-anchor}を確認するのがお勧め\
+公式サイト：情報少なく、[**Facebookグループ**](https://www.facebook.com/makerfairexian/)を確認するのがお勧め\
 日本人向け共同出展案内：[**http://j.nicotech.jp/ntxian2017**](http://j.nicotech.jp/ntxian2017)
 ![中国のロボット作者による鉄製のMakeyも制作中。口から火を噴くという。](https://cdn-images-1.medium.com/max/800/1*Bp1NV1QLVh9wK2rlIU0QwA.jpeg)
 
@@ -110,17 +93,13 @@ Faire
 Maker Faire Xianの翌週、東南アジアの都市国家シンガポールでMaker
 Faireが開かれる。教育省の配下にあるサイエンスセンターシンガポールが主催で、Fabcrossでは[**シンガポールの国家戦略に組み込まれる
 Maker Faire Singapore
-2016**](https://fabcross.jp/topics/tks/20160907_maker_faire_singapore.html){.markup--anchor
-.markup--p-anchor}などで紹介した。
+2016**](https://takasumasakazu.net/fabcross/maker-faire-singapore-2016/)などで紹介した。
 
 ![昨年のMaker Faire
 Singaporeでは、シンガポールの外務大臣兼スマート国家担当ヴィヴィアン氏ほか、複数の大臣がほぼ全ブースをまわった。](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg)
 
-[**STEMのレポート**](https://fabcross.jp/topics/tks/20170510_singapore_stem_01.html){.markup--anchor
-.markup--p-anchor}が評判になったとおり、シンガポールは教育熱心な国として知られ、Maker
-Faireも親子での出展や教育関係のブース、プレゼンテーションが非常に多い。また、[**10日間2万円で電波認証（いわゆる技適）が取れたのレポート**](https://fabcross.jp/topics/tks/20170412_singapore_01.html){.markup--anchor
-.markup--p-anchor}で紹介したIMDAや、[**失敗を恐れるシンガポール人気質を変えるSTEM教育**](https://fabcross.jp/topics/tks/20170510_singapore_stem_01.html){.markup--anchor
-.markup--p-anchor}のサイエンスセンターほか各種学校など、パブリックセクターからの展示が多いのも特徴で、Makeと教育をテーマにしている人はチェックする価値のあるフェアだろう。アメリカ・ベイエリアのMaker
+[**STEMのレポート**](https://fabcross.jp/topics/tks/20170510_singapore_stem_01.html)が評判になったとおり、シンガポールは教育熱心な国として知られ、Maker
+Faireも親子での出展や教育関係のブース、プレゼンテーションが非常に多い。また、[**10日間2万円で電波認証（いわゆる技適）が取れたのレポート**](https://takasumasakazu.net/fabcross/10-2/)で紹介したIMDAや、[**失敗を恐れるシンガポール人気質を変えるSTEM教育**](https://fabcross.jp/topics/tks/20170510_singapore_stem_01.html)のサイエンスセンターほか各種学校など、パブリックセクターからの展示が多いのも特徴で、Makeと教育をテーマにしている人はチェックする価値のあるフェアだろう。アメリカ・ベイエリアのMaker
 FaireにはMake:Educationという教育関連パビリオンがあるが、そのパビリオンがそのまま大きくなった感じだ。
 
 シンガポールのMaker Faireは2012年のMini Maker
@@ -134,8 +113,7 @@ Faireとしてお勧めでもある。
 
 日時：2017/07/22～23\
 会場：Science Centre Singapore\
-公式サイト：[**http://makerfairesingapore.com/**](http://makerfairesingapore.com/){.markup--anchor
-.markup--p-anchor}\
+公式サイト：[**http://makerfairesingapore.com/**](http://makerfairesingapore.com/)\
 日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_Singapore\_2017**](http://j.nicotech.jp/nt_Singapore_2017)
 ### もっとも日本に近いカルチャーのMaker Faire Taipei（台湾・台北）
 台湾のMaker
@@ -159,8 +137,7 @@ Faireは現在も申し込みを受け付けているが、出展費とデポジ
 
 日時：2017/11/03～05\
 会場：華山1914創意文化園區\
-公式サイト：[**http://www.makerfaire.com.tw/**](http://www.makerfaire.com.tw/){.markup--anchor
-.markup--p-anchor}\
+公式サイト：[**http://www.makerfaire.com.tw/**](http://www.makerfaire.com.tw/)\
 日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_taipei\_2017**](http://j.nicotech.jp/nt_taipei_2017)
 ![昨年、日本から共同出展したブース。](https://cdn-images-1.medium.com/max/800/1*kXdTJQWb1j8CZKdgR605Ww.jpeg)
 

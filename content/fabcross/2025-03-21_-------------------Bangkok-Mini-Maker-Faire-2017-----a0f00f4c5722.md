@@ -8,14 +8,9 @@ slug: bangkok-mini-maker-faire-2017
 date: 2025-03-21
 ---
 
-2017/02/22 08:00
-
-
 ------------------------------------------------------------------------
 
 ### タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート
-2017/02/22 08:00
-
 
 「微笑みの国」と呼ばれ日本人から人気の高いタイ。2017年で2回目になる「Bangkok
 Mini Maker
@@ -24,12 +19,9 @@ Faireをレポートする。
 
 ### タイらしさ爆発、昼からスタート、夜はパレードのMaker Faire
 [**Bangkok Mini Maker Faire
-2017**](https://www.facebook.com/bangkokmakerfaire/){.markup--anchor
-.markup--p-anchor}は1月21～22日の2日間、バンコク中心部の[**The Street
-Ratchada**](http://www.thestreetratchada.com/){.markup--anchor
-.markup--p-anchor}というショッピングモールのイベントスペースで開かれた。[**以前レポートした成都のMaker
-Faire**](https://fabcross.jp/topics/tks/20170124_mini_maker_faire_chengdu_01.html){.markup--anchor
-.markup--p-anchor}同様、普段から若者が集まるオシャレな場所である。どの都市のMaker
+2017**](https://www.facebook.com/bangkokmakerfaire/)は1月21～22日の2日間、バンコク中心部の[**The Street
+Ratchada**](http://www.thestreetratchada.com/)というショッピングモールのイベントスペースで開かれた。[**以前レポートした成都のMaker
+Faire**](https://takasumasakazu.net/fabcross/maker-4-maker-faire-mini-maker-faire-2016/)同様、普段から若者が集まるオシャレな場所である。どの都市のMaker
 Faireもその都市ならではの魅力に満ちているが、バンコクでのMaker
 Faireはさらに"ここだけ感"が強く、タイという国が持っている文化の強さを感じた。2日とも13:00～20:00という朝寝坊でそのぶん遅めまでの時間帯で行われたMaker
 Faireは、南国タイらしい楽しみにあふれたものになった。
@@ -57,8 +49,7 @@ Somsamanも参加。子どもがたくさん来る科学のイベントで「ド
 
 ### 遊び心に満ちた出展物たち
 Bangkok Mini Maker Faireの運営は[**National Science and Technology
-Development Agency**](https://www.nstda.or.th/en/){.markup--anchor
-.markup--p-anchor}（以下NSTDA）というタイの公的機関によって行われている。日本の経産省や産総研などにあたる組織であり、子ども向けのテクノロジー教育なども担当している。運営委員長のDr.
+Development Agency**](https://www.nstda.or.th/en/)（以下NSTDA）というタイの公的機関によって行われている。日本の経産省や産総研などにあたる組織であり、子ども向けのテクノロジー教育なども担当している。運営委員長のDr.
 Morn Kritsachai Somsaman（以下Dr.
 Morn）もNSTDAの職員だ。なので学生が研究として行っているような出展物が多いんだろうな、と筆者は予想していた。
 
@@ -68,8 +59,7 @@ Faireでないと見られないような遊び心に満ちた出展物が会場
 これが本当のモバイルコンピュータ
 
 大笑いしたのがこのデスクトップPCにタイヤをつけて会場を走り回るモビリティ。本当の「モバイルコンピュータ」だ。なんとNSTDA内のMakerコミュニティ
-[**MakerHolic**](https://www.facebook.com/Makerholic-1610226259267750/){.markup--anchor
-.markup--p-anchor}からの出展だ。
+[**MakerHolic**](https://www.facebook.com/Makerholic-1610226259267750/)からの出展だ。
 
 天使の羽が動く
 
@@ -84,8 +74,7 @@ Tokyo Meeting」と称していたころのMaker Faire
 Tokyoではよく見かけたが、台北以外の海外ではあまり見かけない種類の作品たちである。こういうところでもタイと日本の「相性の良さ」を感じる。
 
 Maker Faire Tokyo 2016にDr.
-Mornが訪れたときに一目ぼれして招聘（しょうへい）につながった[**佐藤ロボット研究所**](http://satou-robot.a.la9.jp/){.markup--anchor
-.markup--p-anchor}の佐藤さんもこうした作品に大喜び。
+Mornが訪れたときに一目ぼれして招聘（しょうへい）につながった[**佐藤ロボット研究所**](http://satou-robot.a.la9.jp/)の佐藤さんもこうした作品に大喜び。
 
 ![佐藤ロボット研究所。Maker Faire Tokyo
 2016への出展がこの出会いにつながった。](https://cdn-images-1.medium.com/max/800/1*-8jyHgio4AAZuu3fFrHI3Q.jpeg)
@@ -109,8 +98,7 @@ Faireとの違いが見られた。
 Contestでは障害者や老人のためのデザインコンテストが行われていた。車いすをここまで強化する発想にびっくり。](https://cdn-images-1.medium.com/max/800/1*ACisFo4mR3eClpRM9XxE_Q.jpeg)
 
 ![こちらはタイで開発された最初の電気自動車
-[VERA-V1](https://www.facebook.com/VERA-Automotive-1846755862213767/){.markup--anchor
-.markup--figure-anchor}。](https://cdn-images-1.medium.com/max/800/1*G-s9ZYdU7BEpRw80aIl_BQ.jpeg)
+[VERA-V1](https://www.facebook.com/VERA-Automotive-1846755862213767/)。](https://cdn-images-1.medium.com/max/800/1*G-s9ZYdU7BEpRw80aIl_BQ.jpeg)
 
 こうした産業界や学校からの出展物は、DIYの雰囲気よりも「産業見本市っぽくなる」感が出てきてしまうことにもつながる。
 バンコクの場合、会場中いたるところで目に付き、通行人に多少ぶつかっても走り回る面白工作が、それを打ち消してMaker
@@ -119,12 +107,9 @@ Faireっぽさを拡散していて、こういうクオリティの高いプロ
 ### タイのメイカースペースやスタートアップ
 タイでもスタートアップやIoTのカンファレンスが頻繁に行われるなど、「Makerからプロへ」の声がけは盛んにされている。とはいえシリコンバレーや深センのような地の利はなく、ドメスティックに動いているとうまくいきづらい。
 
-カリフォルニアで[**Gravitech**](http://store.gravitech.us/){.markup--anchor
-.markup--p-anchor}というオープンソースハードウェアの会社を経営するDr.
+カリフォルニアで[**Gravitech**](http://store.gravitech.us/)というオープンソースハードウェアの会社を経営するDr.
 Panはそこをつなぐ存在だ。Dr.
-Panはバンコク生まれのタイ人だが、アメリカの大学を卒業してアメリカ西海岸でGravitechを2006年に起業。今は50人ほどの従業員を抱えるまで成長した。深センの[**Seeed**](https://www.seeedstudio.com/){.markup--anchor
-.markup--p-anchor}やニューヨークの[**Adafruit**](https://www.adafruit.com/){.markup--anchor
-.markup--p-anchor}とは同世代の会社で、Seeedのエリック・パンやAdafruitのレディ・エイダとはよく顔を会わせる。
+Panはバンコク生まれのタイ人だが、アメリカの大学を卒業してアメリカ西海岸でGravitechを2006年に起業。今は50人ほどの従業員を抱えるまで成長した。深センの[**Seeed**](https://www.seeedstudio.com/)やニューヨークの[**Adafruit**](https://www.adafruit.com/)とは同世代の会社で、Seeedのエリック・パンやAdafruitのレディ・エイダとはよく顔を会わせる。
 
 そしてDr.
 Panは2015年、自分の経営するMakerスペースをバンコクに作ることに決めた。これから先のビジネスを、半分アメリカ西海岸、残り半分はバンコクのMakerたちと過ごすことを決めたのだ。彼の経験と彼のスペースHOME
@@ -146,8 +131,7 @@ Pan。](https://cdn-images-1.medium.com/max/800/1*_vxK-m7JxEPRhae5-WJLrA.jpeg)
 
 ![タイのスタートアップが開発した木製フレームの組み立て式ドローン](https://cdn-images-1.medium.com/max/800/1*LqELAe1qMMSsmIEU69lt6Q.jpeg)
 
-![タイではSTEM教育も盛り上がりを見せていて、深センのMakeblock[（fabcrossのレポート）](https://fabcross.jp/topics/tks/20160527_makeblock_01.html){.markup--anchor
-.markup--figure-anchor}を現地の代理店が大々的に出展していた。](https://cdn-images-1.medium.com/max/800/1*hfEEpApwud4PH9DFiO_ySA.jpeg)
+![タイではSTEM教育も盛り上がりを見せていて、深センのMakeblock[（fabcrossのレポート）](https://takasumasakazu.net/fabcross/makeblock/)を現地の代理店が大々的に出展していた。](https://cdn-images-1.medium.com/max/800/1*hfEEpApwud4PH9DFiO_ySA.jpeg)
 
 ### アジア中がつながりつつある。
 前述の日本の佐藤ロボット研究所や深センのMakeblockだけでなく、バンコクのMaker
@@ -159,9 +143,7 @@ Faireには海外からの参加者も多く来訪・出展していた。バン
 Faireにもブースを出している。ブースではワークショップのほか、レーザーカッターで切り出したギター展示なども。](https://cdn-images-1.medium.com/max/800/1*v1SEQFSqnWXQubCX2qcJ2Q.jpeg)
 
 ![SEAMNet（東南アジアメイカースペースネットワーク）から、シンガポールで[Sustainable
-Living Lab](http://www.sl2square.org/){.markup--anchor
-.markup--figure-anchor}を運営するVeera（右から2番目）と、ジャカルタで[MakeDoNia](http://makedonia.co/){.markup--anchor
-.markup--figure-anchor}を運営するiBoy。](https://cdn-images-1.medium.com/max/800/1*OvFUn5szSUz_4h_6G8ATmw.jpeg)
+Living Lab](http://www.sl2square.org/)を運営するVeera（右から2番目）と、ジャカルタで[MakeDoNia](http://makedonia.co/)を運営するiBoy。](https://cdn-images-1.medium.com/max/800/1*OvFUn5szSUz_4h_6G8ATmw.jpeg)
 
 ![左からDr.Pan, SexyCyborg, ふたりおいてDr.
 Mornと僕。みんなが笑顔になれる素晴らしいMaker
@@ -171,8 +153,7 @@ Faireだった。](https://cdn-images-1.medium.com/max/800/1*2vSscmp8RkWF63WlvkT
 Faireがこうした東南アジアのMakerたちにとってもいいミートアップの機会になっていると感じた。彼らのうち何人かは東京のMaker
 Faireにも訪れていて、筆者はMaker Faire Tokyoの前日に[**Oversea Maker
 Faire
-Meetup**](https://medium.com/shenzhen-high-tour-by-makers/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248#.2wuya1vbf){.markup--anchor
-.markup--p-anchor}というイベントをしたり、来日する外国人のためのFacebookグループを作ったりしている。今年も開催予定だ。2015年からはMaker
+Meetup**](https://medium.com/shenzhen-high-tour-by-makers/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248#.2wuya1vbf)というイベントをしたり、来日する外国人のためのFacebookグループを作ったりしている。今年も開催予定だ。2015年からはMaker
 Faire Tokyoの公式サイトに英語版ができ、年々充実するなど、どこのMaker
 Faireも国際化しつつある。
 

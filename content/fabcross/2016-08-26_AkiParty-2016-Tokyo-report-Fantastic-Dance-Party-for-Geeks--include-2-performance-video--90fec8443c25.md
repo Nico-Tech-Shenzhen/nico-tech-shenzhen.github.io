@@ -18,8 +18,7 @@ starts from 2014 in Akihabara, Tokyo, and grown in Shenzhen. Then...
 Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg)
 
 [AkiParty --- Dance Party for the Geeks, by the Geeks, of the
-Geeks](https://www.facebook.com/Akiparty4Geeks/){.markup--anchor
-.markup--p-anchor}.That starts from 2014 in Akihabara, Tokyo, and grown
+Geeks](https://www.facebook.com/Akiparty4Geeks/).That starts from 2014 in Akihabara, Tokyo, and grown
 in Shenzhen.\
 Then, AkiParty be an official party at Maker Faire Shenzhen 2015.\
 Official Facebook Page:[AkiParty --- Dance Party for the
@@ -36,7 +35,7 @@ interactive project, anime and 8-bit music.
 Ca5 plays 8-bit Chip-tune music by Own music player software by MAX/MSP
 and some DJ tool. (Photo by Akira Kumagai)
 
-[Ca5](http://ca5.me/){.markup--anchor .markup--p-anchor} plays 8-bit
+[Ca5](http://ca5.me/) plays 8-bit
 Chip-tune music by Own music player software by MAX/MSP and some DJ
 tool. Every makers enjoy his music and Maker mind. He did express how to
 make and play his performance when his time, you can see that video
@@ -55,8 +54,7 @@ Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*PdVdR2qXnMIkT-wsnu1l7
 ![LED Cosplay girl down on stairway to dance floor. (Photo by
 Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*-2T235zhlS55GGxcneFtcA.jpeg)
 
-The final act is [Toriena](http://www.toriena.net/){.markup--anchor
-.markup--p-anchor}. She plays pop-style Chip-Tune by her hacked Game boy
+The final act is [Toriena](http://www.toriena.net/). She plays pop-style Chip-Tune by her hacked Game boy
 and own voice.Her so hot performance made over hundred geeks dance on
 floor!
 
@@ -73,12 +71,9 @@ AkiParty Facebook: <https://www.facebook.com/Akiparty4Geeks/>\
 Maker Faire Shenzhen: <https://www.facebook.com/MakerFaireSZ/>\
 AkiParty 2016 Tokyo Photo: <http://goo.gl/p6CDDc> (Thanks Akira
 Kumagai)\
-Organizer: [Tomad](https://twitter.com/tomad){.markup--anchor
-.markup--p-anchor} ([Maltine
-Records](http://maltinerecords.cs8.biz/){.markup--anchor
-.markup--p-anchor}) &
-[TAKASU](https://www.facebook.com/takasumasakazu){.markup--anchor
-.markup--p-anchor}(Maker Faire Shenzhen/Singapore)\
+Organizer: [Tomad](https://twitter.com/tomad) ([Maltine
+Records](http://maltinerecords.cs8.biz/)) &
+[TAKASU](https://www.facebook.com/takasumasakazu)(Maker Faire Shenzhen/Singapore)\
 Official site (in Japanese):<http://akiba-maker-club.cs8.biz/2016/>\
 Sponsored: DMM.Make Akiba/TechShop Japan/Gugen 2016/Fabcross
 

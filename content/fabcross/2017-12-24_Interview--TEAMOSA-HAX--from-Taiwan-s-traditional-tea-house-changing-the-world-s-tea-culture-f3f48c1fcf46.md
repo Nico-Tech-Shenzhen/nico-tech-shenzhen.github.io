@@ -173,11 +173,9 @@ Shenzhen.](https://cdn-images-1.medium.com/max/800/1*40fQHO6KdMnLkvBDTuedcQ.jpeg
 
 ### **TEAMOSA has amazing success on kickstarter**
 TEAMOSA launched [the Kickstarter
-campaign](https://www.kickstarter.com/projects/teamosa/teamosa-your-personal-tea-brewing-master){.markup--anchor
-.markup--p-anchor} on September 13, 2017 and finally got a total success
+campaign](https://www.kickstarter.com/projects/teamosa/teamosa-your-personal-tea-brewing-master) on September 13, 2017 and finally got a total success
 of 274,457 dollars. After that, we started a pre-ordered order at
-[Indiegogo](https://www.indiegogo.com/projects/teamosa-your-personal-tea-brewing-master){.markup--anchor
-.markup--p-anchor}, which also accepted a back order of 270,000 dollars
+[Indiegogo](https://www.indiegogo.com/projects/teamosa-your-personal-tea-brewing-master), which also accepted a back order of 270,000 dollars
 and is still in campaign.
 
 TEAMOSA is hardware that had not existed in the past, "Slightly
@@ -197,8 +195,7 @@ example of the Maker movement. I am also looking forward to the update
 mail with support. I want to pay attention to the future of TEAMOSA.
 
 This interview made the English version of what contributed to
-[Fabcross](https://fabcross.jp/topics/tks/20171218_teamosa.html){.markup--anchor
-.markup--p-anchor} in Japan by the author.
+[Fabcross](https://takasumasakazu.net/fabcross/teamosa/) in Japan by the author.
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 24, 2017](https://medium.com/p/f3f48c1fcf46).

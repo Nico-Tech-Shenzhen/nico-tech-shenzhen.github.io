@@ -21,8 +21,7 @@ I really looking to see next event.
 
 **February**\
 [Visit NTU
-Naddine](https://medium.com/@tks/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine-8287f93b5949#.qkcp0pcya){.markup--anchor
-.markup--p-anchor} \
+Naddine](https://medium.com/@tks/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine-8287f93b5949#.qkcp0pcya) \
 Singapore Air Show
 
 **March**\
@@ -30,8 +29,7 @@ Singapore Air Show
 **April**\
 Nico Tech Kanazawa Hanami\
 [Shenzhen High Tour
-4th](http://ch.nicovideo.jp/tks/blomaga/ar1010715){.markup--anchor
-.markup--p-anchor}\
+4th](http://ch.nicovideo.jp/tks/blomaga/ar1010715)\
 Global Sources Electronics Hongkong\
 Makeblock Hackerthon\
 Presentation at Shinamono Lab\
@@ -41,16 +39,13 @@ NicoNico Chokaigi
 **May**\
 Robot pioneer forum\
 [ECOSYSTEM BY MAKERS publish
-event](http://ch.nicovideo.jp/tks/blomaga/ar941066){.markup--anchor
-.markup--p-anchor}\
+event](http://ch.nicovideo.jp/tks/blomaga/ar941066)\
 [MakerFaire
-Taipei](https://fabcross.jp/topics/tks/20160701_maker_faire_taipei.html){.markup--anchor
-.markup--p-anchor}\
+Taipei](https://takasumasakazu.net/fabcross/maker-faire/)\
 CHI 2016 SAN JOSE\
 HAX Demo Day \#8\
 [Maker Faire Bay
-Area](https://fabcross.jp/topics/tks/20160804_maker_faire_bay_area.html){.markup--anchor
-.markup--p-anchor}\
+Area](https://takasumasakazu.net/fabcross/maker-maker-faire-bay-area-2016/)\
 Party at Shenzhen Valley Ventures\
 Hardware 599 by Autodesk\
 AI Startup Conference
@@ -67,42 +62,34 @@ Porn VR Tech Akihabara\
 Shinamono Radio podcast\
 ECOSYSTEM BY MAKERS event at Tokyo Art Univ\
 [Tsukuba
-Meetup](http://www.slideshare.net/takasu/20160619-tks){.markup--anchor
-.markup--p-anchor}\
+Meetup](http://www.slideshare.net/takasu/20160619-tks)\
 [Home Hack
-meetup](http://www.slideshare.net/takasu/201600619-officehackteamlab){.markup--anchor
-.markup--p-anchor}\
+meetup](http://www.slideshare.net/takasu/201600619-officehackteamlab)\
 [Maker Faire
-Singapore](https://fabcross.jp/topics/tks/20160907_maker_faire_singapore.html)
+Singapore](https://takasumasakazu.net/fabcross/maker-faire-singapore-2016/)
 **July**\
 TEDxHaneda\
 Shenzhen High Tour Meetup\
 [Presentation at REKIMOTO Lab, Tokyo Univ\
 Presentation at OCHIAI Lab,Tsukuba
-Univ](http://www.slideshare.net/takasu/20160706-63859855){.markup--anchor
-.markup--p-anchor}\
+Univ](http://www.slideshare.net/takasu/20160706-63859855)\
 ABU Robot Contest\
 Seisaku-ten at Tokyo Univ\
 [The night at
-Mitch](https://medium.com/@tks/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo-cf58e6e8e252){.markup--anchor
-.markup--p-anchor} \
+Mitch](https://medium.com/@tks/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo-cf58e6e8e252) \
 NT Kanazawa\
 IT zakkubaran meeting\
 [Visual
-SG](https://medium.com/@tks/visual-sg-2016-at-science-centre-singapore-326dc02d3ffe){.markup--anchor
-.markup--p-anchor}\
+SG](https://medium.com/@tks/visual-sg-2016-at-science-centre-singapore-326dc02d3ffe)\
 Fab meetup at Fabcafe\
 [Oversea MakerFaire
-Meetup](https://medium.com/@tks/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248){.markup--anchor
-.markup--p-anchor}\
+Meetup](https://medium.com/@tks/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248)\
 Maker Faire Tokyo\
 [AkiParty Tokyo
-2016](https://medium.com/@tks/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25){.markup--anchor
-.markup--p-anchor}\
+2016](https://medium.com/@tks/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25)\
 Fab12\
 [Shenzhen High tour
-5th](http://ch.nicovideo.jp/tks/blomaga/ar1090141){.markup--anchor
-.markup--p-anchor}\
+5th](http://ch.nicovideo.jp/tks/blomaga/ar1090141)\
 Keio Media Design open house\
 Thinker Fes
 
@@ -120,19 +107,16 @@ Programming contest by Politechnic\
 Global sources HONGKONG\
 Maker Carnival ShangHai\
 [Maker Faire
-Shenzhen](https://fabcross.jp/topics/tks/20161118_maker_faire_shenzhen_01.html){.markup--anchor
-.markup--p-anchor}\
+Shenzhen](https://takasumasakazu.net/fabcross/maker-faire-shenzhen-2016/)\
 [Shenzhen High Tour
-6th](http://ch.nicovideo.jp/tks/blomaga/ar1130615){.markup--anchor
-.markup--p-anchor}\
+6th](http://ch.nicovideo.jp/tks/blomaga/ar1130615)\
 DC EXPO\
 IVRC\
 Meitu meetup
 
 **November\
 **[HWTrek Asia Innovation
-Tour](https://medium.com/@tks/prototype-for-production-ecosystem-at-shenzhen-fe207807dde7){.markup--anchor
-.markup--p-anchor}\
+Tour](https://medium.com/@tks/prototype-for-production-ecosystem-at-shenzhen-fe207807dde7)\
 POLYCON Malaysia\
 Seisaku-ten Tokyo Univ\
 Open Research forum by Keio\
@@ -143,8 +127,7 @@ Drone and Asia
 Maker Faire Chengdu\
 Design Week ChangMai\
 [Makers and
-ASIA](http://www.slideshare.net/takasu/ss-70080020){.markup--anchor
-.markup--p-anchor}\
+ASIA](http://www.slideshare.net/takasu/ss-70080020)\
 GUGEN 2016\
 [SEG+ afternoon
 tea](http://www.slideshare.net/takasu/maker-movement-in-asia-shenzhen-singapore-chengdu)

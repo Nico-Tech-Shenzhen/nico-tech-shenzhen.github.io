@@ -39,20 +39,14 @@ District in Shenzhen, Dongguan City and
 so on.](https://cdn-images-1.medium.com/max/800/1*QjQ1B5Dkt2NwA1js-mQg0w.jpeg)
 
 This is list.You can see whole process from Prototype to Product.\
-[SkyPrototype](http://www.sky-pt.com/){.markup--anchor
-.markup--p-anchor} (CNC,Resin Cast, small lot prototype)\
-[ChinaPCBOne](http://www.chinapcbone.com/){.markup--anchor
-.markup--p-anchor} (PCB, PCBA)\
-[EMTECH](http://www.emtek.com.cn/en.html){.markup--anchor
-.markup--p-anchor} (Certification, Test)\
-[Shenzhen valley ventures](http://svv.io/){.markup--anchor
-.markup--p-anchor} (Incubator, accelerator, MakerSpace)\
-[Invox/Sun On](http://www.sunon-mould.com/){.markup--anchor
-.markup--p-anchor} (Molding)\
+[SkyPrototype](http://www.sky-pt.com/) (CNC,Resin Cast, small lot prototype)\
+[ChinaPCBOne](http://www.chinapcbone.com/) (PCB, PCBA)\
+[EMTECH](http://www.emtek.com.cn/en.html) (Certification, Test)\
+[Shenzhen valley ventures](http://svv.io/) (Incubator, accelerator, MakerSpace)\
+[Invox/Sun On](http://www.sunon-mould.com/) (Molding)\
 teamGiant (Battely)\
 Ryder (EMS)\
- [Stephen Gould](http://www.gouldny.com/){.markup--anchor
-.markup--p-anchor} (Packaging)
+ [Stephen Gould](http://www.gouldny.com/) (Packaging)
 
 
 ------------------------------------------------------------------------

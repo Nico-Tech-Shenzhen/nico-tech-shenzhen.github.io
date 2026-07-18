@@ -137,11 +137,9 @@ LinkedIn\
 Blog in English/Japanese\
 <https://medium.com/@tks/>\
 [Youtube(動画)\
-](https://facebook.com/takasumasakazu/){.markup--anchor
-.markup--p-anchor}[http://www.youtube.com/user/tksmskz\
+](https://facebook.com/takasumasakazu/)[http://www.youtube.com/user/tksmskz\
 Slideshare(プレゼン資料など)\
-](http://www.youtube.com/user/tksmskz){.markup--anchor
-.markup--p-anchor}<http://www.slideshare.net/takasu/>\
+](http://www.youtube.com/user/tksmskz)<http://www.slideshare.net/takasu/>\
 SpeakerDeck\
 <https://speakerdeck.com/takasumasakazu>\
 Researchmap\
@@ -150,8 +148,7 @@ Researchmap\
 日本語での最近の仕事紹介ページ[\
 https://note.com/takasu/n/n411063be9634](https://note.com/takasu/n/n411063be9634)
 My Report in Chinese\
-[外眼看福田①｜高交会上的"卡哇伊先生"：爱创客、爱美食，更爱"烟火气"](https://static.nfapp.southcn.com/content/202211/17/c7076978.html){.markup--anchor
-.markup--p-anchor}\
+[外眼看福田①｜高交会上的"卡哇伊先生"：爱创客、爱美食，更爱"烟火气"](https://static.nfapp.southcn.com/content/202211/17/c7076978.html)\
 [参与全球30 Maker Faire 跨界创客"猫耳朵"
 赛格国际众创下午茶之二](http://mp.weixin.qq.com/s/mDRqwzAkE53fD0E5Uyle3w)
 Email: info \[atmark\] takasumasakazu.net\
@@ -161,62 +158,47 @@ Skype,Wechat(微信): takasumasakazu
 [**遠くへ行きたければ、みんなで行け
 ～「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則**\
 *Amazonでジョノ・ベーコン, 高須 正和, 山形 浩生, 関 治之, 山形
-浩生の遠くへ行きたければ、みんなで行け...*amzn.to](https://amzn.to/3wliOAk "https://amzn.to/3wliOAk"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://amzn.to/3wliOAk)
+浩生の遠くへ行きたければ、みんなで行け...*amzn.to](https://amzn.to/3wliOAk "https://amzn.to/3wliOAk")[](https://amzn.to/3wliOAk)
 [**プロトタイプシティ 深センと世界的イノベーション (角川書店単行本)**\
 *Amazonで高須 正和, 高口 康太, 澤田 翔, 藤岡 淳一, 伊藤 亜聖, 山形
 浩生のプロトタイプシティ
-深センと世界的イノベーション...*amzn.to](https://amzn.to/3Lms1wj "https://amzn.to/3Lms1wj"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://amzn.to/3Lms1wj)
+深センと世界的イノベーション...*amzn.to](https://amzn.to/3Lms1wj "https://amzn.to/3Lms1wj")[](https://amzn.to/3Lms1wj)
 [**ハードウェアハッカー \~新しいモノをつくる破壊と創造の冒険**\
 *Amazonでアンドリュー\"バニー\"ファン, 山形 浩生, 高須
 正和のハードウェアハッカー
 \~新しいモノをつくる破壊と創造の冒険。アマゾンならポイント還元本が多数。アンドリュー\"バニー\"ファン,
 山形 浩生,
-高須...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/)
+高須...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/")[](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/)
 [**メイカーズのエコシステム 新しいモノづくりがとまらない。
 (NextPublishing)**\
 *Amazonで高須 正和のメイカーズのエコシステム
 新しいモノづくりがとまらない。
 (NextPublishing)。アマゾンならポイント還元本が多数。高須
-正和作品ほか、お急ぎ便対象商品は当日お届けも可能。またメイカーズのエコシステム...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/)
+正和作品ほか、お急ぎ便対象商品は当日お届けも可能。またメイカーズのエコシステム...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/")[](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/)
 [**世界ハッカースペースガイド (CodeZine BOOKS)**\
 *Amazonで高須 正和の世界ハッカースペースガイド (CodeZine
 BOOKS)。アマゾンならポイント還元本が多数。高須
 正和作品ほか、お急ぎ便対象商品は当日お届けも可能。また世界ハッカースペースガイド
-(CodeZine...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22 "http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22)
+(CodeZine...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22 "http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22")[](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22)
 [**深センの歩き方2019
 中国初めての人が公共交通機関で歩き回れる、スマホで読める \#深圳の歩き方
 \#マッハ新書 - - BOOTH**\
 *形式：PDF (スマホでも読めるサイズで書いてます） ページ数：86
 (2018年版は64) 文字数：21530文字(2018年版より5000文字追加）
-このマッハ新書は個人版とエンタープライズ版があります。...*takasumasakazu.booth.pm](https://takasumasakazu.booth.pm/items/1192465 "https://takasumasakazu.booth.pm/items/1192465"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://takasumasakazu.booth.pm/items/1192465)
+このマッハ新書は個人版とエンタープライズ版があります。...*takasumasakazu.booth.pm](https://takasumasakazu.booth.pm/items/1192465 "https://takasumasakazu.booth.pm/items/1192465")[](https://takasumasakazu.booth.pm/items/1192465)
 ### 日本語で連載しているもの
 [JST国立研究開発法人
-科学技術振興機構](https://spc.jst.go.jp/experiences/takasu/takasu_index.html){.markup--anchor
-.markup--p-anchor}\
-[技術評論社](https://gihyo.jp/list/group/%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E4%B8%AD%E5%9B%BD%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E6%9C%80%E5%89%8D%E7%B7%9A-%E5%AB%8C%E5%84%B2-%E5%8E%9F%E7%90%86%E4%B8%BB%E7%BE%A9-%E3%81%AE%E3%81%AA%E3%81%84OSS%E6%96%87%E5%8C%96%E3%82%92%E8%AA%AD%E3%81%BF%E8%A7%A3%E3%81%8F){.markup--anchor
-.markup--p-anchor}\
-[アジアのMakers](https://fabcross.jp/list/series/tks/){.markup--anchor
-.markup--p-anchor} ([Fabcross](https://fabcross.jp/){.markup--anchor
-.markup--p-anchor})\
+科学技術振興機構](https://spc.jst.go.jp/experiences/takasu/takasu_index.html)\
+[技術評論社](https://gihyo.jp/list/group/%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E4%B8%AD%E5%9B%BD%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E6%9C%80%E5%89%8D%E7%B7%9A-%E5%AB%8C%E5%84%B2-%E5%8E%9F%E7%90%86%E4%B8%BB%E7%BE%A9-%E3%81%AE%E3%81%AA%E3%81%84OSS%E6%96%87%E5%8C%96%E3%82%92%E8%AA%AD%E3%81%BF%E8%A7%A3%E3%81%8F)\
+[アジアのMakers](https://fabcross.jp/list/series/tks/) ([Fabcross](https://fabcross.jp/))\
 [海外メイカーフェアレポート(Tsumug
-Edge)](https://edge.tsumug.com/archive/category/%E9%AB%98%E9%A0%88%E6%AD%A3%E5%92%8C){.markup--anchor
-.markup--p-anchor}\
+Edge)](https://edge.tsumug.com/archive/category/%E9%AB%98%E9%A0%88%E6%AD%A3%E5%92%8C)\
 [Business Insider
-Japan](https://www.businessinsider.jp/author/masakazu-takasu/){.markup--anchor
-.markup--p-anchor}\
-[世界の工場の明日（日経ビジネスオンライン）](https://business.nikkei.com/atcl/seminar/19/00058/){.markup--anchor
-.markup--p-anchor}\
+Japan](https://www.businessinsider.jp/author/masakazu-takasu/)\
+[世界の工場の明日（日経ビジネスオンライン）](https://business.nikkei.com/atcl/seminar/19/00058/)\
 [変化し続ける街
-知られざる深セン --- ダイヤモンド・オンライ](http://diamond.jp/category/s-shinsen){.markup--anchor
-.markup--p-anchor}ン\
-[深センフォトレポート](https://note.mu/takasu/m/m55763d81ba8e){.markup--anchor
-.markup--p-anchor}(note)※有料の写真ブログ、未整理の生情報をとにかく早くアップする
+知られざる深セン --- ダイヤモンド・オンライ](http://diamond.jp/category/s-shinsen)ン\
+[深センフォトレポート](https://note.mu/takasu/m/m55763d81ba8e)(note)※有料の写真ブログ、未整理の生情報をとにかく早くアップする
 
 ### Article in English
 [Make:Magazine](https://makezine.com/author/takasu-masakazu/)
@@ -225,127 +207,89 @@ Shenhzen
 Goverment深圳市人民政府)](http://www.sz.gov.cn/en_szgov/news/latest/content/post_8197507.html)
 ### **Interview in Chinese**
 [**外眼看福田｜高交会上的\"卡哇伊先生\"：爱创客、爱美食，更爱\"烟火气\"\_\_南方plus\_南方+**\
-*从华强北中电迪富大厦到1号线科学馆地铁站的路上，水果摊、烤串摊、小酒馆、小面馆、按摩店、中医馆、鸡煲店等陆续映入眼帘，再往前走，便是日本创客\"卡哇伊先生\"\--高须正和（Takasu...*static.nfapp.southcn.com](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820 "https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820)
+*从华强北中电迪富大厦到1号线科学馆地铁站的路上，水果摊、烤串摊、小酒馆、小面馆、按摩店、中医馆、鸡煲店等陆续映入眼帘，再往前走，便是日本创客\"卡哇伊先生\"\--高须正和（Takasu...*static.nfapp.southcn.com](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820 "https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820")[](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820)
 [**中国メディア「南方Plus」に高須のインタビュー掲載、深圳のメイカー文化や日本との交流、食べ物などについて話す：日本語訳**\
-*華強北の中电迪富大厦ビルから地下鉄1号線の科学館駅に向かう途中、果物屋台、ケバブ屋台、ビストロ、ラーメン屋、マッサージ屋、漢方薬局、鶏鍋屋などが目に飛び込んでくる。...*tks.medium.com](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409 "https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409)
+*華強北の中电迪富大厦ビルから地下鉄1号線の科学館駅に向かう途中、果物屋台、ケバブ屋台、ビストロ、ラーメン屋、マッサージ屋、漢方薬局、鶏鍋屋などが目に飛び込んでくる。...*tks.medium.com](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409 "https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409")[](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409)
 ### Presentation
 [Why Shenzhen is
-Amazing?](https://medium.com/shenzhen-high-tour-by-makers/amazingshenzhen-70f80e314182){.markup--anchor
-.markup--p-anchor} (English)\
+Amazing?](https://medium.com/shenzhen-high-tour-by-makers/amazingshenzhen-70f80e314182) (English)\
 [Open Source Voice synthesizer and DIY Pop music in
-Japan](https://www.youtube.com/watch?v=kwKojXsa8y8){.markup--anchor
-.markup--p-anchor}(English)\
+Japan](https://www.youtube.com/watch?v=kwKojXsa8y8)(English)\
 [Unique Japanese DIY Culture and
-Community](https://www.youtube.com/watch?v=456ddJWBbwE){.markup--anchor
-.markup--p-anchor} (English)\
+Community](https://www.youtube.com/watch?v=456ddJWBbwE) (English)\
 [日本からのMaker
-Pro](https://www.youtube.com/watch?v=N_FQTF9W7bk&t=848s){.markup--anchor
-.markup--p-anchor}(日本語)\
-[早稲田ビジネススクール講義録画：深圳独自の知財システムとイノベーション、そしてオープンソースとハードウェアハッカー（日本語）](https://medium.com/ecosystembymakers/gongkai-1396f6944c7d){.markup--anchor
-.markup--p-anchor}\
-[オープンソース→スタートアップブームや深圳のイノベーションについて](http://talk-makers-d5d9da32909a){.markup--anchor
-.markup--p-anchor} (日本語)\
+Pro](https://www.youtube.com/watch?v=N_FQTF9W7bk&t=848s)(日本語)\
+[早稲田ビジネススクール講義録画：深圳独自の知財システムとイノベーション、そしてオープンソースとハードウェアハッカー（日本語）](https://medium.com/ecosystembymakers/gongkai-1396f6944c7d)\
+[オープンソース→スタートアップブームや深圳のイノベーションについて](http://talk-makers-d5d9da32909a) (日本語)\
 [论坛：游击的独立产品
 高須正和（中文）](https://v.youku.com/v_show/id_XNDIyMzQ5OTk3Ng==.html)
 ### Project
 [Aki Party (Dance Party for
 Geeks)](https://www.facebook.com/Akiparty4Geeks)
-[秋葉原メイカーズ倶楽部](http://ch.nicovideo.jp/tks/blomaga/ar673346){.markup--anchor
-.markup--p-anchor}\
-[ニコ技深圳コミュニティ](https://medium.com/ecosystembymakers){.markup--anchor
-.markup--p-anchor}\
-[ニコ技輸出プロジェクト](http://wiki.nicotech.jp/nico_tech/?%E3%83%8B%E3%82%B3%E6%8A%80%E8%BC%B8%E5%87%BA){.markup--anchor
-.markup--p-anchor} Nico-Tech export
+[秋葉原メイカーズ倶楽部](http://ch.nicovideo.jp/tks/blomaga/ar673346)\
+[ニコ技深圳コミュニティ](https://medium.com/ecosystembymakers)\
+[ニコ技輸出プロジェクト](http://wiki.nicotech.jp/nico_tech/?%E3%83%8B%E3%82%B3%E6%8A%80%E8%BC%B8%E5%87%BA) Nico-Tech export
 
 ### 過去記事、終了した連載など(Only In Japanese\...)
 [マスイノベーションの時代
-日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/16/030900211/){.markup--anchor
-.markup--p-anchor}\
-[世界ハッカースペースガイド](http://codezine.jp/article/corner/542){.markup--anchor
-.markup--p-anchor}（[Codezine](http://codezine.jp/){.markup--anchor
-.markup--p-anchor}）\
-[ギークが連れてくる未来](http://wirelesswire.jp/m_takasu/){.markup--anchor
-.markup--p-anchor}([Wireless
-Wire](http://wirelesswire.jp/){.markup--anchor .markup--p-anchor})\
-[アジアンハッカー列伝](http://engineer.typemag.jp/category/trend/tks){.markup--anchor
-.markup--p-anchor}（[エンジニアTYPE](http://engineer.typemag.jp/){.markup--anchor
-.markup--p-anchor}）
+日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/16/030900211/)\
+[世界ハッカースペースガイド](http://codezine.jp/article/corner/542)（[Codezine](http://codezine.jp/)）\
+[ギークが連れてくる未来](http://wirelesswire.jp/m_takasu/)([Wireless
+Wire](http://wirelesswire.jp/))\
+[アジアンハッカー列伝](http://engineer.typemag.jp/category/trend/tks)（[エンジニアTYPE](http://engineer.typemag.jp/)）
 
 \@IT アットマーク・アイティ Web関係のデザイン・技術・情報メディア
 
--   [[「Makeすることで世界は変わる」～「Make」編集長が語るMakerムーブメント](http://www.atmarkit.co.jp/ait/articles/1306/27/news008.html){.markup--anchor
-    .markup--li-anchor}2013/06/27]
+-   [[「Makeすることで世界は変わる」～「Make」編集長が語るMakerムーブメント](http://www.atmarkit.co.jp/ait/articles/1306/27/news008.html)2013/06/27]
 -   [[みんな笑顔のお祭り～Maker Faire: Taipei
-    2013](http://www.atmarkit.co.jp/ait/articles/1306/19/news012.html){.markup--anchor
-    .markup--li-anchor} 2013/06/19]
--   [[生物学からMakerムーブメントまで、ニコニコ学会βの範囲がさらに広がる！](http://www.atmarkit.co.jp/ait/articles/1305/28/news006.html){.markup--anchor
-    .markup--li-anchor} 2013/06/05]
+    2013](http://www.atmarkit.co.jp/ait/articles/1306/19/news012.html) 2013/06/19]
+-   [[生物学からMakerムーブメントまで、ニコニコ学会βの範囲がさらに広がる！](http://www.atmarkit.co.jp/ait/articles/1305/28/news006.html) 2013/06/05]
 -   [[人とコンピュータの未来
-    インタラクション2013レポート](http://www.atmarkit.co.jp/ait/articles/1303/22/news008.html){.markup--anchor
-    .markup--li-anchor} 2013/03/19]
+    インタラクション2013レポート](http://www.atmarkit.co.jp/ait/articles/1303/22/news008.html) 2013/03/19]
 -   [[誰もが研究者の時代？
-    ニコニコ学会βレポート](http://www.atmarkit.co.jp/ait/articles/1302/01/news009.html){.markup--anchor
-    .markup--li-anchor} 2013/02/04]
+    ニコニコ学会βレポート](http://www.atmarkit.co.jp/ait/articles/1302/01/news009.html) 2013/02/04]
 -   [[Maker達のお祭りがやってきた！ Maker Faire Tokyo
-    2012](http://www.atmarkit.co.jp/ait/articles/1212/14/news017.html){.markup--anchor
-    .markup--li-anchor} 2012/12/17]
+    2012](http://www.atmarkit.co.jp/ait/articles/1212/14/news017.html) 2012/12/17]
 -   [[学生対抗VR選手権 IVRC 2013 レポート
-    世界に誇る日本の学生のバーチャルリアリティ力](http://www.atmarkit.co.jp/ait/articles/1211/30/news012.html){.markup--anchor
-    .markup--li-anchor} 2012/11/30]
--   [[プログラムを「どや！」と発表し合う、明治大学アブノーマルプログラミング](http://www.atmarkit.co.jp/ait/articles/1210/30/news014.html){.markup--anchor
-    .markup--li-anchor} 2012/10/30]
+    世界に誇る日本の学生のバーチャルリアリティ力](http://www.atmarkit.co.jp/ait/articles/1211/30/news012.html) 2012/11/30]
+-   [[プログラムを「どや！」と発表し合う、明治大学アブノーマルプログラミング](http://www.atmarkit.co.jp/ait/articles/1210/30/news014.html) 2012/10/30]
 -   [[Make:Ogaki Meeting 2012レポート
-    自分の時間にテクノロジで遊ぼう！](http://www.atmarkit.co.jp/fwcr/special/uxclip03/01.html){.markup--anchor
-    .markup--li-anchor} 2012/09/18]
+    自分の時間にテクノロジで遊ぼう！](http://www.atmarkit.co.jp/fwcr/special/uxclip03/01.html) 2012/09/18]
 -   [[Fablab Japanの発起人 SFC田中浩也先生 インタビュー
-    『FabLife』のインターネット黎明期のようなワクワク感](http://www.atmarkit.co.jp/fwcr/design/ux/d89clip52/01.html){.markup--anchor
-    .markup--li-anchor} 2012/07/17]
+    『FabLife』のインターネット黎明期のようなワクワク感](http://www.atmarkit.co.jp/fwcr/design/ux/d89clip52/01.html) 2012/07/17]
 -   [[デール・ダハティ（Dale Dougherty）インタビュー
-    僕らはみんな何かの作り手だ！](http://www.atmarkit.co.jp/fwcr/design/ux/d89clip46/01.html){.markup--anchor
-    .markup--li-anchor}2012/6/8]
+    僕らはみんな何かの作り手だ！](http://www.atmarkit.co.jp/fwcr/design/ux/d89clip46/01.html)2012/6/8]
 マトグロッソ Web上の文芸誌メディア
 
--   [[エンターテイメントとしてのTED](http://matogrosso.jp/ted/ted-01.html){.markup--anchor
-    .markup--li-anchor} 2012/10月？]
+-   [[エンターテイメントとしてのTED](http://matogrosso.jp/ted/ted-01.html) 2012/10月？]
 -   [[自分のためのテクノロジー Maker Faire Bay Area
-    2012レポート](http://matogrosso.jp/sgmirai/sgmirai-01-01.html){.markup--anchor
-    .markup--li-anchor} 2013/05]
+    2012レポート](http://matogrosso.jp/sgmirai/sgmirai-01-01.html) 2013/05]
 ITMedia Monoist 中小製造業向けのものづくりメディア
 
 -   [[「ナカダイ
     モノ：ファクトリー」のイベント：廃棄物をエンタメ役者に！
-    「工場ハック」に潜入してみた](http://monoist.atmarkit.co.jp/mn/articles/1304/18/news022.html){.markup--anchor
-    .markup--li-anchor} 2013/04/18]
--   [[3Dプリンタだけのモノづくりは、電子レンジだけで料理するようなもの](https://itmedia.smartseminar.jp/public/seminar/view/518){.markup--anchor
-    .markup--li-anchor} 2013/01/30]
+    「工場ハック」に潜入してみた](http://monoist.atmarkit.co.jp/mn/articles/1304/18/news022.html) 2013/04/18]
+-   [[3Dプリンタだけのモノづくりは、電子レンジだけで料理するようなもの](https://itmedia.smartseminar.jp/public/seminar/view/518) 2013/01/30]
 イベントなどで動画あるもの
 
 -   [[第４回ニコニコ学会シンポジウム 『FAB100連発』
-    2013/04/28](http://live.nicovideo.jp/watch/lv133709233#00:10:20){.markup--anchor
-    .markup--li-anchor}]
+    2013/04/28](http://live.nicovideo.jp/watch/lv133709233#00:10:20)]
 -   [[International Apaceapps Challenge『Marsface Project』
-    2013/04/22](http://www.ustream.tv/recorded/31754745/highlight/347055){.markup--anchor
-    .markup--li-anchor}]
+    2013/04/22](http://www.ustream.tv/recorded/31754745/highlight/347055)]
 -   [[International Apaceapps Challenge『Marsface Project』表彰式
-    2013/04/22](http://www.ustream.tv/recorded/31758793/highlight/347245){.markup--anchor
-    .markup--li-anchor}]
+    2013/04/22](http://www.ustream.tv/recorded/31758793/highlight/347245)]
 -   [[DCEXPO 『ニコニコ学会βは何を変えようとしているのか』
     2012/10/14](http://www.ustream.tv/recorded/26455711)
     高須パートは[ここ](http://ustre.am/_1N0l1:1uuj)
     (できれば、高須パートだけでなく、全体がおもしろいのでおすすめです)]
 -   [[第２回ニコニコ学会シンポジウム 『第２回研究100連発』
-    2012/04/29](http://live.nicovideo.jp/watch/lv89954863#01:48:55){.markup--anchor
-    .markup--li-anchor}]
+    2012/04/29](http://live.nicovideo.jp/watch/lv89954863#01:48:55)]
 取材してもらったもの
 
 -   [[チームラボは生粋のMAKER集団だゼ!!
-    【前編】](http://pr.nhk-book.co.jp/makers/archives/1385){.markup--anchor
-    .markup--li-anchor} 2013/01/15]
+    【前編】](http://pr.nhk-book.co.jp/makers/archives/1385) 2013/01/15]
 -   [[\[連載:社カツ！ チームラボMake部\]
-    Makeで火がついたエンジニア魂が、本業でもシナジーを生み出す](http://engineer.typemag.jp/article/_make_make){.markup--anchor
-    .markup--li-anchor} 2011/09/13]
+    Makeで火がついたエンジニア魂が、本業でもシナジーを生み出す](http://engineer.typemag.jp/article/_make_make) 2011/09/13]
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [September 14, 2017](https://medium.com/p/c50feee078ac).
 

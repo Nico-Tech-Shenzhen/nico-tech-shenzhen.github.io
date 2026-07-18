@@ -8,44 +8,31 @@ slug: hwtrek-asia-innovation-tour-8b4db20e3264
 date: 2025-03-21
 ---
 
-2016/12/27 08:00
-
-
 ------------------------------------------------------------------------
-2016/12/27 08:00
-
 
 HWTrekが深センのサプライチェーンをスタートアップに紹介するツアー。前回紹介したインキュベーション／試作から、今回はアイデアを実際に量産／製品化するうえで関わってくる製造業者を紹介する。大量生産のためには金型が必要になることはよく知られているが、プロトタイプと製品の間には検査や認証、箱詰めや検品／発送といった多くのサプライチェーンが必要になる。深センにはそのサプライチェーンが至近距離にすべてそろっている。
 
 ### HWTrekのAsia Innovation Tour
 HWTrekは年に2回、自分たちの製造業者ネットワークをスタートアップに紹介する、[**Asia
 Innovation
-Tour**](https://www.hwtrek.com/events/asia_innovation_tour_2016-q1){.markup--anchor
-.markup--p-anchor}を行っている。2016年は深セン＋京都＋大阪で行っており、世界各国から20チームのスタートアップ、30人近くが深センに現地集合した。僕はMaker
-Faire深センの運営をしていたり、ハードウェア製造を取り巻く[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066){.markup--anchor
-.markup--p-anchor}という著書を書いたりしたことでHWTrekと縁があり、いつも見ているDIYに近いところより大規模な工場も見てみたくて、ツアーに参加した。
+Tour**](https://www.hwtrek.com/events/asia_innovation_tour_2016-q1)を行っている。2016年は深セン＋京都＋大阪で行っており、世界各国から20チームのスタートアップ、30人近くが深センに現地集合した。僕はMaker
+Faire深センの運営をしていたり、ハードウェア製造を取り巻く[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066)という著書を書いたりしたことでHWTrekと縁があり、いつも見ているDIYに近いところより大規模な工場も見てみたくて、ツアーに参加した。
 
 ![20社、30人ぐらいのスタートアップがバスで深センを巡る。製造業者の多くは香港の反対側、深センの宝安区や東莞市などに位置している。](https://cdn-images-1.medium.com/max/800/1*vquZZ39r-RsYcq-1eFYNuw.jpeg)
 
 訪問先全リストは以下だ。同じ会社でも複数の工場を回ることも多く、連日8時台の集合から21時頃の解散までびっしりのスケジュール。この表を見てわかるとおり、試しに何個か作ってみるのに向いたCNC切削加工や小ロットPCB製造／組み立てから、大量生産に向いた金型を使う射出成形、製品として売るのに必要な検査や箱詰めまで、プロトタイプからプロダクトまでのサプライチェーンがすべて含まれていて、さらに資金調達やインキュベーションまで網羅している。
 
 **1日目\
-**[**SkyPrototype**](http://www.sky-pt.com/){.markup--anchor
-.markup--p-anchor}CNC切削加工会社\
-[**ChinaPCBOne**](http://www.chinapcbone.com/){.markup--anchor
-.markup--p-anchor}PCB基板製造、PCB組立アッセンブリ\
-[**EMTECH**](http://www.emtek.com.cn/en.html){.markup--anchor
-.markup--p-anchor}電波法などの検査や認証\
-[**Shenzhen valley ventures**](http://svv.io/){.markup--anchor
-.markup--p-anchor}インキュベータ＋Makerスペース\
+**[**SkyPrototype**](http://www.sky-pt.com/)CNC切削加工会社\
+[**ChinaPCBOne**](http://www.chinapcbone.com/)PCB基板製造、PCB組立アッセンブリ\
+[**EMTECH**](http://www.emtek.com.cn/en.html)電波法などの検査や認証\
+[**Shenzhen valley ventures**](http://svv.io/)インキュベータ＋Makerスペース\
 **2日目\
-**[**Invox/Sun On**](http://www.sunon-mould.com/){.markup--anchor
-.markup--p-anchor}射出成形\
+**[**Invox/Sun On**](http://www.sunon-mould.com/)射出成形\
 teamGiantバッテリー\
 Ryder EMS（設計／組み立て）\
 **３日目\
-**[**Stephen Gould**](http://www.gouldny.com/){.markup--anchor
-.markup--p-anchor}パッケージやマニュアル印刷／箱詰め\
+**[**Stephen Gould**](http://www.gouldny.com/)パッケージやマニュアル印刷／箱詰め\
 ミートアップ 参加ベンチャー20社が、協力会社や投資家に向けてプレゼン
 
 ### 「量産」の代名詞：射出成型のInvox/Sun On
@@ -132,12 +119,10 @@ Gouldでは引き受けていて、もちろんマニュアルだけ印刷して
 
 とはいえ、未来はよりグローバル化する。より都市化し、より集積のメリットが出てくるようになる。役割は変わるだろうが、しばらくスタートアップにとって「とりあえず深センに行こう」という場所ではありつづけると思われる。
 
-[**HWTrek**](https://www.hwtrek.com/){.markup--anchor
-.markup--p-anchor}は世界からスタートアップや、スタートアップをサポートしたいスペシャリストや製造業者の情報を集めている。興味を持った人はぜひ。
+[**HWTrek**](https://www.hwtrek.com/)は世界からスタートアップや、スタートアップをサポートしたいスペシャリストや製造業者の情報を集めている。興味を持った人はぜひ。
 
 ### 告知
-今回の記事の中心になっている深センのエコシステム、Makersとの関わりについては、[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066){.markup--anchor
-.markup--p-anchor}という書籍にまとまっています。
+今回の記事の中心になっている深センのエコシステム、Makersとの関わりについては、[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066)という書籍にまとまっています。
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/8b4db20e3264).
