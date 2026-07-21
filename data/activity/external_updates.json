@@ -1,6 +1,82 @@
 {
-  "generated_at": "2026-07-20T22:45:53.490910+00:00",
+  "generated_at": "2026-07-21T22:44:37.815418+00:00",
   "items": [
+    {
+      "id": "note:n2933e75819d2",
+      "activity_type": "external",
+      "source_platform": "note",
+      "title": "完成していなくても、まず見せる。カリフォルニアのOpen Sauceを歩く【ニコ技深セン フィールドノート】",
+      "date": "2026-07-21T12:45:56+09:00",
+      "source_url": "https://note.com/takasu/n/n2933e75819d2",
+      "canonical_url": "",
+      "summary": "フィールドノートを更新しました。 今回は、カリフォルニア州サンマテオで開催されたOpen Sauceです。 続きをみる",
+      "image": "https://assets.st-note.com/production/uploads/images/296231616/rectangle_large_type_2_59112dac0de938a3ef1687178ff0a320.png?width=800",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "note_main",
+      "external_id": "n2933e75819d2",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
+      "source_label": "note",
+      "source_icon": "https://note.com/favicon.ico"
+    },
+    {
+      "id": "medium:34e8f816bc9b",
+      "activity_type": "external",
+      "source_platform": "medium",
+      "title": "People Build Things Because They Want Others to See Them",
+      "date": "2026-07-21T04:15:52+00:00",
+      "source_url": "https://medium.com/shenzhen-high-tour-by-makers/people-build-things-because-they-want-others-to-see-them-34e8f816bc9b",
+      "canonical_url": "",
+      "summary": "Walking through Open Sauce, where NASA, BattleBots, student projects, open-source hardware, and unfinished experiments share the same halls I recently visited Open Sauce , a large maker, science, technology, and DIY event held at the San Mateo County Event Center in California. I also recorded a complete English walkthrough of the event: https://medium.com/media/9a0555148e9644f32ba0f9f1fbaad45f/href Open Sauce is di...",
+      "image": "https://cdn-images-1.medium.com/max/1024/1*SycMXOPlREFoX72ekbN-UA.png",
+      "language": "en",
+      "topics": [],
+      "featured": false,
+      "source_id": "medium_main",
+      "external_id": "34e8f816bc9b",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
+      "source_label": "Medium",
+      "source_icon": "https://medium.com/favicon.ico"
+    },
+    {
+      "id": "youtube:en:XhSpPiZPGEg",
+      "activity_type": "video",
+      "source_platform": "youtube",
+      "title": "Walking Through Open Sauce: NASA, BattleBots, Giant Drones, and DIY Hardware : FieldNotes",
+      "date": "2026-07-21T04:00:24+00:00",
+      "source_url": "https://www.youtube.com/watch?v=XhSpPiZPGEg",
+      "canonical_url": "",
+      "summary": "I walked through Open Sauce, a large maker, science, technology, and DIY event held at the San Mateo County Event Center in California. Across four exhibition halls, Open Sauce brings together individual makers, university researchers, students, startups, hackerspaces, hardware companies, game developers, NASA, giant drones, humanoid robots, and BattleBots teams. It feels like Maker Faire, a science festival, a star...",
+      "image": "https://i1.ytimg.com/vi/XhSpPiZPGEg/hqdefault.jpg",
+      "language": "en",
+      "topics": [],
+      "featured": false,
+      "source_id": "youtube_en",
+      "external_id": "XhSpPiZPGEg",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes EN",
+      "source_icon": "https://www.youtube.com/favicon.ico"
+    },
+    {
+      "id": "youtube:ja:7B7RBQ19QZM",
+      "activity_type": "video",
+      "source_platform": "youtube",
+      "title": "Maker Faire、スタートアップ、巨大ロボットが混ざるOpen Sauceを歩く｜カリフォルニア現地レポート 【ニコ技深センフィールドノート】",
+      "date": "2026-07-21T03:38:33+00:00",
+      "source_url": "https://www.youtube.com/watch?v=7B7RBQ19QZM",
+      "canonical_url": "",
+      "summary": "カリフォルニア州サンマテオで開催された、大規模なDIY・サイエンス・テクノロジーイベント「Open Sauce」の会場を歩きます。 会場はMaker Faire Bay Areaと同じサンマテオ・イベントセンター。個人メイカーによる電子工作や3Dプリンターから、スタートアップ、大学、研究機関、大企業、ゲーム開発者、ハッカースペース、巨大ロボット、BattleBotsまで、さまざまな展示が集まっています。 Maker FaireのようなDIYイベント、スタートアップ展示会、科学イベント、ゲームセンター、ガレージセール、フェスを全部混ぜたような独特の雰囲気です。 動画では、Framework Laptop、Seeed Studioのオープンソースロボット、iFixit、Raspberry Pi、日本からの出展、Noisebridge、Hack Club、自作ゲーム、Snapmaker、Meshtastic、ハンダ付けワークショップ...",
+      "image": "https://i4.ytimg.com/vi/7B7RBQ19QZM/hqdefault.jpg",
+      "language": "ja",
+      "topics": [],
+      "featured": false,
+      "source_id": "youtube_ja",
+      "external_id": "7B7RBQ19QZM",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
+      "source_label": "Nico-Tech Shenzhen Field Notes JP",
+      "source_icon": "https://www.youtube.com/favicon.ico"
+    },
     {
       "id": "note:n334acacc0b02",
       "activity_type": "external",
@@ -16,7 +92,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n334acacc0b02",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -35,7 +111,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "5b61b8e6a5af",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -54,7 +130,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "ICqEp9l7y1E",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -73,7 +149,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "NMmcRyL2lB4",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -92,7 +168,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n572992ce17a8",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -111,7 +187,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n35a2a0f14380",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -130,7 +206,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26058",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -149,7 +225,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "ncbb378be7a25",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -168,7 +244,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26057",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -187,7 +263,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "naf4b628e3aef",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -206,7 +282,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "9caa5d0dfd65",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -225,7 +301,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2026-06-29-dexmal-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -244,7 +320,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1b8935b01237",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -263,7 +339,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "66e7ed494295",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -282,7 +358,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "xAotcCqOcug",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -301,7 +377,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "d526da0b-fef3-4b2f-91e3-ad9440eb444e",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -320,7 +396,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "UVJQNMm7wJk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -339,7 +415,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd01852684b73",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -358,7 +434,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "8c3d093fdd7f",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -377,7 +453,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n29dfc14da1fd",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -396,7 +472,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "32ab9a149fbf",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -415,7 +491,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "iB4cfdz80yM",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -434,7 +510,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "bd870c5e-e782-4a64-80a9-5a9a75522be2",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -453,7 +529,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2ZxE0nYgXe8",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -472,7 +548,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26047",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -491,7 +567,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "5f79ce45df89",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -510,7 +586,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n8981a16df9c9",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -529,7 +605,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "0ea2164dab8d",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -548,7 +624,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "910416a2-3ef7-4e50-a49f-89233f6d572a",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -567,7 +643,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -586,7 +662,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "ONTOW8gMeQ4",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -605,7 +681,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "hMKFGIl6o6o",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -624,7 +700,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1ef2117406a0",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -643,7 +719,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "e00820057cc3",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -662,7 +738,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -681,7 +757,7 @@
       "featured": false,
       "source_id": "youtube_en",
       "external_id": "jV2kn8LlUZk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes EN",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -700,7 +776,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "3767f9ca-0889-4425-8cc3-9779fdfcb2eb",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -719,7 +795,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "3EJHIP4YP94",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -738,7 +814,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2026-05-18-robot-half-marathon-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -757,7 +833,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26040",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -776,7 +852,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n79d857be5fcf",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -795,7 +871,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n353378bc8df2",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -814,7 +890,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26032",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -833,7 +909,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n30e0987489de",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -852,7 +928,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "neab691ad19b4",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -871,7 +947,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "2d58b0c4-e32d-40f6-ac24-89e3c6eea89b",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -890,7 +966,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "JziGukdskEw",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -909,7 +985,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n7faabdc0651c",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -928,7 +1004,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "63fab589-5844-4ab6-b951-e4fd378e6c18",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -947,7 +1023,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "2fNYqw8S2XE",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -966,7 +1042,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nd5d3c710e513",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -985,7 +1061,7 @@
       "featured": false,
       "source_id": "medium_main",
       "external_id": "521ed1ce6fc1",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Medium",
       "source_icon": "https://medium.com/favicon.ico"
     },
@@ -1004,7 +1080,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "6a1804f3-7966-4330-90cc-a95e72f9a038",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -1023,7 +1099,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "8ns686EsWYQ",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1042,28 +1118,9 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n5f93f22f8fa8",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
-    },
-    {
-      "id": "medium:4716e40986bf",
-      "activity_type": "external",
-      "source_platform": "medium",
-      "title": "Embedded World: Observations from Europe’s Embedded Systems Ecosystem",
-      "date": "2026-03-14T07:13:43+00:00",
-      "source_url": "https://medium.com/shenzhen-high-tour-by-makers/20260314-4716e40986bf",
-      "canonical_url": "",
-      "summary": "This time I am writing from Embedded World in Nuremberg, Germany . It is one of the most important events in the embedded systems industry, although it is far less known to the general public than events like CES or Mobile World Congress. More than 1,000 companies exhibit here, and the event attracts 30,000–40,000 visitors , mostly engineers. Instead of consumer gadgets, the halls are filled with semiconductor vendo...",
-      "image": "https://cdn-images-1.medium.com/max/1024/1*62w3UFEjE3OzokynNW6MFg.jpeg",
-      "language": "en",
-      "topics": [],
-      "featured": false,
-      "source_id": "medium_main",
-      "external_id": "4716e40986bf",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
-      "source_label": "Medium",
-      "source_icon": "https://medium.com/favicon.ico"
     },
     {
       "id": "podcast:8c82dd8b-e8ae-4047-97a3-b9a76eda2e72",
@@ -1080,7 +1137,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "8c82dd8b-e8ae-4047-97a3-b9a76eda2e72",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -1099,7 +1156,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "jZdneot7yhs",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1137,7 +1194,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "nce9261fc844a",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1156,7 +1213,7 @@
       "featured": false,
       "source_id": "podcast_main",
       "external_id": "96ae6fc0-2ebe-4411-99dc-8f8caf079352",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Podcast",
       "source_icon": "https://open.spotify.com/favicon.ico"
     },
@@ -1175,7 +1232,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "OfBVEJAlKJQ",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1213,7 +1270,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n1c9af2e5af22",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1232,7 +1289,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n12c50868489f",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1251,7 +1308,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n2219d2ce888c",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1270,7 +1327,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n33bca64c9995",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1289,7 +1346,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n64afb458f583",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1308,26 +1365,7 @@
       "featured": false,
       "source_id": "note_main",
       "external_id": "n66c2fb2dff75",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
-      "source_label": "note",
-      "source_icon": "https://note.com/favicon.ico"
-    },
-    {
-      "id": "note:n9dd52088306e",
-      "activity_type": "external",
-      "source_platform": "note",
-      "title": "7年ぶりに「深センの歩き方」を書き直した理由：2019年から地下鉄駅が倍増、街の規模が倍に",
-      "date": "2026-02-14T13:37:36+09:00",
-      "source_url": "https://note.com/takasu/n/n9dd52088306e",
-      "canonical_url": "",
-      "summary": "2019年まで毎年出していた「深センの歩き方」を、7年ぶりに全面更新しました。 深センの歩き方2026 中国初めての人が公共交通機関で歩き回れる、スマホで読める #深圳ガイド #マッハ新書 - tks未来商店 - BOOTH 2018,2019年と発行していたガイドブックを再開しました。 形式：PDF (スマホでも読めるサイズで書いてます） ペー takasumasakazu.booth.pm 続きをみる",
-      "image": "https://assets.st-note.com/production/uploads/images/251624680/rectangle_large_type_2_968b63bd185b5866fec9e7d01304c8fb.png?width=800",
-      "language": "ja",
-      "topics": [],
-      "featured": false,
-      "source_id": "note_main",
-      "external_id": "n9dd52088306e",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "note",
       "source_icon": "https://note.com/favicon.ico"
     },
@@ -1346,7 +1384,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "WArYVtr-pzM",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1365,7 +1403,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "wSF9jA6tykM",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1384,7 +1422,7 @@
       "featured": false,
       "source_id": "youtube_ja",
       "external_id": "u-fWQ2WNavk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Nico-Tech Shenzhen Field Notes JP",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1403,7 +1441,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "u-fWQ2WNavk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1422,7 +1460,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_26014",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1441,7 +1479,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "fmCeJvOMMSk",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1460,7 +1498,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2026-01-15-ces2026-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -1479,7 +1517,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2026-01-08-humanoid-robot2026-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -1498,7 +1536,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "Qh40g0-ngK8",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1555,7 +1593,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25111",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1574,7 +1612,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2025-12-03-cephalon-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -1631,7 +1669,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25097",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1650,7 +1688,7 @@
       "featured": false,
       "source_id": "dglab_main",
       "external_id": "2025-10-20-humanoid-robot-01",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "DG Lab Haus",
       "source_icon": "https://media.dglab.com/favicon.ico"
     },
@@ -1669,7 +1707,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25075",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1688,7 +1726,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25071",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1707,7 +1745,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25047",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1726,7 +1764,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25039",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1745,7 +1783,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "wvhVZzNXe4U",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1764,7 +1802,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "T5F2oo4AYfc",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -1802,7 +1840,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25018",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1821,7 +1859,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_25006",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1859,7 +1897,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_24111",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1916,7 +1954,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_24108",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1935,7 +1973,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2480",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1954,7 +1992,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-education_human-eh_2414",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1973,7 +2011,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-economy-economy_2429",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -1992,7 +2030,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "Wpm6Z5G3lnY",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2011,7 +2049,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "a-pthFbSHO4",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2049,7 +2087,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2448",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2087,7 +2125,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-law-law_2404",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2106,7 +2144,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-law-law_2403",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2125,7 +2163,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2409",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2144,7 +2182,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2374",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2163,7 +2201,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2370",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2201,7 +2239,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-law-law_2311",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2220,7 +2258,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2352",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2239,7 +2277,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "oMqK9dPJYHY",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2258,7 +2296,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "b2Bw2yvqamY",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2277,7 +2315,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2343",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2296,7 +2334,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-law-law_2306",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2315,7 +2353,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2330",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2334,7 +2372,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2324",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2372,7 +2410,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2265",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2391,7 +2429,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2258",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2410,7 +2448,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2252",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2429,7 +2467,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2229",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2448,7 +2486,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "_irE0dfnUi0",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2467,7 +2505,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2219",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
@@ -2486,7 +2524,7 @@
       "featured": false,
       "source_id": "youtube_talks",
       "external_id": "eWTJOgySYgM",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "Talks on YouTube",
       "source_icon": "https://www.youtube.com/favicon.ico"
     },
@@ -2505,7 +2543,7 @@
       "featured": false,
       "source_id": "jst_spc_takasu",
       "external_id": "china-experiences-science-st_2206",
-      "imported_at": "2026-07-20T22:45:44.723478+00:00",
+      "imported_at": "2026-07-21T22:44:30.976276+00:00",
       "source_label": "JST Science Portal China",
       "source_icon": "https://spap.jst.go.jp/favicon.ico"
     },
