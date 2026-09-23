@@ -56,6 +56,7 @@ def source_label(source: dict[str, Any]) -> str:
         "youtube_en": "Nico-Tech Shenzhen Field Notes EN",
         "podcast_main": "Podcast",
         "medium_main": "Medium",
+        "substack_main": "Substack",
         "note_main": "note",
         "dglab_main": "DG Lab Haus",
         "jst_spc_takasu": "JST Science Portal China",
@@ -83,7 +84,7 @@ def enrich_item(item: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
     enriched = dict(item)
     enriched["source_label"] = source_label(source)
     enriched["source_icon"] = str(source.get("source_icon", "") or "")
-    if enriched.get("source_platform") in {"medium", "note", "researchmap"} or enriched.get("source_id") == "youtube_talks":
+    if enriched.get("source_platform") in {"medium", "substack", "note", "researchmap"} or enriched.get("source_id") == "youtube_talks":
         text = f"{enriched.get('title', '')} {enriched.get('summary', '')}"
         enriched["language"] = detect_language(text, str(source.get("language", enriched.get("language", "ja"))))
     return enriched
@@ -92,7 +93,16 @@ def enrich_item(item: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
 def collect_items(results: list[SourceResult]) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     for result in results:
-        items.extend(enrich_item(item, result.source) for item in result.items)
+        seen: set[tuple[str, str]] = set()
+        for item in result.items:
+            dedup_key = (
+                str(item.get("source_id", "")),
+                str(item.get("source_url") or item.get("id") or ""),
+            )
+            if dedup_key in seen:
+                continue
+            seen.add(dedup_key)
+            items.append(enrich_item(item, result.source))
     return sorted(items, key=sort_key, reverse=True)
 
 

@@ -12,7 +12,7 @@
   {{- with .items }}{{- $externalItems = . -}}{{- end -}}
 {{- end -}}
 {{- $externalItems = sort $externalItems "date" "desc" -}}
-{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "jst_spc" "dglab") -}}
+{{- $articles := where $externalItems "activity_type" "external" -}}
 
 <h2>Latest Articles</h2>
 <div class="post-content">
@@ -31,6 +31,7 @@
 <div class="post-content">
   <p>
     <a href="https://medium.com/shenzhen-high-tour-by-makers">Medium</a> ·
+    <a href="https://takasumasakazu.substack.com/">Substack</a> ·
     <a href="https://note.com/takasu">note</a> ·
     <a href="https://spap.jst.go.jp/china/experiences/writers/takasu_06.html">JST Science Portal China</a> ·
     <a href="https://media.dglab.com/author/masakazu-takasu/">DG Lab Haus</a> ·

@@ -56,6 +56,18 @@
 "enabled": true
 },
 {
+"id": "substack_main",
+"label": "TAKASU Masakazu on Substack",
+"source_platform": "substack",
+"activity_type": "external",
+"language": "en",
+"source_icon": "https://substack.com/favicon.ico",
+"feed_url": "https://takasumasakazu.substack.com/feed",
+"site_url": "https://takasumasakazu.substack.com/",
+"canonical_from_link": true,
+"enabled": true
+},
+{
 "id": "note_main",
 "label": "TAKASU Masakazu on note",
 "source_platform": "note",

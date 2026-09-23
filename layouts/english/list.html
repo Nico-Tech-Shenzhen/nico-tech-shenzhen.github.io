@@ -13,7 +13,7 @@
 {{- end -}}
 {{- $externalItems = sort $externalItems "date" "desc" -}}
 {{- $englishItems := where $externalItems "language" "en" -}}
-{{- $englishArticles := where $englishItems "source_platform" "in" (slice "medium" "note" "jst_spc" "dglab") -}}
+{{- $englishArticles := where $englishItems "activity_type" "external" -}}
 {{- $englishVideos := where $englishItems "activity_type" "video" -}}
 {{- $talkResearchTypes := slice "talk" "paper" "research" "publication" "book" -}}
 {{- $englishTalkResearch := slice -}}

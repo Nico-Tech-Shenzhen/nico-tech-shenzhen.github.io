@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "tools" / "activity_sources.example.json"
 DEFAULT_REPORT = ROOT / "reports" / "external-activity-audit.md"
 
-SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "note", "dglab", "jst_spc", "researchmap"}
+SUPPORTED_PLATFORMS = {"youtube", "podcast", "medium", "substack", "note", "dglab", "jst_spc", "researchmap"}
 PLACEHOLDER_VALUES = {"", "todo", "tbd", "placeholder", "example"}
 MEDIA_NS = "http://search.yahoo.com/mrss/"
 SUMMARY_LIMIT = 420
@@ -438,6 +438,11 @@ def external_id_for(source: dict[str, Any], entry: dict[str, str]) -> str:
         if medium_id:
             return medium_id
 
+    if platform == "substack":
+        substack_id = url_path_id(link or guid)
+        if substack_id:
+            return substack_id
+
     if platform == "note":
         note_id = note_entry_id(guid) or note_entry_id(link)
         if note_id:
@@ -520,14 +525,15 @@ def stable_hash(value: str) -> str:
 
 def normalize_entry(source: dict[str, Any], entry: dict[str, str], imported_at: str) -> dict[str, Any]:
     external_id = external_id_for(source, entry)
+    source_url = normalize_url(entry.get("link", ""))
     return {
         "id": normalized_id_for(source, external_id),
         "activity_type": entry.get("activity_type") or source.get("activity_type", "external"),
         "source_platform": source.get("source_platform", ""),
         "title": entry.get("title", ""),
         "date": entry.get("date", ""),
-        "source_url": normalize_url(entry.get("link", "")),
-        "canonical_url": "",
+        "source_url": source_url,
+        "canonical_url": source_url if source.get("canonical_from_link") else "",
         "summary": entry.get("summary", ""),
         "image": entry.get("image", ""),
         "language": source.get("language", "ja"),
@@ -667,7 +673,7 @@ def write_report(path: Path, config_path: Path, results: list[SourceResult], dup
     lines.append("")
     lines.append("- `id`: stable source ID, for example `youtube_ja` or `youtube_en`")
     lines.append("- `label`: human-readable source name")
-    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, `note`, `dglab`, `jst_spc`, or `researchmap`")
+    lines.append("- `source_platform`: `youtube`, `podcast`, `medium`, `substack`, `note`, `dglab`, `jst_spc`, or `researchmap`")
     lines.append("- `activity_type`: `video`, `podcast`, `talk`, `paper`, `book`, `research`, or `external`")
     lines.append("- `language`: default language for items from this source")
     lines.append("- `feed_url`: RSS/Atom feed URL")

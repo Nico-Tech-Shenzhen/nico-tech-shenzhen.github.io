@@ -44,7 +44,7 @@
   {{- end }}
 {{- end }}
 {{- $podcasts := where $externalItems "activity_type" "podcast" }}
-{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") }}
+{{- $articles := where $externalItems "activity_type" "external" }}
 {{- $talkPublicationsRaw := where $externalItems "activity_type" "in" (slice "talk" "paper" "research" "publication" "book") }}
 {{- $talkPublications := slice }}
 {{- range $item := $talkPublicationsRaw }}

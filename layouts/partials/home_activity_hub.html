@@ -29,7 +29,7 @@
 {{- end -}}
 
 {{- $podcasts := where $externalItems "activity_type" "podcast" -}}
-{{- $articles := where $externalItems "source_platform" "in" (slice "medium" "note" "dglab" "jst_spc") -}}
+{{- $articles := where $externalItems "activity_type" "external" -}}
 {{- $talkResearch := where $externalItems "activity_type" "in" (slice "talk" "paper" "research" "book") -}}
 
 {{- $activityFeed := slice -}}
