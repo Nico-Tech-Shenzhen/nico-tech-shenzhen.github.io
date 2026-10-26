@@ -63,7 +63,7 @@ JENESIS Shenzhen CEO、JNS Group Executive Vice President。深圳で長年EMS�
 
 ### TAKASU Masakazu / 高須正和
 
-高須正和は、Maker Ecosystem Ltd. Founder、スイッチサイエンス国際事業開発、Heroad Investments Partner、金沢大学博士後期課程に所属しています。
+高須正和は、MAKERS ECOSYSTEM LIMITED（創客圈科技服務有限公司）Founder / Director、スイッチサイエンス国際事業開発、Heroad Investments Partner、金沢大学博士後期課程に所属しています。
 
 深圳を拠点に、オープンハードウェア、メイカー文化、ハードウェアスタートアップ、ロボティクス、Physical AI、分解（Teardown）文化、製造エコシステムを観察・発信しています。
 
@@ -72,6 +72,23 @@ JENESIS Shenzhen CEO、JNS Group Executive Vice President。深圳で長年EMS�
 著書・共著に「メイカーズのエコシステム」「プロトタイプシティ 深センと世界的イノベーション」などがあります。ニコ技深圳コミュニティでは、発信、イベント、現地コミュニティとの連携、国際的な橋渡しを担当してきました。
 
 **English summary:** The co-founders connect manufacturing practice, maker culture, research, media, and international community building around Shenzhen.
+
+## 関連法人・事業活動 / Company Information
+
+### MAKERS ECOSYSTEM LIMITED（創客圈科技服務有限公司）
+
+MAKERS ECOSYSTEM LIMITED（MEL）は香港に登記された法人です。メイカーコミュニティ、オープンハードウェア、ロボティクス、技術イベント、国際事業開発などに関するコンサルティング・事業支援を行っています。高須正和がDirectorを務めています。
+
+- **Legal name:** MAKERS ECOSYSTEM LIMITED
+- **Chinese name:** 創客圈科技服務有限公司
+- **Jurisdiction:** Hong Kong
+- **Director:** TAKASU MASAKAZU
+- **Registered address:** Room 1004, 10/F, Tower 1, Lippo Centre, 89 Queensway, Admiralty, Hong Kong
+- **Contact email:** [tks@takasumasakazu.net](mailto:tks@takasumasakazu.net)
+
+MELの法人事業と、ニコ技深圳コミュニティの活動は区別して運営しています。このページは高須正和およびニコ技深圳の活動紹介を兼ねており、MELの法人情報も確認できるよう掲載しています。
+
+**English summary:** MAKERS ECOSYSTEM LIMITED is a Hong Kong company directed by TAKASU Masakazu. Its activities include consulting and business support related to maker communities, open hardware, robotics, technology events, and international business development.
 
 ## 主な実績・出版物 / Works and Publications
 
