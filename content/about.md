@@ -83,8 +83,6 @@ MAKERS ECOSYSTEM LIMITED（MEL）は香港に登記された法人です。メ�
 - **Chinese name:** 創客圈科技服務有限公司
 - **Jurisdiction:** Hong Kong
 - **Director:** TAKASU MASAKAZU
-- **Registered address:** Room 1004, 10/F, Tower 1, Lippo Centre, 89 Queensway, Admiralty, Hong Kong
-- **Contact email:** [tks@takasumasakazu.net](mailto:tks@takasumasakazu.net)
 
 MELの法人事業と、ニコ技深圳コミュニティの活動は区別して運営しています。このページは高須正和およびニコ技深圳の活動紹介を兼ねており、MELの法人情報も確認できるよう掲載しています。
 
@@ -153,6 +151,24 @@ Andrew "bunnie" Huang によるハードウェア、製造、スタートアッ�
 [ここからダウンロード(Google Drive)](https://drive.google.com/open?id=0By4ABuxCo3ZmMFg2elM2VVFfR3M)
 
 **English summary:** The Observation Tour began in 2014 as volunteer fieldwork. It later evolved into a broader community for collaboration with people in Shenzhen.
+
+## 活動写真 / Photo Archive
+
+ニコ技深圳の活動記録として公開してきた写真です。
+
+![ニコ技深圳の活動記録 1](/images/about/026e637f6c7b5c889a542b1bb9d33d5ccf5ddcdf.jpg)
+
+![ニコ技深圳の活動記録 2](/images/about/1_k-M0YZwOfbluvoCRlSbAuw.jpg)
+
+![ニコ技深圳の活動記録 3](/images/about/707e4a11ba12e652481373ebd0ddf6aa7de63453.jpg)
+
+![ニコ技深圳の活動記録 4](/images/about/888af5d846a3d6f5eb38ab8a157e0a623116e06e.jpg)
+
+![ニコ技深圳の活動記録 5](/images/about/bbd1d7b1cefe3eb2b45c6c75a0427201d99239ba.jpg)
+
+![ニコ技深圳の活動記録 6](/images/about/ceeb97fcceed32d2438a96b64346fb861e4a35cb.jpg)
+
+![ニコ技深圳の活動記録 7](/images/about/f64a65c5c0792f25e0d93db187545c075ce49e0c.jpg)
 
 ## FAQ
 
