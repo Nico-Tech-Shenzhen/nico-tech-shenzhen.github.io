@@ -178,7 +178,7 @@ Andrew "bunnie" Huang によるハードウェア、製造、スタートアッ�
 
 ## Contact
 
-講演、取材、執筆、深圳視察、コミュニティ連携、書籍や記事に関するお問い合わせは、以下までご連絡ください。
+講演、取材、執筆、開発者コミュニティとの連携、オープンハードウェア、国際事業開発、書籍や記事に関するお問い合わせは、以下までご連絡ください。
 
 Email: [info@takasumasakazu.net](mailto:info@takasumasakazu.net)
 Web: [https://takasumasakazu.net](https://takasumasakazu.net/)
