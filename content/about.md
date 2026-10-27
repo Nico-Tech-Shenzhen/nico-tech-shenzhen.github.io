@@ -35,7 +35,7 @@ description: "Nico-Tech Shenzhen（ニコ技深圳）の活動史、思想、国
 
 深圳の強みは、部品や工場だけではなく、開発者が試作し、製品を育て、事業化に進める環境にあります。ニコ技深圳は、こうした現場での出会いや情報交換を通じて、国や組織をまたぐ協業を支えてきました。
 
-共同創設者の高須正和は、スイッチサイエンスで国際事業開発に携わるほか、**Heroad InvestmentsのPartner**として深圳のスタートアップ・投資エコシステムにも関わっています。これらは高須個人の職務・事業活動であり、ニコ技深圳コミュニティ自体が投資ファンドを運営するものではありません。
+共同創設者の高須正和は、スイッチサイエンスで国際事業開発に携わるほか、**[Heroad Investments](https://www.heroadinvestments.com/en)のPartner**として深圳のスタートアップ・投資エコシステムにも関わっています。これらは高須個人の職務・事業活動であり、ニコ技深圳コミュニティ自体が投資ファンドを運営するものではありません。
 
 また、高須がFounder / Directorを務める香港法人 **MAKERS ECOSYSTEM LIMITED（MEL）** では、オープンハードウェア、技術イベント、ロボティクス、国際事業開発に関連するコンサルティング・事業支援を行っています。
 
@@ -65,11 +65,13 @@ JENESIS Shenzhen CEO、JNS Group Executive Vice President。深圳で長年EMS�
 
 ### TAKASU Masakazu / 高須正和
 
-高須正和は、MAKERS ECOSYSTEM LIMITED（創客圈科技服務有限公司）Founder / Director、スイッチサイエンス国際事業開発、Heroad Investments Partner、金沢大学博士後期課程に所属しています。
+高須正和は、MAKERS ECOSYSTEM LIMITED（創客圈科技服務有限公司）Founder / Director、スイッチサイエンス国際事業開発、[Heroad Investments](https://www.heroadinvestments.com/en) Partner、金沢大学博士後期課程に所属しています。
 
 深圳を拠点に、オープンハードウェア、メイカー文化、ハードウェアスタートアップ、ロボティクス、Physical AI、分解（Teardown）文化、製造エコシステムを観察・発信しています。
 
 世界各地の Maker Faire、Maker Space、ハードウェアイベント、オープンソースコミュニティを訪問し、現地で見た変化を記事、講演、書籍、イベントとして共有してきました。深圳については、個人の試作、企業の量産、部品市場、コミュニティ、投資、研究、教育がつながる都市として紹介し続けています。
+
+研究業績・論文・講演の一覧は[researchmap（高須正和）](https://researchmap.jp/takasumasakazu)で公開しています。
 
 著書・共著に「メイカーズのエコシステム」「プロトタイプシティ 深センと世界的イノベーション」などがあります。ニコ技深圳コミュニティでは、発信、イベント、現地コミュニティとの連携、国際的な橋渡しを担当してきました。
 
@@ -89,6 +91,12 @@ MAKERS ECOSYSTEM LIMITED（MEL）は香港に登記された法人です。メ�
 MELの法人事業と、ニコ技深圳コミュニティの活動は区別して運営しています。このページは高須正和およびニコ技深圳の活動紹介を兼ねており、MELの法人情報も確認できるよう掲載しています。
 
 **English summary:** MAKERS ECOSYSTEM LIMITED is a Hong Kong company directed by TAKASU Masakazu. Its activities include consulting and business support related to maker communities, open hardware, robotics, technology events, and international business development.
+
+## 研究・教育 / Research and Education
+
+高須正和は金沢大学大学院で、開発者中心のハードウェアプラットフォーム、オープンハードウェア、メイカーエコシステムと事業化の関係を研究しています。また、早稲田大学ビジネススクールで教育活動に携わっています。
+
+論文・研究発表・講演・著書の一覧は[researchmap](https://researchmap.jp/takasumasakazu)をご覧ください。
 
 ## 主な実績・出版物 / Works and Publications
 
@@ -166,15 +174,11 @@ Andrew "bunnie" Huang によるハードウェア、製造、スタートアッ�
 
 ### Q. 現在はどのような連携をしていますか？
 
-開発者コミュニティ、オープンハードウェア、ハードウェア企業、研究者、スタートアップ、技術イベントをつなぐ交流や情報発信を行っています。具体的な協業については内容に応じて相談しています。
+開発者コミュニティ、オープンハードウェア、ハードウェア企業、研究者、スタートアップ、技術イベントをつなぐ交流や情報発信を行っています。開発者との協業、国際事業開発、研究連携などについて、内容に応じて相談しています。
 
 ### Q. スタートアップ投資や事業開発について相談できますか？
 
-高須正和はHeroad InvestmentsのPartnerであり、スイッチサイエンスの国際事業開発やMELの事業活動にも関わっています。これらは各所属先での活動であり、ニコ技深圳コミュニティ自体が投資や資金提供を約束するものではありません。
-
-### Q. 観察会やツアーに申し込めますか？
-
-現在、ニコ技深圳観察会の定期ツアー募集や旅行・視察の手配は行っていません。過去の観察会については上記の「歴史」をご覧ください。
+高須正和は[Heroad Investments](https://www.heroadinvestments.com/en)のPartnerであり、スイッチサイエンスの国際事業開発やMELの事業活動にも関わっています。これらは各所属先での活動であり、ニコ技深圳コミュニティ自体が投資や資金提供を約束するものではありません。
 
 **English summary:** The community welcomes relevant developer and ecosystem collaboration, but does not currently organize tours. Investment and business activities are conducted separately through individual affiliations.
 
